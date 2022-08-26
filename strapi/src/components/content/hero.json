@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_content_heroes",
+  "info": {
+    "displayName": "Hero",
+    "icon": "stream"
+  },
+  "options": {},
+  "attributes": {
+    "headline": {
+      "type": "string",
+      "required": true
+    },
+    "headline_name": {
+      "type": "string",
+      "required": true
+    },
+    "slogan": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

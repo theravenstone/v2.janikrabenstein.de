@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "motorcycles",
+  "info": {
+    "singularName": "motorcycle",
+    "pluralName": "motorcycles",
+    "displayName": "Motorcycle",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "ccm": {
+      "type": "integer"
+    },
+    "horsepower": {
+      "type": "integer"
+    },
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "thumbnail": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "tuning_part": {
+      "type": "component",
+      "repeatable": true,
+      "component": "tuning-parts.tuning-parts"
+    }
+  }
+}
