@@ -19,6 +19,7 @@ Die neue Website mit Strapi, Nuxt und Tailwind
 ### Motorrad  
 /motorcycle  
 - Übersicht aller Motorräder anzeigen
+
 /motorcycle/{motorcycle}
 - Detailseite mit Daten übers Motorrad
 - Bildergalerie
