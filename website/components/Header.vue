@@ -1,59 +1,99 @@
 <template>
-  <div>
-    <nav class="relative shadow dark:bg-gray-800 transition-colors duration-300 ease-in-out">
-      <div class="container px-6 py-4 mx-auto">
-        <div class="lg:flex lg:items-center lg:justify-between">
-          <div class="flex items-center justify-between">
-            <div class="text-xl font-semibold text-gray-700">
-              <a class="text-2xl font-bold text-gray-800 transition-colors duration-300 ease-in-out transform dark:text-white lg:text-3xl hover:text-gray-700 dark:hover:text-gray-300"
-                href="#">Janik Rabenstein</a>
-            </div>
+  <header class="w-full p-6 fixed top-0 bg-white dark:bg-slate-900 shadow transition duration-300 z-50">
+    <div class="flex flex-wrap flex-row items-center">
+      <NuxtLink to="/" class="flex title-font font-medium items-center md:mb-0">
+        <img src="@/assets/logo.png" alt="Janik Rabenstein Logo" class="inline-block mr-3 w-12 h-12">
+        <span class="font-bold ml-3 text-2xl">Janik Rabenstein</span>
+      </NuxtLink>
 
-            <!-- Mobile menu button -->
-            <div class="flex lg:hidden">
-              <button @click="isOpen = !isOpen" type="button"
-                class="text-gray-500 dark:text-gray-200 hover:text-gray-600 dark:hover:text-gray-400 focus:outline-none focus:text-gray-600 dark:focus:text-gray-400"
-                aria-label="toggle menu">
-                <svg v-if="!isOpen" xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24"
-                  stroke="currentColor" stroke-width="2">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M4 8h16M4 16h16" />
-                </svg>
 
-                <svg v-else xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24"
-                  stroke="currentColor" stroke-width="2">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
-                </svg>
-              </button>
-            </div>
-          </div>
 
-          <!-- Mobile Menu open: "block", Menu closed: "hidden" -->
-          <div x-cloak :class="[isOpen ? 'translate-x-0 opacity-100 ' : 'opacity-0 -translate-x-full']"
-            class="absolute inset-x-0 z-20 w-full px-6 py-4 transition-all duration-300 ease-in-out bg-white dark:bg-gray-800 lg:mt-0 lg:p-0 lg:top-0 lg:relative lg:bg-transparent lg:w-auto lg:opacity-100 lg:translate-x-0 lg:flex lg:items-center">
-            <div class="flex flex-col -mx-6 lg:flex-row lg:items-center lg:mx-8">
-              <NuxtLink href="/"
-                class="px-3 py-2 mx-3 mt-2 text-gray-700 transition-colors duration-300 ease-in-out transform rounded-md lg:mt-0 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700">
-                Startseite
-              </NuxtLink>
-              <NuxtLink href="/blog"
-                class="px-3 py-2 mx-3 mt-2 text-gray-700 transition-colors duration-300 ease-in-out transform rounded-md lg:mt-0 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700">
-                Blog
-                </NuxtLink>
-              <NuxtLink href="/motorcycle"
-                class="px-3 py-2 mx-3 mt-2 text-gray-700 transition-colors duration-300 ease-in-out transform rounded-md lg:mt-0 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700">
-                Motorrad
-                </NuxtLink>
-              
-            </div>
+      <nav id="menu"
+        class="hidden md:ml-4 md:py-1 md:pl-4 md:border-l-2 md:border-slate-300 md:dark:border-slate-800 md:flex flex-wrap items-center text-base justify-center">
+        <NuxtLink to="/" class="mr-5 hover:text-slate-900 dark:hover:text-white text-slate-600 dark:text-slate-400">
+          Startseite
+        </NuxtLink>
+        <NuxtLink to="/blog"
+          class="mr-5 hover:text-slate-900 dark:hover:text-white text-slate-600 dark:text-slate-400">
+          Blog
+        </NuxtLink>
+        <NuxtLink to="/motorcycle"
+          class="mr-5 hover:text-slate-900 dark:hover:text-white text-slate-600 dark:text-slate-400">
+          Motorrad
+        </NuxtLink>
+      </nav>
 
-            <div class="flex items-center mt-4 lg:mt-0">
-              <DarkModeSwitch/>
-            </div>
-          </div>
+      <button aria-label="Menü öffnen" @click="drawer" class="ml-auto">
+        <i class="fa-solid fa-bars-staggered w-6 h-6"></i>
+      </button>
+
+      <transition enter-class="opacity-0" enter-active-class="ease-out transition-medium" enter-to-class="opacity-100"
+        leave-class="opacity-100" leave-active-class="ease-out transition-medium" leave-to-class="opacity-0">
+        <div @keydown.esc="isOpen = false" v-show="isOpen" class="z-10 fixed inset-0 transition-opacity">
+          <div @click="isOpen = false" class="absolute inset-0 bg-black opacity-50" tabindex="0"></div>
         </div>
-      </div>
-    </nav>
-  </div>
+      </transition>
+
+      <aside
+        class="transform top-0 left-0 w-80 max-w-full bg-white dark:bg-slate-900 fixed h-full overflow-auto ease-in-out transition-all duration-300 z-30"
+        :class="isOpen ? 'translate-x-0' : '-translate-x-full'">
+        <span @click="isOpen = false" class="flex w-full items-center p-6">
+          <NuxtLink to="/" class="flex title-font font-medium items-center">
+            <img src="@/assets/logo.png" alt="Janik Rabenstein Logo" width="50" height="50" class="inline-block mr-3">
+            <span class="font-bold ml-2 text-2xl">Janik Rabenstein</span>
+          </NuxtLink>
+        </span>
+
+        <span
+          class="flex w-full items-center px-4 border-b-2 border-slate-300 dark:border-slate-800 font-mono mt-6 text-primary">Seiten</span>
+        <NuxtLink to="/" @click="isOpen = false" class="flex items-center p-4 hover:bg-primary hover:text-white">
+          <i class="fa-solid fa-house-chimney mr-2"></i>
+          <span>Startseite</span>
+        </NuxtLink>
+        <NuxtLink to="/blog" @click="isOpen = false" class="flex items-center p-4 hover:bg-primary hover:text-white">
+          <i class="fa-solid fa-books mr-2"></i>
+          <span>Blog</span>
+        </NuxtLink>
+        <NuxtLink to="/motorcycle" @click="isOpen = false" class="flex items-center p-4 hover:bg-primary hover:text-white">
+          <i class="fa-solid fa-motorcycle mr-2"></i>
+          <span>Motorrad</span>
+        </NuxtLink>
+        
+
+        <span
+          class="flex w-full items-center px-4 border-b-2 border-slate-300 dark:border-slate-800 font-mono mt-6 text-primary">Theme</span>
+        <DarkModeSwitch />
+
+        
+
+
+        <span
+          class="flex w-full items-center px-4 border-b-2 border-slate-300 dark:border-slate-800 font-mono mt-6 text-primary">Rechtliches</span>
+         <NuxtLink to="/imprint" @click="isOpen = false" class="flex items-center p-4 hover:bg-primary hover:text-white">
+          <i class="fa-solid fa-scale-balanced mr-2"></i>
+          <span>Impressum</span>
+        </NuxtLink>
+
+
+        <div class="fixed bottom-0 w-full flex justify-around p-4 text-xl">
+          <a rel="noopener noreferrer" href="mailto:janik.rabenstein@gmail.com" title="Email"
+            class="flex items-center justify-center w-10 h-10 rounded-full hover:text-primary dark:text-white text-slate-900 transition duration-300">
+            <i class="fa-solid fa-envelope"></i>
+          </a>
+          <a rel="noopener noreferrer" target="_blank" href="https://github.com/theravenstone" title="GitHub"
+            class="flex items-center justify-center w-10 h-10 rounded-full hover:text-primary dark:text-white text-slate-900 transition duration-300">
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a rel="noopener noreferrer" target="_blank" href="https://discord.com/users/594922360553865216"
+            title="Discord"
+            class="flex items-center justify-center w-10 h-10 rounded-full hover:text-primary dark:text-white text-slate-900 transition duration-300">
+            <i class="fa-brands fa-discord"></i>
+          </a>
+
+        </div>
+      </aside>
+    </div>
+  </header>
 </template>
 
 <script>
@@ -62,8 +102,12 @@ export default {
   data() {
     return {
       isOpen: false
+    };
+  },
+  methods: {
+    drawer() {
+      this.isOpen = !this.isOpen;
     }
-  }
-
-}
+  },
+};
 </script>

@@ -34,7 +34,7 @@
     "thumbnail": {
       "type": "media",
       "multiple": false,
-      "required": false,
+      "required": true,
       "allowedTypes": [
         "images"
       ]
@@ -43,6 +43,11 @@
       "type": "component",
       "repeatable": true,
       "component": "tuning-parts.tuning-parts"
+    },
+    "url_slug": {
+      "type": "string",
+      "required": true,
+      "unique": true
     }
   }
 }
