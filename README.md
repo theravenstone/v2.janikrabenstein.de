@@ -17,10 +17,10 @@ Die neue Website mit Strapi, Nuxt und Tailwind
 - Post anzeigen
 
 ### Motorrad  
-/motorcycle  
+/motorrad  
 - Übersicht aller Motorräder anzeigen
 
-/motorcycle/{motorcycle}
+/motorrad/{motorcycle}
 - Detailseite mit Daten übers Motorrad
 - Bildergalerie
 - Anbauteile Liste

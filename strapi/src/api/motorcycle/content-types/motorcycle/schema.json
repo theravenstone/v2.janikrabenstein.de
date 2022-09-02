@@ -48,6 +48,13 @@
       "type": "string",
       "required": true,
       "unique": true
+    },
+    "construction_year": {
+      "type": "integer",
+      "required": false
+    },
+    "description": {
+      "type": "text"
     }
   }
 }

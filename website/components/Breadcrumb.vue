@@ -7,8 +7,9 @@
             </NuxtLink>
             <span v-for="item in crumbs" :key="item">
                 <i class="fa-solid fa-angle-right mx-5"></i>
-                <span>{{ item.name }}</span>
 
+                <span v-if="item.active">{{ item.name }}</span>
+                <NuxtLink v-else :to="item.path" class="text-primary hover:text-primary-hover">{{ item.name }}</NuxtLink>
             </span>
         </div>
     </div>
@@ -20,23 +21,27 @@ export default {
     computed: {
         crumbs() {
             const crumbs = []
-            this.$route.matched.forEach((item, i, { length }) => {
-                const crumb = {}
+            const routeItems = this.$route.matched[0].path.split('/')
+            routeItems.forEach((item, i, { length }) => {
 
 
-                // is last item?
-                if (i === length - 1) {
-                    // crumb.path = this.$route.path
-                    crumb.name = this.$route.meta.title
+                if (i !== 0) {
+                    const crumb = {}
+                    // is last item?
+                    if (i === length - 1) {
+                        crumb.path = this.$route.path
+                        crumb.name = this.$route.meta.title
 
-                    crumb.active = true
-                } else {
-                    // crumb.path = item.path
-                    crumb.name = item.meta.title || item.path
+                        crumb.active = true
+                    } else {
+                        crumb.path = `/` + item
+                        crumb.name = item.charAt(0).toUpperCase() + item.slice(1)
+                    }
+                    if (!crumbs.includes(crumb)) {
+                        crumbs.push(crumb)
+                    }
                 }
-                if (!crumbs.includes(crumb)) {
-                    crumbs.push(crumb)
-                }
+
             })
 
 

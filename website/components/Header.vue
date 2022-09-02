@@ -17,7 +17,7 @@
           class="mr-5 hover:text-slate-900 dark:hover:text-white text-slate-600 dark:text-slate-400">
           Blog
         </NuxtLink>
-        <NuxtLink to="/motorcycle"
+        <NuxtLink to="/motorrad"
           class="mr-5 hover:text-slate-900 dark:hover:text-white text-slate-600 dark:text-slate-400">
           Motorrad
         </NuxtLink>
@@ -54,7 +54,7 @@
           <i class="fa-solid fa-books mr-2"></i>
           <span>Blog</span>
         </NuxtLink>
-        <NuxtLink to="/motorcycle" @click="isOpen = false" class="flex items-center p-4 hover:bg-primary hover:text-white">
+        <NuxtLink to="/motorrad" @click="isOpen = false" class="flex items-center p-4 hover:bg-primary hover:text-white">
           <i class="fa-solid fa-motorcycle mr-2"></i>
           <span>Motorrad</span>
         </NuxtLink>
