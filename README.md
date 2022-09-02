@@ -1,6 +1,13 @@
 # janikrabenstein.de
 Die neue Website mit Strapi, Nuxt und Tailwind
 
+## Build with
+- Strapi
+- Nuxt3
+- Tailwindcss
+- Splidejs
+
+
 ## Seitenbaum
 
 ### Startseite  
