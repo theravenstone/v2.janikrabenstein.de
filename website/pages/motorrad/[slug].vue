@@ -31,7 +31,7 @@
 
 
       </div>
-      <div class="p-6 my-12" v-if="motorcycle.attributes.tuning_part[0]">
+      <div class="p-6 my-12" v-if="motorcycle.attributes.tuning_parts[0]">
         <h2>Tuning Parts</h2>
         <div class="mb-6">
           <span class="inline-block w-40 h-1 mx-1 bg-primary rounded-full"></span>
@@ -39,19 +39,19 @@
           <span class="inline-block w-1 h-1 mx-1 bg-primary rounded-full"></span>
         </div>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          <div v-for="tuning_part in motorcycle.attributes.tuning_part" :key="tuning_part.id">
+          <div v-for="tuning_parts in motorcycle.attributes.tuning_parts" :key="tuning_parts.id">
             <div class="overflow-hidden bg-slate-200 rounded-lg dark:bg-slate-800">
-              <img v-if="tuning_part.image" class="object-cover w-full h-64"
-                :src="'http://localhost:3000' + tuning_part" alt="Article">
+              <img v-if="tuning_parts.image" class="object-cover w-full h-64"
+                :src="'http://localhost:3000' + tuning_parts" alt="Article">
 
               <div class="p-6">
 
                 <p class="preheader">Tuning</p>
-                <h3>{{ tuning_part.name }}</h3>
+                <h3>{{ tuning_parts.name }}</h3>
 
 
 
-                <a v-if="tuning_part.url" :href=tuning_part.url target="_blank" rel="noopener noreferrer"
+                <a v-if="tuning_parts.url" :href=tuning_parts.url target="_blank" rel="noopener noreferrer"
                   class="group text-primary hover:text-primary-hover">Produktlink</a>
               </div>
             </div>

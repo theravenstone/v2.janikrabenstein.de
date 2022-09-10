@@ -16,7 +16,7 @@
       <img v-if="post.attributes.thumbnail.data" class="object-cover w-full rounded-lg h-96 mb-6"
         :src="'http://localhost:3000' + post.attributes.thumbnail.data.attributes.formats.large.url"
         :alt="post.attributes.thumbnail.data.attributes.alternativeText">
-      {{ post.attributes.content }}
+      <div v-html="post.attributes.content"></div>
       
 
     </div>

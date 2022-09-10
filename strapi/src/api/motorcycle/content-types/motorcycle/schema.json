@@ -36,11 +36,6 @@
         "images"
       ]
     },
-    "tuning_part": {
-      "type": "component",
-      "repeatable": true,
-      "component": "tuning-parts.tuning-parts"
-    },
     "url_slug": {
       "type": "string",
       "required": true,
@@ -56,6 +51,11 @@
     "horsepower": {
       "type": "string",
       "required": true
+    },
+    "tuning_parts": {
+      "type": "component",
+      "repeatable": true,
+      "component": "tuning-parts.tuning-parts"
     }
   }
 }
