@@ -3,10 +3,8 @@
     <div class="flex flex-wrap flex-row items-center">
       <NuxtLink to="/" class="flex title-font font-medium items-center md:mb-0">
         <img src="@/assets/logo.png" alt="Janik Rabenstein Logo" class="inline-block mr-3 w-12 h-12">
-        <span class="font-bold ml-3 text-2xl">Janik Rabenstein</span>
+        <span class="font-bold ml-3 text-2xl hidden sm:block">Janik Rabenstein</span>
       </NuxtLink>
-
-
 
       <nav id="menu"
         class="hidden md:ml-4 md:py-1 md:pl-4 md:border-l-2 md:border-slate-300 md:dark:border-slate-800 md:flex flex-wrap items-center text-base justify-center">
