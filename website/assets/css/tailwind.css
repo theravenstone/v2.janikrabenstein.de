@@ -8,3 +8,27 @@
 #menu .router-link-active, #menu .router-link-exact-active {
   @apply text-slate-900 dark:text-white;
 }
+
+.preheader{
+  @apply font-medium text-xs text-primary uppercase mb-3
+}
+h1{
+  @apply font-bold text-5xl mb-6;
+}
+h2{
+  @apply font-bold text-3xl mb-3;
+}
+h3{
+  @apply font-bold text-2xl mb-3;
+}
+h4{
+  @apply font-bold text-xl mb-3;
+}
+
+p{
+  @apply mb-3;
+}
+
+hr{
+  @apply my-6;
+}

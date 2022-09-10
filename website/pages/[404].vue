@@ -7,7 +7,7 @@
                         <span class="sr-only">Error</span>404
                     </h1>
                     <p class="text-2xl font-semibold md:text-3xl">Seite Nicht Gefunden</p>
-                    <p class="mt-4 mb-8 text-slate-600 dark:text-slate-400">Keine sorge, du kannst auf der Startseite
+                    <p class="text-slate-600 dark:text-slate-400">Keine sorge, du kannst auf der Startseite
                         neu beginnen.</p>
                 </div>
             </div>

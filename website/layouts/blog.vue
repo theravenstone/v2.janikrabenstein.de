@@ -1,0 +1,80 @@
+<template>
+    <div class="bg-white text-slate-900 dark:bg-slate-900 dark:text-white">
+        <Header />
+        <div class="container mx-auto mt-24 text-center">
+            <div class="max-w-lg mx-auto p-6">
+                <h1 v-if="$route.meta.title">{{ $route.meta.title }}.</h1>
+                <div class="mb-6">
+                    <span class="inline-block w-40 h-1 mx-1 bg-primary rounded-full"></span>
+                    <span class="inline-block w-5 h-1 mx-1 bg-primary rounded-full"></span>
+                    <span class="inline-block w-1 h-1 mx-1 bg-primary rounded-full"></span>
+                </div>
+                <p v-if="$route.meta.description" class="text-gray-500 dark:text-gray-300">{{ $route.meta.description }}
+                </p>
+                <div v-if="tags">
+                    <div class="flex justify-center">
+                        <NuxtLink v-for="tag in tags" :key="tag" :to="'/blog/tags/' + tag.attributes.url_slug"
+                            class="px-3 py-1 text-xs font-medium text-slate-100 transition-colors duration-300 transform bg-primary rounded-full cursor-pointer hover:bg-primary-hover m-2">
+
+                            {{tag.attributes.name}}
+
+                        </NuxtLink>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <Breadcrumb />
+        <div class="container mx-auto">
+            <slot />
+        </div>
+        <Footer />
+
+    </div>
+</template>
+  
+<script>
+export default {
+    data() {
+        return {
+            tags: null,
+        };
+    },
+    mounted() {
+        const route = useRoute()
+        fetch(`http://localhost:3000/api/tags?populate=*`)
+            .then((res) => res.json())
+            .then((data) => (this.tags = data['data']))
+            .catch((error) => console.log(error.message));
+    },
+
+}
+const route = useRoute()
+useHead({
+    title: `${route.meta.title} · Janik Rabenstein`,
+    viewport: 'width=device-width, initial-scale=1, maximum-scale=1',
+    charset: 'utf-8',
+    meta: [
+        { name: 'og:title', content: `${route.meta.title} · Janik Rabenstein` },
+        { name: 'twitter:title', content: `${route.meta.title} · Janik Rabenstein` },
+        { name: 'description', content: `${route.meta.description}` },
+        { name: 'og:description', content: `${route.meta.description}` },
+        { name: 'twitter:description', content: `${route.meta.description}` },
+        { name: 'author', content: 'Janik Rabenstein' },
+        { name: 'publisher', content: 'Janik Rabenstein' },
+        { name: 'keywords', content: 'Janik Rabenstein, Webentwickler, Webdeveloper, Entwickler, Bayreuth, Bindlach, Fichtelgebirge, Vue.js, Nuxt.js, Python, PHP' },
+        { name: 'twitter:card', content: 'summary' },
+        { name: 'og:type', content: 'website' },
+        { name: 'og:site_name', content: 'Janik Rabenstein' },
+        { name: 'og:image', content: '/logo.png' },
+        { name: 'theme-color', content: '#41b883' },
+    ],
+    link: [
+        { rel: 'icon', href: '/favicon.ico' }
+    ]
+})
+</script>
+  
+<style>
+
+</style>

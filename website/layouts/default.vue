@@ -1,7 +1,7 @@
 <template>
   <div class="bg-white text-slate-900 dark:bg-slate-900 dark:text-white">
     <Header />
-    <div class="container mx-auto mt-24 h-screen">
+    <div class="container mx-auto mt-24">
      <slot />
     </div>
     <Footer />

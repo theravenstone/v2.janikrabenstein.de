@@ -1,40 +1,54 @@
 <template>
   <section class="container mx-auto p-6 mb-6">
-    <div v-if="posts[0]" class="grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-4 gap-4">
-      <div v-for="post in posts" :key="post.id">
-        <div
-          class="h-full border-2 border-slate-100 dark:border-slate-800 rounded-md overflow-hidden lg:hover:-translate-y-4 transition duration-300">
-          <NuxtLink :to="'/blog/post/' + post.slug">
-            <div class="p-6 relative h-full flex flex-col">
-              <div class="mb-2 flex justify-between">
-                <span class="text-sm text-slate-500">
-                  <i class="fa-solid fa-calendar-days mr-2"></i>{{ post.date }}
-                </span>
-                <div>
-                  <span v-for="tag in post.tags" :key="tag.id"
-                    class="tracking-widest text-xs title-font font-medium bg-primary px-3 py-1 ml-2 rounded-md">
-                    {{ tag.name }}
-                  </span>
+    <div v-if="posts">
+      <h2>Letzte Beiträge</h2>
+      <div class="mb-6">
+        <span class="inline-block w-40 h-1 mx-1 bg-primary rounded-full"></span>
+        <span class="inline-block w-5 h-1 mx-1 bg-primary rounded-full"></span>
+        <span class="inline-block w-1 h-1 mx-1 bg-primary rounded-full"></span>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <NuxtLink :to="'/blog/' + post.attributes.url_slug" v-for="post in posts" :key="post + 'featured'">
+
+          <div class="overflow-hidden bg-slate-200 rounded-lg dark:bg-slate-800 h-full lg:hover:-translate-y-4 transition duration-300">
+            <img v-if="post.attributes.thumbnail.data" class="object-cover w-full h-48"
+              :src="'http://localhost:3000' + post.attributes.thumbnail.data.attributes.formats.medium.url"
+              :alt="post.attributes.thumbnail.data.attributes.alternativeText">
+
+            <div class="p-6">
+              <div>
+
+                <div class="mb-3">
+                  <NuxtLink v-for="tag in post.attributes.tags.data" :key="tag"
+                    :to="'/blog/tags/' + tag.attributes.url_slug"
+                    class="px-3 py-1 text-xs font-medium text-slate-100 transition-colors duration-300 transform bg-primary rounded-full cursor-pointer hover:bg-primary-hover mr-2">
+
+                    {{tag.attributes.name}}
+
+                  </NuxtLink>
+                </div>
+
+                <h3>{{ post.attributes.title }}</h3>
+                <p class="text-slate-600 dark:text-slate-400">{{ post.attributes.teaser }}</p>
+              </div>
+
+              <div class="flex items-center justify-between mt-4">
+                <NuxtLink :to="'/blog/' + post.attributes.url_slug" class="text-primary hover:text-primary-hover">
+                  Weiterlesen
+                </NuxtLink>
+
+                <div class="flex items-center">
+
+                  <span class="text-slate-700 cursor-pointer dark:text-slate-200">Janik Rabenstein</span>
                 </div>
               </div>
-              <h1 class="title-font text-xl font-medium mb-3">
-                {{ post.title }}
-              </h1>
-              <p class="leading-relaxed mb-3">{{ post.teaser }}</p>
-              <div class="flex items-center flex-wrap mt-auto">
-                <span
-                  class="inline-flex hover:text-primary transition duration-300 dark:text-primary dark:hover:underline">
-                  Weiterlesen<i class="fa-solid fa-arrow-right ml-2 self-center"></i>
-                </span>
-                <span
-                  class="text-slate-500 mr-3 hidden sm:inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm">
-                  Von Janik Rabenstein
-                </span>
-              </div>
             </div>
-          </NuxtLink>
-        </div>
+          </div>
+        </NuxtLink>
       </div>
+
+
     </div>
     <div v-else>
       <p>
@@ -42,27 +56,28 @@
         <span>Es sind noch keine Blog Beiträge vorhanden.</span>
       </p>
     </div>
-    </section>
+  </section>
 </template>
 
 <script>
 
 export default {
-  props: ["slug"],
   data() {
     return {
-      posts: [],
+      posts: null,
     };
   },
   mounted() {
-    fetch("/api/get_blog_posts.php")
+    const route = useRoute()
+    fetch(`http://localhost:3000/api/posts?populate=*`)
       .then((res) => res.json())
-      .then((data) => (this.posts = data))
+      .then((data) => (this.posts = data['data']))
       .catch((error) => console.log(error.message));
   },
-};
+
+}
 definePageMeta({
-  layout: "subpage",
+  layout: "blog",
   title: 'Blog',
   description: 'Hier findest du alle interessanten Artikel zu mir und dem was ich so mache. Viel Spaß beim lesen!',
 })
@@ -70,4 +85,5 @@ definePageMeta({
 </script>
 
 <style>
+
 </style>

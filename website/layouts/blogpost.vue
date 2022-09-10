@@ -1,7 +1,8 @@
 <template>
   <div class="bg-white text-slate-900 dark:bg-slate-900 dark:text-white">
     <Header />
-    <div class="container mx-auto mt-24">
+    <Breadcrumb class="mt-24"/>
+    <div class="container mx-auto">
      <slot />
     </div>
     <Footer />

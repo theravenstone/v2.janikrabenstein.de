@@ -1,18 +1,7 @@
 <template>
   <div class="bg-white text-slate-900 dark:bg-slate-900 dark:text-white">
     <Header />
-    <div class="container mx-auto mt-24 text-center">
-      <div class="max-w-lg mx-auto p-6">
-        <h1 v-if="$route.meta.title" class="font-bold text-5xl mb-6">{{ $route.meta.title }}.</h1>
-        <div class="mb-6">
-          <span class="inline-block w-40 h-1 mx-1 bg-primary rounded-full"></span>
-          <span class="inline-block w-5 h-1 mx-1 bg-primary rounded-full"></span>
-          <span class="inline-block w-1 h-1 mx-1 bg-primary rounded-full"></span>
-        </div>
-        <p v-if="$route.meta.description" class="text-gray-500 dark:text-gray-300">{{ $route.meta.description }}</p>
-      </div>
-    </div>
-    <Breadcrumb />
+    <Breadcrumb class="mt-24"/>
     <div class="container mx-auto">
       <slot />
     </div>

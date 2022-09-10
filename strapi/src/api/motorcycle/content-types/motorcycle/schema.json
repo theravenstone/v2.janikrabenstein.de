@@ -20,9 +20,6 @@
     "ccm": {
       "type": "integer"
     },
-    "horsepower": {
-      "type": "integer"
-    },
     "image": {
       "type": "media",
       "multiple": true,
@@ -55,6 +52,10 @@
     },
     "description": {
       "type": "text"
+    },
+    "horsepower": {
+      "type": "string",
+      "required": true
     }
   }
 }

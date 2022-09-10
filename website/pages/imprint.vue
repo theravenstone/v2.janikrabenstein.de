@@ -1,17 +1,17 @@
 <template>
     <div class="container mx-auto p-6 mb-6">
-        <h1 class="font-bold text-5xl mb-12">
+        <h1>
             Impressum.
         </h1>
-        <p class="mb-3">
+        <p>
             Angaben gemäß § 5 TMG
         </p>
-        <p class="mb-3">
+        <p>
             Janik Rabenstein <br />
             Boxsteig 49<br />
             95485 Warmensteinach
         </p>
-        <p class="mb-3">
+        <p>
             <strong>Vertreten durch: </strong><br />
             Janik Rabenstein<br />
         </p>
@@ -23,9 +23,9 @@
                 href="mailto:janik.rabenstein@gmail.com">janik.rabenstein@gmail.com</a><br />
         </p>
 
-        <h2 class="font-bold text-xl mb-3">Haftungsausschluss: </h2>
-        <h3 class="font-bold text-lg mb-3">Haftung für Inhalte</h3>
-        <p class="mb-3">
+        <h2>Haftungsausschluss: </h2>
+        <h3>Haftung für Inhalte</h3>
+        <p>
             Die Inhalte unserer Seiten wurden mit größter Sorgfalt erstellt. Für die
             Richtigkeit, Vollständigkeit und Aktualität der Inhalte können wir
             jedoch keine Gewähr übernehmen. Als Diensteanbieter sind wir gemäß § 7
@@ -42,8 +42,8 @@
             entfernen.<br /><br />
         </p>
 
-        <h3 class="font-bold text-lg mb-3">Haftung für Links</h3>
-        <p class="mb-3">
+        <h3>Haftung für Links</h3>
+        <p>
             Unser Angebot enthält Links zu externen Webseiten Dritter, auf deren
             Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden
             Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten
@@ -56,8 +56,8 @@
             von Rechtsverletzungen werden wir derartige Links umgehend entfernen.<br /><br />
         </p>
 
-        <h3 class="font-bold text-lg mb-3">Urheberrecht</h3>
-        <p class="mb-3">
+        <h3>Urheberrecht</h3>
+        <p>
             Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen
             Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung,
             Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der
@@ -72,8 +72,8 @@
             wir derartige Inhalte umgehend entfernen.<br /><br />
         </p>
 
-        <h3 class="font-bold text-lg mb-3">Datenschutz</h3>
-        <p class="mb-3">
+        <h3>Datenschutz</h3>
+        <p>
             Die Nutzung unserer Webseite ist in der Regel ohne Angabe
             personenbezogener Daten möglich. Soweit auf unseren Seiten
             personenbezogene Daten (beispielsweise Name, Anschrift oder
@@ -91,7 +91,7 @@
             ausdrücklich rechtliche Schritte im Falle der unverlangten Zusendung von
             Werbeinformationen, etwa durch Spam-Mails, vor.
         </p>
-        <p class="mb-3">
+        <p>
             Impressum vom
             <a rel="noopener" target="_blank" class="text-primary hover:text-primary-hover"
                 href="https://www.impressum-generator.de">Impressum Generator</a> der

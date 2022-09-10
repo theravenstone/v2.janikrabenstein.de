@@ -4,7 +4,8 @@
   "info": {
     "singularName": "post",
     "pluralName": "posts",
-    "displayName": "Post"
+    "displayName": "Post",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -15,10 +16,6 @@
       "type": "string",
       "required": true,
       "unique": false
-    },
-    "date": {
-      "type": "date",
-      "required": true
     },
     "content": {
       "type": "richtext"
@@ -37,6 +34,18 @@
       "type": "string",
       "required": true,
       "unique": true
+    },
+    "teaser": {
+      "type": "text",
+      "required": true
+    },
+    "thumbnail": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
     }
   }
 }

@@ -10,6 +10,7 @@ export default {
 
 }
 import '~/assets/js/fontawesome.js';
+
 </script>
 
 <style>

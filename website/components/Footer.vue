@@ -8,11 +8,11 @@
                         <span class="self-center text-2xl font-bold">Janik Rabenstein</span>
                     </NuxtLink>
                     <p class="text-center md:max-w-sm md:text-left font-mono">Entwickler aus dem Landkreis Bayreuth
-                        <span class="animate-wiggle mb-6 inline-block">👋</span></p>
+                        <span class="animate-wiggle inline-block">👋</span></p>
                 </div>
                 <div class="flex flex-wrap justify-center lg:space-x-8">
                     <div class="p-6 md:py-0">
-                        <p class="pb-2 text-lg font-medium">Quick links</p>
+                        <p class="text-lg font-medium">Quick links</p>
                         <ul class="space-y-1 text-sm">
                             <li>
                                 <NuxtLink to="/" class="hover:text-primary transition duration-300">Startseite
@@ -33,7 +33,7 @@
                         </ul>
                     </div>
                     <div class="p-6 md:py-0 md:pr-0">
-                        <p class="pb-2 text-lg font-medium">Rechtliches</p>
+                        <p class="text-lg font-medium">Rechtliches</p>
                         <ul class="space-y-1 text-sm">
                             <li>
                                 <NuxtLink to="/imprint" class="hover:text-primary transition duration-300">
