@@ -14,9 +14,7 @@
   "attributes": {
     "content": {
       "type": "dynamiczone",
-      "components": [
-        "content.hero"
-      ]
+      "components": []
     },
     "title": {
       "type": "string",
