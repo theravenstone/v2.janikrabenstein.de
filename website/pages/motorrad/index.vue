@@ -4,7 +4,7 @@
             <NuxtLink :to="'/motorrad/' + motorcycle.attributes.url_slug" v-for="motorcycle in motorcycles"
                 :key="motorcycle">
                 <div
-                    class="overflow-hidden bg-slate-200 rounded-lg dark:bg-slate-800 lg:hover:-translate-y-4 transition duration-300">
+                    class="overflow-hidden bg-gray-200 rounded-lg dark:bg-gray-800 lg:hover:-translate-y-4 transition duration-300">
                     <img class="object-cover w-full h-64"
                         :src="'http://localhost:3000' + motorcycle.attributes.thumbnail.data.attributes.formats.medium.url"
                         :alt="motorcycle.attributes.thumbnail.data.attributes.alternativeText">
@@ -15,7 +15,7 @@
 
                             <h2>{{ motorcycle.attributes.name }}</h2>
 
-                            <ul class="text-slate-600 dark:text-slate-400">
+                            <ul class="text-gray-600 dark:text-gray-400">
                                 <li v-if="motorcycle.attributes.ccm"><i
                                         class="fa-solid fa-bolt text-primary mr-3"></i>{{
                                         motorcycle.attributes.ccm

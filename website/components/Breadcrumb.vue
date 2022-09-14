@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-slate-200 dark:bg-slate-800 my-12">
+    <div class="bg-gray-200 dark:bg-gray-800 my-12">
         <div class="container flex items-center px-6 py-4 mx-auto overflow-y-auto whitespace-nowrap">
 
             <NuxtLink to="/" class="text-primary hover:text-primary-hover">

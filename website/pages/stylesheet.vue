@@ -4,7 +4,7 @@
         <hr>
         <h2>1. Cards</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <div class="overflow-hidden bg-slate-200 rounded-lg dark:bg-slate-800">
+            <div class="overflow-hidden bg-gray-200 rounded-lg dark:bg-gray-800">
                 <img class="object-cover w-full h-64"
                     src="https://images.unsplash.com/photo-1550439062-609e1531270e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
                     alt="Article">
@@ -14,7 +14,7 @@
                         <p class="preheader">Preheader</p>
 
                         <h3>Card Title</h3>
-                        <p class="text-slate-600 dark:text-slate-400">Lorem ipsum dolor sit amet, consectetur
+                        <p class="text-gray-600 dark:text-gray-400">Lorem ipsum dolor sit amet, consectetur
                             adipiscing elit. Molestie parturient et sem ipsum volutpat vel. Natoque sem et aliquam
                             mauris egestas
                             quam volutpat viverra. In pretium nec senectus erat. Et malesuada lobortis.</p>
@@ -24,7 +24,7 @@
                         class="group text-primary hover:text-primary-hover">Link</a>
                 </div>
             </div>
-            <div class="overflow-hidden bg-slate-200 rounded-lg dark:bg-slate-800">
+            <div class="overflow-hidden bg-gray-200 rounded-lg dark:bg-gray-800">
                 <img class="object-cover w-full h-64"
                     src="https://images.unsplash.com/photo-1550439062-609e1531270e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
                     alt="Article">
@@ -32,13 +32,13 @@
                 <div class="p-6">
                     <div>
                         <div class="flex items-center justify-between">
-                            <span class="text-sm font-light text-slate-600 dark:text-slate-400">06 Sep 2022</span>
+                            <span class="text-sm font-light text-gray-600 dark:text-gray-400">06 Sep 2022</span>
                             <a
-                                class="px-3 py-1 text-sm font-bold text-slate-100 transition-colors duration-300 transform bg-primary rounded cursor-pointer hover:bg-primary-hover">Tag</a>
+                                class="px-3 py-1 text-sm font-bold text-gray-100 transition-colors duration-300 transform bg-primary rounded cursor-pointer hover:bg-primary-hover">Tag</a>
                         </div>
 
                         <h3>Card Title</h3>
-                        <p class="text-slate-600 dark:text-slate-400">Lorem ipsum dolor sit amet, consectetur
+                        <p class="text-gray-600 dark:text-gray-400">Lorem ipsum dolor sit amet, consectetur
                             adipiscing elit. Molestie parturient et sem ipsum volutpat vel. Natoque sem et aliquam
                             mauris egestas
                             quam volutpat viverra. In pretium nec senectus erat. Et malesuada lobortis.</p>
@@ -49,7 +49,7 @@
 
                     <div class="flex items-center">
 
-                        <a class="font-bold text-slate-700 cursor-pointer dark:text-slate-200">Janik Rabenstein</a>
+                        <a class="font-bold text-gray-700 cursor-pointer dark:text-gray-200">Janik Rabenstein</a>
                     </div>
                 </div>
                 </div>

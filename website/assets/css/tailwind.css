@@ -6,7 +6,7 @@
   @apply bg-primary text-white;
 }
 #menu .router-link-active, #menu .router-link-exact-active {
-  @apply text-slate-900 dark:text-white;
+  @apply text-gray-900 dark:text-white;
 }
 
 body{

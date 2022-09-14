@@ -10,6 +10,9 @@
         
         <div>
           <h1>{{ motorcycle.attributes.name }}</h1>
+          <Head>
+            <Title>{{ motorcycle.attributes.name }} · Janik Rabenstein</Title>
+          </Head>
           <div class="mb-6">
             <span class="inline-block w-40 h-1 mx-1 bg-primary rounded-full"></span>
             <span class="inline-block w-5 h-1 mx-1 bg-primary rounded-full"></span>
@@ -40,7 +43,7 @@
         </div>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           <div v-for="tuning_parts in motorcycle.attributes.tuning_parts" :key="tuning_parts.id">
-            <div class="overflow-hidden bg-slate-200 rounded-lg dark:bg-slate-800">
+            <div class="overflow-hidden bg-gray-200 rounded-lg dark:bg-gray-800">
               <img v-if="tuning_parts.image" class="object-cover w-full h-64"
                 :src="'http://localhost:3000' + tuning_parts" alt="Article">
 
@@ -108,6 +111,8 @@ definePageMeta({
   title: 'Motorrad',
   description: 'Meine Motorräder mit allen wichtigen Informationen hier an einem Ort!',
 });
+
+
 </script>
 
 <style>

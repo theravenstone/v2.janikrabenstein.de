@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-white text-slate-900 dark:bg-slate-900 dark:text-white">
+    <div class="bg-white text-gray-900 dark:bg-gray-900 dark:text-white">
         <Header />
         <div class="container mx-auto mt-24 text-center">
             <div class="max-w-lg mx-auto p-6">

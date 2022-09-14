@@ -11,8 +11,8 @@ module.exports = {
     theme: {
         extend: {
             colors: {
-                primary: '#41b883',
-                'primary-hover': '#205c41',
+                primary: '#a55eea',
+                'primary-hover': '#8854d0',
             },
             keyframes: {
                 wiggle: {

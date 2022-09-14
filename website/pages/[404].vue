@@ -1,13 +1,13 @@
 <template>
     <div>
-        <section class="flex items-center h-full p-16 dark:bg-slate-900 dark:text-slate-100">
+        <section class="flex items-center h-full p-16 dark:bg-gray-900 dark:text-gray-100">
             <div class="container flex flex-col items-center justify-center px-5 mx-auto my-8">
                 <div class="max-w-md text-center">
-                    <h1 class="mb-8 font-extrabold text-9xl dark:text-slate-500">
+                    <h1 class="mb-8 font-extrabold text-9xl dark:text-gray-500">
                         <span class="sr-only">Error</span>404
                     </h1>
                     <p class="text-2xl font-semibold md:text-3xl">Seite Nicht Gefunden</p>
-                    <p class="text-slate-600 dark:text-slate-400">Keine sorge, du kannst auf der Startseite
+                    <p class="text-gray-600 dark:text-gray-400">Keine sorge, du kannst auf der Startseite
                         neu beginnen.</p>
                 </div>
             </div>
@@ -15,18 +15,18 @@
         <section class="container mx-auto p-6 mb-6">
             <!-- Continue With -->
             <div class="flex flex-col">
-                <div class="text-slate-600 dark:text-slate-400 font-bold uppercase">
+                <div class="text-gray-600 dark:text-gray-400 font-bold uppercase">
                     Versuche dein Glück hier
                 </div>
 
                 <div class="flex flex-col items-stretch mt-5">
                     <!-- Nav Item #1 -->
                     <NuxtLink to="/" class="flex flex-row group px-4 py-8
-                    border-t-2 border-slate-300 dark:border-slate-800 hover:cursor-pointer
+                    border-t-2 border-gray-300 dark:border-gray-800 hover:cursor-pointer
                     transition duration-300">
                         <!-- Nav Icon -->
                         <div
-                            class="rounded-xl border-2 border-slate-300 dark:border-slate-800 px-3 py-2 md:py-4 transition duration-300">
+                            class="rounded-xl border-2 border-gray-300 dark:border-gray-800 px-3 py-2 md:py-4 transition duration-300">
                             <i class="fa-solid fa-house-chimney mx-auto 
                             text-primary text-2xl md:text-3xl"></i>
                         </div>
@@ -38,24 +38,24 @@
                             </div>
 
                             <div class="font-semibold text-sm md:text-md lg:text-lg
-                            text-slate-600 dark:text-slate-400 group-hover:text-slate-500
+                            text-gray-600 dark:text-gray-400 group-hover:text-gray-500
                             transition duration-300">
                                 Alles beginnt hier
                             </div>
                         </div>
 
                         <!-- Chevron -->
-                        <i class="fa-solid fa-chevron-right  my-auto pr-2 text-slate-600 dark:text-slate-400 group-hover:text-slate-500 transition duration-300 lg:group-hover:translate-x-2"></i>
+                        <i class="fa-solid fa-chevron-right  my-auto pr-2 text-gray-600 dark:text-gray-400 group-hover:text-gray-500 transition duration-300 lg:group-hover:translate-x-2"></i>
                     </NuxtLink>
 
                     <!-- Nav Item #2 -->
                     <NuxtLink to="/blog" class="flex flex-row group px-4 py-8
-                    border-t-2 border-slate-300 dark:border-slate-800 hover:cursor-pointer
+                    border-t-2 border-gray-300 dark:border-gray-800 hover:cursor-pointer
                     transition duration-300">
 
                         <!-- Nav Icon -->
                         <div
-                            class="rounded-xl border-2 border-slate-300 dark:border-slate-800 px-3 py-2 md:py-4 transition duration-300">
+                            class="rounded-xl border-2 border-gray-300 dark:border-gray-800 px-3 py-2 md:py-4 transition duration-300">
                             <i class="fa-solid fa-books mx-auto 
                             text-primary text-2xl md:text-3xl"></i>
                         </div>
@@ -67,14 +67,14 @@
                             </div>
 
                             <div class="font-semibold text-sm md:text-md lg:text-lg
-                            text-slate-600 dark:text-slate-400 group-hover:text-slate-500
+                            text-gray-600 dark:text-gray-400 group-hover:text-gray-500
                             transition duration-300">
                                 Lese meine interessanten Beiträge
                             </div>
                         </div>
 
                         <!-- Chevron -->
-                        <i class="fa-solid fa-chevron-right my-auto pr-2 text-slate-600 dark:text-slate-400 group-hover:text-slate-500 transition duration-300 lg:group-hover:translate-x-2"></i>
+                        <i class="fa-solid fa-chevron-right my-auto pr-2 text-gray-600 dark:text-gray-400 group-hover:text-gray-500 transition duration-300 lg:group-hover:translate-x-2"></i>
                     </NuxtLink>
                 </div>
             </div>

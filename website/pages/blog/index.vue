@@ -9,9 +9,9 @@
       </div>
 
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        <NuxtLink :to="'/blog/' + post.attributes.url_slug" v-for="post in posts" :key="post + 'featured'">
+        <NuxtLink :to="'/blog/' + post.attributes.url_slug" v-for="post in posts" :key="post + 'featured'" class="group">
 
-          <div class="overflow-hidden bg-slate-200 rounded-lg dark:bg-slate-800 h-full lg:hover:-translate-y-4 transition duration-300">
+          <div class="overflow-hidden bg-gray-200 rounded-lg dark:bg-gray-800 h-full lg:hover:-translate-y-4 transition duration-300">
             <img v-if="post.attributes.thumbnail.data" class="object-cover w-full h-48"
               :src="'http://localhost:3000' + post.attributes.thumbnail.data.attributes.formats.medium.url"
               :alt="post.attributes.thumbnail.data.attributes.alternativeText">
@@ -22,7 +22,7 @@
                 <div class="mb-3">
                   <NuxtLink v-for="tag in post.attributes.tags.data" :key="tag"
                     :to="'/blog/tags/' + tag.attributes.url_slug"
-                    class="px-3 py-1 text-xs font-medium text-slate-100 transition-colors duration-300 transform bg-primary rounded-full cursor-pointer hover:bg-primary-hover mr-2">
+                    class="px-3 py-1 text-xs font-medium text-gray-100 transition-colors duration-300 transform bg-primary rounded-full cursor-pointer hover:bg-primary-hover mr-2">
 
                     {{tag.attributes.name}}
 
@@ -30,17 +30,17 @@
                 </div>
 
                 <h3>{{ post.attributes.title }}</h3>
-                <p class="text-slate-600 dark:text-slate-400">{{ post.attributes.teaser }}</p>
+                <p class="text-gray-600 dark:text-gray-400">{{ post.attributes.teaser }}</p>
               </div>
 
               <div class="flex items-center justify-between mt-4">
-                <NuxtLink :to="'/blog/' + post.attributes.url_slug" class="text-primary hover:text-primary-hover">
-                  Weiterlesen
+                <NuxtLink :to="'/blog/' + post.attributes.url_slug" class="text-primary group-hover:text-primary-hover">
+                  Weiterlesen <i class="fa-solid fa-arrow-right-long  my-auto ml-2 text-primary group-hover:text-primary-hover transition duration-300 lg:group-hover:translate-x-2"></i>
                 </NuxtLink>
 
                 <div class="flex items-center">
 
-                  <span class="text-slate-700 cursor-pointer dark:text-slate-200">Janik Rabenstein</span>
+                  <span class="text-gray-700 cursor-pointer dark:text-gray-200">Janik Rabenstein</span>
                 </div>
               </div>
             </div>

@@ -1,5 +1,5 @@
 <template>
-  <header class="w-full p-6 fixed top-0 bg-white dark:bg-slate-900 shadow transition duration-300 z-50">
+  <header class="w-full p-6 fixed top-0 bg-white dark:bg-gray-900 transition duration-300 z-50">
     <div class="flex flex-wrap flex-row items-center">
       <NuxtLink to="/" class="flex title-font font-medium items-center md:mb-0">
         <img src="@/assets/logo.png" alt="Janik Rabenstein Logo" class="inline-block mr-3 w-12 h-12">
@@ -7,16 +7,16 @@
       </NuxtLink>
 
       <nav id="menu"
-        class="hidden md:ml-4 md:py-1 md:pl-4 md:border-l-2 md:border-slate-300 md:dark:border-slate-800 md:flex flex-wrap items-center text-base justify-center">
-        <NuxtLink to="/" class="mr-5 hover:text-slate-900 dark:hover:text-white text-slate-600 dark:text-slate-400">
+        class="hidden md:ml-4 md:py-1 md:pl-4 md:border-l-2 md:border-gray-300 md:dark:border-gray-800 md:flex flex-wrap items-center text-base justify-center">
+        <NuxtLink to="/" class="mr-5 hover:text-gray-900 dark:hover:text-white text-gray-600 dark:text-gray-400">
           Startseite
         </NuxtLink>
         <NuxtLink to="/blog"
-          class="mr-5 hover:text-slate-900 dark:hover:text-white text-slate-600 dark:text-slate-400">
+          class="mr-5 hover:text-gray-900 dark:hover:text-white text-gray-600 dark:text-gray-400">
           Blog
         </NuxtLink>
         <NuxtLink to="/motorrad"
-          class="mr-5 hover:text-slate-900 dark:hover:text-white text-slate-600 dark:text-slate-400">
+          class="mr-5 hover:text-gray-900 dark:hover:text-white text-gray-600 dark:text-gray-400">
           Motorrad
         </NuxtLink>
       </nav>
@@ -33,7 +33,7 @@
       </transition>
 
       <aside
-        class="transform top-0 left-0 w-80 max-w-full bg-white dark:bg-slate-900 fixed h-full overflow-auto ease-in-out transition-all duration-300 z-30"
+        class="transform top-0 left-0 w-80 max-w-full bg-white dark:bg-gray-900 fixed h-full overflow-auto ease-in-out transition-all duration-300 z-30"
         :class="isOpen ? 'translate-x-0' : '-translate-x-full'">
         <span @click="isOpen = false" class="flex w-full items-center p-6">
           <NuxtLink to="/" class="flex title-font font-medium items-center">
@@ -43,7 +43,7 @@
         </span>
 
         <span
-          class="flex w-full items-center px-4 border-b-2 border-slate-300 dark:border-slate-800 font-mono mt-6 text-primary">Seiten</span>
+          class="flex w-full items-center px-4 border-b-2 border-gray-300 dark:border-gray-800 font-mono mt-6 text-primary">Seiten</span>
         <NuxtLink to="/" @click="isOpen = false" class="flex items-center p-4 hover:bg-primary hover:text-white">
           <i class="fa-solid fa-house-chimney mr-2"></i>
           <span>Startseite</span>
@@ -59,14 +59,14 @@
         
 
         <span
-          class="flex w-full items-center px-4 border-b-2 border-slate-300 dark:border-slate-800 font-mono mt-6 text-primary">Theme</span>
+          class="flex w-full items-center px-4 border-b-2 border-gray-300 dark:border-gray-800 font-mono mt-6 text-primary">Theme</span>
         <DarkModeSwitch />
 
         
 
 
         <span
-          class="flex w-full items-center px-4 border-b-2 border-slate-300 dark:border-slate-800 font-mono mt-6 text-primary">Rechtliches</span>
+          class="flex w-full items-center px-4 border-b-2 border-gray-300 dark:border-gray-800 font-mono mt-6 text-primary">Rechtliches</span>
          <NuxtLink to="/imprint" @click="isOpen = false" class="flex items-center p-4 hover:bg-primary hover:text-white">
           <i class="fa-solid fa-scale-balanced mr-2"></i>
           <span>Impressum</span>
@@ -75,16 +75,16 @@
 
         <div class="fixed bottom-0 w-full flex justify-around p-4 text-xl">
           <a rel="noopener noreferrer" href="mailto:janik.rabenstein@gmail.com" title="Email"
-            class="flex items-center justify-center w-10 h-10 rounded-full hover:text-primary dark:text-white text-slate-900 transition duration-300">
+            class="flex items-center justify-center w-10 h-10 rounded-full hover:text-primary dark:text-white text-gray-900 transition duration-300">
             <i class="fa-solid fa-envelope"></i>
           </a>
           <a rel="noopener noreferrer" target="_blank" href="https://github.com/theravenstone" title="GitHub"
-            class="flex items-center justify-center w-10 h-10 rounded-full hover:text-primary dark:text-white text-slate-900 transition duration-300">
+            class="flex items-center justify-center w-10 h-10 rounded-full hover:text-primary dark:text-white text-gray-900 transition duration-300">
             <i class="fa-brands fa-github"></i>
           </a>
           <a rel="noopener noreferrer" target="_blank" href="https://discord.com/users/594922360553865216"
             title="Discord"
-            class="flex items-center justify-center w-10 h-10 rounded-full hover:text-primary dark:text-white text-slate-900 transition duration-300">
+            class="flex items-center justify-center w-10 h-10 rounded-full hover:text-primary dark:text-white text-gray-900 transition duration-300">
             <i class="fa-brands fa-discord"></i>
           </a>
 

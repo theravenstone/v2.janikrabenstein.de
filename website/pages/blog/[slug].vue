@@ -1,23 +1,29 @@
 <template>
   <section class="container mx-auto p-6 mb-6">
     <div v-if="post">
+
       <div class="mb-6">
         <NuxtLink v-for="tag in post.attributes.tags.data" :key="tag" :to="'/blog/tags/' + tag.attributes.url_slug"
-          class="px-3 py-1 text-xs font-medium text-slate-100 transition-colors duration-300 transform bg-primary rounded-full cursor-pointer hover:bg-primary-hover mr-2">
+          class="px-3 py-1 text-xs font-medium text-gray-100 transition-colors duration-300 transform bg-primary rounded-full cursor-pointer hover:bg-primary-hover mr-2">
 
           {{tag.attributes.name}}
 
         </NuxtLink>
       </div>
       <h1>{{ post.attributes.title }}</h1>
-      <p class="text-slate-600 dark:text-slate-400">
-        Veröffentlicht {{ fromNow(Date.parse(post.attributes.publishedAt)) }} von Janik Rabenstein
+
+      <Head>
+        <Title>{{ post.attributes.title }} · Janik Rabenstein</Title>
+      </Head>
+      <p class="text-gray-600 dark:text-gray-400">
+        <i class="fa-solid fa-rocket-launch text-primary mr-2"></i> Veröffentlicht {{
+        fromNow(Date.parse(post.attributes.publishedAt)) }} von Janik Rabenstein
       </p>
       <img v-if="post.attributes.thumbnail.data" class="object-cover w-full rounded-lg h-96 mb-6"
         :src="'http://localhost:3000' + post.attributes.thumbnail.data.attributes.formats.large.url"
         :alt="post.attributes.thumbnail.data.attributes.alternativeText">
       <div v-html="post.attributes.content"></div>
-      
+
 
     </div>
     <div v-else>
@@ -80,7 +86,7 @@ export default {
 
 definePageMeta({
   layout: "blogpost",
-  title: 'Blog Post',
+  title: 'Blog',
   description: 'Hier findest du alle interessanten Artikel zu mir und dem was ich so mache. Viel Spaß beim lesen!',
 });
 </script>
