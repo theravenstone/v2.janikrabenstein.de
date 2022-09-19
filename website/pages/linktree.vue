@@ -17,7 +17,9 @@
             </div>
           </div>
         </div>
-        <NuxtLink to="/imprint" class="hover:text-primary">Impressum</NuxtLink>
+        <div class="flex justify-center">
+          <NuxtLink to="/imprint" class="hover:text-primary">Impressum</NuxtLink>
+        </div>
       </div>
     </div>
   </div>
