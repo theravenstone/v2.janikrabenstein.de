@@ -46,7 +46,7 @@ useHead({
         { name: 'og:type', content: 'website' },
         { name: 'og:site_name', content: 'Janik Rabenstein' },
         { name: 'og:image', content: '/logo.png' },
-        { name: 'theme-color', content: '#41b883' },
+        { name: 'theme-color', content: '#0ea5e9' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1.0' },
     ],
     link: [

@@ -38,7 +38,7 @@
         <span @click="isOpen = false" class="flex w-full items-center p-6">
           <NuxtLink to="/" class="flex title-font font-medium items-center">
             <img src="@/assets/logo.png" alt="Janik Rabenstein Logo" width="50" height="50" class="inline-block mr-3">
-            <span class="font-bold ml-2 text-2xl">Janik Rabenstein</span>
+            <span class="font-bold ml-2 text-2xl font-nexabold">Janik Rabenstein</span>
           </NuxtLink>
         </span>
 
