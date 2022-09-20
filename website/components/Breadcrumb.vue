@@ -2,10 +2,10 @@
     <div class="bg-gray-200 dark:bg-gray-800 my-12">
         <div class="container flex items-center px-6 py-4 mx-auto overflow-y-auto whitespace-nowrap">
 
-            <NuxtLink to="/" class="text-primary hover:text-primary-hover">
+            <NuxtLink to="/" class="text-primary hover:text-primary-hover" title="Startseite">
                 <i class="fa-solid fa-house-chimney"></i>
             </NuxtLink>
-            <span v-for="item in crumbs" :key="item">
+            <span v-for="item in crumbs" :key="item" class="font-mono font-bold">
                 <i class="fa-solid fa-angle-right mx-5"></i>
 
                 <span v-if="item.active">{{ item.name }}</span>

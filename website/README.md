@@ -2,6 +2,11 @@
 
 Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
 
+## Upgrade Nuxt
+```bash
+npx nuxi upgrade
+```
+
 ## Setup
 
 Make sure to install the dependencies:

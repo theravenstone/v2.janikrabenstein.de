@@ -2,11 +2,11 @@
   <section class="p-6 lg:h-screen flex lg:mt-0">
     <div class="text-center m-auto">
       <h1 class="font-bold text-5xl lg:text-8xl md:text-7xl">Servus, ich bin<br />
-        <span class="text-primary">Janik Rabenstein</span>
+        <span class="text-primary">Janik Rabenstein</span>.
       </h1>
 
       <p class="font-mono text-xl">Entwickler aus dem Landkreis Bayreuth <span
-          class="animate-wiggle inline-block">👋</span></p>
+          class="animate-wiggle inline-block"><i class="fa-solid fa-code text-primary"></i></span></p>
     </div>
     <div class="hidden lg:block">
       <i id="triangle" class="fa-brands fa-js-square text-primary absolute w-24 h-24"></i>

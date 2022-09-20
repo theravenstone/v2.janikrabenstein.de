@@ -3,7 +3,7 @@
         <section class="flex items-center h-full p-16 dark:bg-gray-900 dark:text-gray-100">
             <div class="container flex flex-col items-center justify-center px-5 mx-auto my-8">
                 <div class="max-w-md text-center">
-                    <h1 class="mb-8 font-extrabold text-9xl dark:text-gray-500">
+                    <h1 class="mb-8 font-extrabold text-9xl dark:text-primary">
                         <span class="sr-only">Error</span>404
                     </h1>
                     <p class="text-2xl font-semibold md:text-3xl">Seite Nicht Gefunden</p>
@@ -15,9 +15,9 @@
         <section class="container mx-auto p-6 mb-6">
             <!-- Continue With -->
             <div class="flex flex-col">
-                <div class="text-gray-600 dark:text-gray-400 font-bold uppercase">
+                <h2 class="preheader text-lg">
                     Versuche dein Glück hier
-                </div>
+                </h2>
 
                 <div class="flex flex-col items-stretch mt-5">
                     <!-- Nav Item #1 -->
@@ -25,27 +25,26 @@
                     border-t-2 border-gray-300 dark:border-gray-800 hover:cursor-pointer
                     transition duration-300">
                         <!-- Nav Icon -->
-                        <div
-                            class="rounded-xl border-2 border-gray-300 dark:border-gray-800 px-3 py-2 md:py-4 transition duration-300">
+                        <div class="flex items-center mr-6">
                             <i class="fa-solid fa-house-chimney mx-auto 
                             text-primary text-2xl md:text-3xl"></i>
                         </div>
 
                         <!-- Text -->
-                        <div class="grow flex flex-col pl-5 pt-2">
-                            <div class="font-bold text-sm md:text-lg lg:text-xl group-hover:underline">
+                        <div class="grow flex flex-col">
+                            <h3 class="font-bold text-sm md:text-lg lg:text-xl group-hover:underline mb-0">
                                 Startseite
-                            </div>
+                            </h3>
 
                             <div class="font-semibold text-sm md:text-md lg:text-lg
                             text-gray-600 dark:text-gray-400 group-hover:text-gray-500
                             transition duration-300">
-                                Alles beginnt hier
+                                Dein Webentwickler aus dem Landkreis Bayreuth. Lass uns gemeinsam das nächste Projekt starten!
                             </div>
                         </div>
 
                         <!-- Chevron -->
-                        <i class="fa-solid fa-chevron-right  my-auto pr-2 text-gray-600 dark:text-gray-400 group-hover:text-gray-500 transition duration-300 lg:group-hover:translate-x-2"></i>
+                        <i class="fa-solid fa-chevron-right  my-auto pr-2 text-gray-600 dark:text-gray-400 group-hover:text-gray-500 transition duration-300 md:group-hover:translate-x-2 ml-3 hidden md:block"></i>
                     </NuxtLink>
 
                     <!-- Nav Item #2 -->
@@ -54,27 +53,54 @@
                     transition duration-300">
 
                         <!-- Nav Icon -->
-                        <div
-                            class="rounded-xl border-2 border-gray-300 dark:border-gray-800 px-3 py-2 md:py-4 transition duration-300">
+                        <div class="flex items-center mr-6">
                             <i class="fa-solid fa-books mx-auto 
                             text-primary text-2xl md:text-3xl"></i>
                         </div>
 
                         <!-- Text -->
-                        <div class="grow flex flex-col pl-5 pt-2">
-                            <div class="font-bold text-sm md:text-lg lg:text-xl group-hover:underline">
+                        <div class="grow flex flex-col">
+                            <h3 class="font-bold text-sm md:text-lg lg:text-xl group-hover:underline mb-0">
                                 Blog
-                            </div>
+                            </h3>
 
                             <div class="font-semibold text-sm md:text-md lg:text-lg
                             text-gray-600 dark:text-gray-400 group-hover:text-gray-500
                             transition duration-300">
-                                Lese meine interessanten Beiträge
+                                Hier findest du alle interessanten Artikel zu mir und dem was ich so mache. Viel Spaß beim lesen!
                             </div>
                         </div>
 
                         <!-- Chevron -->
-                        <i class="fa-solid fa-chevron-right my-auto pr-2 text-gray-600 dark:text-gray-400 group-hover:text-gray-500 transition duration-300 lg:group-hover:translate-x-2"></i>
+                        <i class="fa-solid fa-chevron-right my-auto pr-2 text-gray-600 dark:text-gray-400 group-hover:text-gray-500 transition duration-300 md:group-hover:translate-x-2 ml-3 hidden md:block"></i>
+                    </NuxtLink>
+
+                    <!-- Nav Item #3 -->
+                    <NuxtLink to="/motorrad" class="flex flex-row group px-4 py-8
+                    border-t-2 border-gray-300 dark:border-gray-800 hover:cursor-pointer
+                    transition duration-300">
+
+                        <!-- Nav Icon -->
+                        <div class="flex items-center mr-6">
+                            <i class="fa-solid fa-motorcycle mx-auto 
+                            text-primary text-2xl md:text-3xl"></i>
+                        </div>
+
+                        <!-- Text -->
+                        <div class="grow flex flex-col">
+                            <h3 class="font-bold text-sm md:text-lg lg:text-xl group-hover:underline mb-0">
+                                Motorrad
+                            </h3>
+
+                            <div class="font-semibold text-sm md:text-md lg:text-lg
+                            text-gray-600 dark:text-gray-400 group-hover:text-gray-500
+                            transition duration-300">
+                                Meine Motorräder mit allen wichtigen Informationen hier an einem Ort!
+                            </div>
+                        </div>
+
+                        <!-- Chevron -->
+                        <i class="fa-solid fa-chevron-right my-auto pr-2 text-gray-600 dark:text-gray-400 group-hover:text-gray-500 transition duration-300 md:group-hover:translate-x-2 ml-3 hidden md:block"></i>
                     </NuxtLink>
                 </div>
             </div>

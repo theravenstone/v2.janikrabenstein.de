@@ -3,7 +3,7 @@
     <div class="flex flex-wrap flex-row items-center">
       <NuxtLink to="/" class="flex title-font font-medium items-center md:mb-0">
         <img src="@/assets/logo.png" alt="Janik Rabenstein Logo" class="inline-block mr-3 w-12 h-12">
-        <span class="font-bold ml-3 text-2xl hidden sm:block">Janik Rabenstein</span>
+        <span class="font-bold ml-3 text-2xl hidden sm:block font-nexabold">Janik Rabenstein</span>
       </NuxtLink>
 
       <nav id="menu"
@@ -43,7 +43,7 @@
         </span>
 
         <span
-          class="flex w-full items-center px-4 border-b-2 border-gray-300 dark:border-gray-800 font-mono mt-6 text-primary">Seiten</span>
+          class="flex w-full items-center px-4 border-b-2 border-gray-300 dark:border-gray-800 mt-6 preheader">Seiten</span>
         <NuxtLink to="/" @click="isOpen = false" class="flex items-center p-4 hover:bg-primary hover:text-white">
           <i class="fa-solid fa-house-chimney mr-2"></i>
           <span>Startseite</span>
@@ -59,15 +59,15 @@
         
 
         <span
-          class="flex w-full items-center px-4 border-b-2 border-gray-300 dark:border-gray-800 font-mono mt-6 text-primary">Theme</span>
+          class="flex w-full items-center px-4 border-b-2 border-gray-300 dark:border-gray-800 mt-6 preheader">Theme</span>
         <DarkModeSwitch />
 
         
 
 
         <span
-          class="flex w-full items-center px-4 border-b-2 border-gray-300 dark:border-gray-800 font-mono mt-6 text-primary">Rechtliches</span>
-         <NuxtLink to="/imprint" @click="isOpen = false" class="flex items-center p-4 hover:bg-primary hover:text-white">
+          class="flex w-full items-center px-4 border-b-2 border-gray-300 dark:border-gray-800 mt-6 preheader">Rechtliches</span>
+         <NuxtLink to="/impressum" @click="isOpen = false" class="flex items-center p-4 hover:bg-primary hover:text-white">
           <i class="fa-solid fa-scale-balanced mr-2"></i>
           <span>Impressum</span>
         </NuxtLink>

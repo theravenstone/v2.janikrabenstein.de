@@ -11,8 +11,8 @@ module.exports = {
     theme: {
         extend: {
             colors: {
-                primary: '#a55eea',
-                'primary-hover': '#8854d0',
+                primary: '#0ea5e9',
+                'primary-hover': '#0369a1',
             },
             keyframes: {
                 wiggle: {
@@ -30,7 +30,10 @@ module.exports = {
                 wiggle: 'wiggle 1s ease-in-out infinite',
                 rotate360: 'rotate360 40s infinite linear',
                 movecircle: 'movecircle 10s cubic-bezier(0.4, 0, 0.2, 1) infinite;'
-            }
+            },
+            fontFamily: {
+                'nexabold': ['NexaBold'],
+            },
         },
     },
     plugins: [],

@@ -17,7 +17,7 @@
       </Head>
       <p class="text-gray-600 dark:text-gray-400">
         <i class="fa-solid fa-rocket-launch text-primary mr-2"></i> Veröffentlicht {{
-        fromNow(Date.parse(post.attributes.publishedAt)) }} von Janik Rabenstein
+        fromNow(Date.parse(post.attributes.publishedAt)) }} <span class="hidden sm:inline">von Janik Rabenstein</span>
       </p>
       <img v-if="post.attributes.thumbnail.data" class="object-cover w-full rounded-lg h-96 mb-6"
         :src="'http://localhost:3000' + post.attributes.thumbnail.data.attributes.formats.large.url"

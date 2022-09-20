@@ -13,7 +13,7 @@
                 </svg>
               </div>
               <div class="flex flex-col items-center text-center justify-center">
-                <h2 class="font-medium title-font mt-4 text-lg">Janik Rabenstein</h2>
+                <p class="font-medium title-font mt-4 text-lg">Janik Rabenstein</p>
                 <div class="w-12 h-1 bg-primary rounded mt-2 mb-4"></div>
                 <p class="text-base text-slate-600 dark:text-slate-400">{{ age }} Jahre jung.<br />Aufgewachsen im
                   Fichtelgebirge.<br /></p>

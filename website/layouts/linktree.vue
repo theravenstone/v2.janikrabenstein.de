@@ -16,6 +16,9 @@ useHead({
   title: `${route.meta.title} · Janik Rabenstein`,
   viewport: 'width=device-width, initial-scale=1, maximum-scale=1',
   charset: 'utf-8',
+  htmlAttrs: {
+      lang: 'de',
+    },
   meta: [
     { name: 'og:title', content: `${route.meta.title} · Janik Rabenstein` },
     { name: 'twitter:title', content: `${route.meta.title} · Janik Rabenstein` },
@@ -30,6 +33,7 @@ useHead({
     { name: 'og:site_name', content: 'Janik Rabenstein' },
     { name: 'og:image', content: '/logo.png' },
     { name: 'theme-color', content: '#41b883' },
+    { name: 'viewport', content: 'width=device-width, initial-scale=1.0' },
   ],
   link: [
      { rel: 'icon', href: '/favicon.ico'}

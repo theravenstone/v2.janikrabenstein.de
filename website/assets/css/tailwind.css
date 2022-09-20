@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+    font-family: 'NexaBold';
+    src:url('~/assets/font/NexaBold/NexaBold.ttf.woff') format('woff'),
+        url('~/assets/font/NexaBold/NexaBold.ttf.svg#NexaBold') format('svg'),
+        url('~/assets/font/NexaBold/NexaBold.ttf.eot'),
+        url('~/assets/font/NexaBold/NexaBold.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
 ::selection {
   @apply bg-primary text-white;
 }
@@ -14,19 +24,19 @@ body{
 }
 
 .preheader{
-  @apply font-medium text-xs text-primary uppercase mb-3
+  @apply text-primary mb-0 font-bold uppercase font-mono
 }
 h1{
-  @apply font-bold text-5xl mb-6;
+  @apply font-bold text-5xl mb-6 font-nexabold;
 }
 h2{
-  @apply font-bold text-3xl mb-3;
+  @apply font-bold text-3xl mb-3 font-nexabold;
 }
 h3{
-  @apply font-bold text-2xl mb-3;
+  @apply font-bold text-2xl mb-3 font-nexabold;
 }
 h4{
-  @apply font-bold text-xl mb-3;
+  @apply font-bold text-xl mb-3 font-nexabold;
 }
 
 p{
@@ -36,3 +46,5 @@ p{
 hr{
   @apply my-6;
 }
+
+

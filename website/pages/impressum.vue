@@ -1,8 +1,13 @@
 <template>
     <div class="container mx-auto p-6 mb-6">
         <h1>
-            Impressum.
+            Impressum<span class="text-primary">.</span>
         </h1>
+        <div class="mb-6">
+          <span class="inline-block w-40 h-1 mx-1 bg-primary rounded-full"></span>
+          <span class="inline-block w-5 h-1 mx-1 bg-primary rounded-full"></span>
+          <span class="inline-block w-1 h-1 mx-1 bg-primary rounded-full"></span>
+        </div>
         <p>
             Angaben gemäß § 5 TMG
         </p>
