@@ -18,7 +18,7 @@
             <span class="inline-block w-5 h-1 mx-1 bg-primary rounded-full"></span>
             <span class="inline-block w-1 h-1 mx-1 bg-primary rounded-full"></span>
           </div>
-          <p v-if="motorcycle.attributes.description">{{ motorcycle.attributes.description }}</p>
+          <p v-if="motorcycle.attributes.description" class="text-gray-600 dark:text-gray-400">{{ motorcycle.attributes.description }}</p>
           <ul class="text-xl">
             <li v-if="motorcycle.attributes.ccm"><i class="fa-solid fa-bolt text-primary mr-3"></i>{{
             motorcycle.attributes.ccm

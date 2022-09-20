@@ -2,9 +2,10 @@
   <section class="container mx-auto p-6 mb-6">
     <div v-if="post">
 
-      <div class="mb-6">
+      <div class="md:w-4/5 mx-auto">
+        <div class="mb-6">
         <NuxtLink v-for="tag in post.attributes.tags.data" :key="tag" :to="'/blog/tags/' + tag.attributes.url_slug"
-          class="px-3 py-1 text-xs font-medium text-gray-100 transition-colors duration-300 transform bg-primary rounded-full cursor-pointer hover:bg-primary-hover mr-2">
+          class="px-3 py-1 text-xs font-bold text-gray-100 transition-colors duration-300 transform bg-primary-hover rounded-full cursor-pointer hover:bg-primary mr-2 font-mono">
 
           {{tag.attributes.name}}
 
@@ -19,10 +20,11 @@
         <i class="fa-solid fa-rocket-launch text-primary mr-2"></i> Veröffentlicht {{
         fromNow(Date.parse(post.attributes.publishedAt)) }} <span class="hidden sm:inline">von Janik Rabenstein</span>
       </p>
+      </div>
       <img v-if="post.attributes.thumbnail.data" class="object-cover w-full rounded-lg h-96 mb-6"
         :src="'http://localhost:3000' + post.attributes.thumbnail.data.attributes.formats.large.url"
         :alt="post.attributes.thumbnail.data.attributes.alternativeText">
-      <div v-html="post.attributes.content"></div>
+      <div v-html="post.attributes.content" class="md:w-4/5 mx-auto"></div>
 
 
     </div>
