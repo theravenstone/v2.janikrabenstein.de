@@ -113,7 +113,6 @@ export default {
             this.initSlider();
         }
         catch (e){
-            console.log(e)
         }
     }
 }
