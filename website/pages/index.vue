@@ -2,6 +2,7 @@
   <div class="">
     <Hero/>
     <AboutMe/>
+    <IconSlider/>
   </div>
 </template>
 

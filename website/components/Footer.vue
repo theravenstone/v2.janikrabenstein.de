@@ -44,7 +44,7 @@
                 </div>
             </div>
             <div class="flex flex-col-reverse items-center justify-between my-12 text-center sm:flex-row">
-                <p class="text-sm mb-0"> © 2021 - {{ currentYear }} Alle Rechte vorbehalten </p>
+                <p class="text-sm mb-0"> © 2021 - {{ currentYear }} Alle Rechte vorbehalten</p>
                 <div class="flex space-x-2 mb-6 sm:mb-0">
                     <a rel="noopener noreferrer" href="mailto:janik.rabenstein@gmail.com" title="Email"
                         class="flex items-center justify-center w-10 h-10 rounded-full bg-primary hover:bg-primary-hover text-white transition duration-300">

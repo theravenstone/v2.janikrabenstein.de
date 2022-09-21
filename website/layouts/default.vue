@@ -1,5 +1,6 @@
 <template>
   <div class="bg-white text-gray-900 dark:bg-gray-900 dark:text-white">
+    <PageLoader/>
     <Header />
     <div class="mt-24">
      <slot />

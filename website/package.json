@@ -11,9 +11,11 @@
         "@nuxtjs/fontawesome": "^1.1.2",
         "@nuxtjs/tailwindcss": "^5.3.2",
         "autoprefixer": "^10.4.8",
-        "nuxt": "^3.0.0-rc.10",
+        "nuxt": "^3.0.0-rc.11",
         "postcss": "^8.4.16",
         "tailwindcss": "^3.1.8"
     },
-    "dependencies": {}
+    "dependencies": {
+        "@nuxt/vite-builder": "^3.0.0-rc.11"
+    }
 }

@@ -10,7 +10,8 @@ export default {
 
 }
 import '~/assets/js/fontawesome.js';
-
+import '~/assets/js/splide-extension-auto-scroll.js';
+import '~/assets/css/splide.css';
 
 </script>
 

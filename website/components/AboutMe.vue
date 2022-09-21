@@ -21,7 +21,8 @@
             </div>
             <div
               class="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l-2 border-slate-300 dark:border-slate-700 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left transition duration-300">
-              <h2 class="font-bold text-4xl mb-5">Über Mich</h2>
+              <span class="preheader">Über Mich</span>
+              <h2>Das ist meine Geschichte<span class="text-primary">.</span></h2>
               <p class="leading-relaxed text-lg mb-3">Ich habe mit 14 Jahren das Programmieren angefangen. Damals waren
                 es noch Chat-Bots für <a class="text-primary hover:text-primary-hover transition duration-300"
                   rel="noopener" target="_blank" href="https://discord.com">Discord</a>, später habe ich eine Richtung
@@ -40,6 +41,7 @@
       </div>
     </div>
   </section>
+
 </template>
 
 <script>
@@ -68,4 +70,5 @@ export default {
 </script>
 
 <style>
+
 </style>
