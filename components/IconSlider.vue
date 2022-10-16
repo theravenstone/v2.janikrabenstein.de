@@ -71,6 +71,42 @@
                             <span class="block text-primary text-center">Slack</span>
                         </div>
                     </li>
+                    <li class="splide__slide flex place-content-center items-center">
+                        <div>
+                            <i class="fa-brands fa-wordpress h-24 w-24"></i>
+                            <span class="block text-primary text-center">Wordpress</span>
+                        </div>
+                    </li>
+                    <li class="splide__slide flex place-content-center items-center">
+                        <div>
+                            <i class="fa-brands fa-stack-overflow h-24 w-24"></i>
+                            <span class="block text-primary text-center">Stack Overflow</span>
+                        </div>
+                    </li>
+                    <li class="splide__slide flex place-content-center items-center">
+                        <div>
+                            <i class="fa-brands fa-node h-24 w-24"></i>
+                            <span class="block text-primary text-center">Node.js</span>
+                        </div>
+                    </li>
+                    <li class="splide__slide flex place-content-center items-center">
+                        <div>
+                            <i class="fa-brands fa-symfony h-24 w-24"></i>
+                            <span class="block text-primary text-center">Symfony</span>
+                        </div>
+                    </li>
+                    <li class="splide__slide flex place-content-center items-center">
+                        <div>
+                            <i class="fa-brands fa-npm h-24 w-24"></i>
+                            <span class="block text-primary text-center">NPM</span>
+                        </div>
+                    </li>
+                    <li class="splide__slide flex place-content-center items-center">
+                        <div>
+                            <i class="fa-brands fa-chrome h-24 w-24"></i>
+                            <span class="block text-primary text-center">Chrome</span>
+                        </div>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -86,7 +122,7 @@ export default {
             drag: 'free',
             gap: '1rem',
             perPage: 6,
-            autoplay: true,
+            autoplay: false,
             pagination: false,
             arrows: false,
             breakpoints: {

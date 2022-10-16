@@ -5,8 +5,9 @@
         <span class="text-primary">Janik Rabenstein</span>.
       </h1>
 
-      <p class="font-mono font-bold text-xl">Entwickler aus dem Landkreis Bayreuth <span
+      <p class="font-mono text-xl">Entwickler aus dem Landkreis Bayreuth <span
           class="animate-wiggle inline-block"><i class="fa-solid fa-code text-primary"></i></span></p>
+
     </div>
     <div class="hidden lg:block">
       <i id="triangle" class="fa-brands fa-js-square text-primary absolute w-24 h-24"></i>
@@ -27,7 +28,7 @@
 </template>
 <script>
 export default {
-
+  
 }
 </script>
 
