@@ -8,15 +8,15 @@
 
       <nav id="menu"
         class="hidden md:ml-4 md:py-1 md:pl-4 md:border-l-2 md:border-gray-300 md:dark:border-gray-800 md:flex flex-wrap items-center text-base justify-center">
-        <NuxtLink to="/" class="mr-5 hover:text-gray-900 dark:hover:text-white text-gray-600 dark:text-gray-400 font-mono font-bold">
+        <NuxtLink to="/" class="mr-5 hover:text-gray-900 dark:hover:text-white text-gray-600 dark:text-gray-400">
           Startseite
         </NuxtLink>
         <NuxtLink to="/blog"
-          class="mr-5 hover:text-gray-900 dark:hover:text-white text-gray-600 dark:text-gray-400 font-mono font-bold">
+          class="mr-5 hover:text-gray-900 dark:hover:text-white text-gray-600 dark:text-gray-400">
           Blog
         </NuxtLink>
         <NuxtLink to="/motorrad"
-          class="mr-5 hover:text-gray-900 dark:hover:text-white text-gray-600 dark:text-gray-400 font-mono font-bold">
+          class="mr-5 hover:text-gray-900 dark:hover:text-white text-gray-600 dark:text-gray-400">
           Motorrad
         </NuxtLink>
       </nav>

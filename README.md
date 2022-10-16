@@ -1,47 +1,47 @@
-# janikrabenstein.de
-Die neue Website mit Strapi, Nuxt und Tailwind
+# Nuxt 3 Minimal Starter
 
-## Build with
-- Strapi
-- Nuxt3
-- Tailwindcss
-- Splidejs
+Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
 
+## Upgrade Nuxt
+```bash
+npx nuxi upgrade
+```
 
-## Seitenbaum
+## Setup
 
-### Startseite  
-/
+Make sure to install the dependencies:
 
-### Blog  
-/blog  
-- Alle Beiträge anzeigen + Filter für Tags
-/blog/tags  
-- Alle Tags ausgeben
-/blog/tags/{tag}  
-- Alle Beiträge für diesen Tag anzeigen
-/blog/posts/{post}
-- Post anzeigen
+```bash
+# yarn
+yarn install
 
-### Motorrad  
-/motorrad  
-- Übersicht aller Motorräder anzeigen
+# npm
+npm install
 
-/motorrad/{motorcycle}
-- Detailseite mit Daten übers Motorrad
-- Bildergalerie
-- Anbauteile Liste
+# pnpm
+pnpm install --shamefully-hoist
+```
 
-### Linktree  
-/linktree
+## Development Server
 
-### Impressum  
-/imprint
+Start the development server on http://localhost:3000
 
-### 404 Not Found  
-/404  
-/notfound
+```bash
+npm run dev
+```
 
-### Spiele  
-/games  
-/games/{game}
+## Production
+
+Build the application for production:
+
+```bash
+npm run build
+```
+
+Locally preview production build:
+
+```bash
+npm run preview
+```
+
+Checkout the [deployment documentation](https://v3.nuxtjs.org/guide/deploy/presets) for more information.
