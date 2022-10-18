@@ -6,7 +6,7 @@
                 <div
                     class="overflow-hidden bg-gray-200 rounded-lg dark:bg-gray-800 lg:hover:-translate-y-4 transition duration-300">
                     <img class="object-cover w-full h-64"
-                        :src="'http://localhost:3000' + motorcycle.attributes.thumbnail.data.attributes.formats.medium.url"
+                        :src="'http://localhost:2345' + motorcycle.attributes.thumbnail.data.attributes.formats.medium.url"
                         :alt="motorcycle.attributes.thumbnail.data.attributes.alternativeText">
 
                     <div class="p-6">
@@ -44,7 +44,7 @@ export default {
         };
     },
     mounted() {
-        fetch("http://localhost:3000/api/motorcycles?populate=thumbnail")
+        fetch("http://localhost:2345/api/motorcycles?populate=thumbnail")
             .then((res) => res.json())
             .then((data) => (this.motorcycles = data['data']))
             .catch((error) => console.log(error.message));

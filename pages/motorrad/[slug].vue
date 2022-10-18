@@ -5,7 +5,7 @@
 
         
           <img class="rounded object-cover w-full"
-            :src="'http://localhost:3000' + motorcycle.attributes.thumbnail.data.attributes.formats.small.url"
+            :src="'http://localhost:2345' + motorcycle.attributes.thumbnail.data.attributes.formats.small.url"
             :alt="motorcycle.attributes.thumbnail.data.attributes.alternativeText">
         
         <div>
@@ -45,7 +45,7 @@
           <div v-for="tuning_parts in motorcycle.attributes.tuning_parts" :key="tuning_parts.id">
             <div class="overflow-hidden bg-gray-200 rounded-lg dark:bg-gray-800">
               <img v-if="tuning_parts.image" class="object-cover w-full h-64"
-                :src="'http://localhost:3000' + tuning_parts" alt="Article">
+                :src="'http://localhost:2345' + tuning_parts" alt="Article">
 
               <div class="p-6">
 
@@ -74,7 +74,7 @@
         </div>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
           <div v-for="image in motorcycle.attributes.image.data" :key="image">
-            <img class="rounded w-full" :src="'http://localhost:3000' + image.attributes.formats.small.url"
+            <img class="rounded w-full" :src="'http://localhost:2345' + image.attributes.formats.small.url"
               :alt="image.attributes.alternativeText">
 
           </div>
@@ -97,7 +97,7 @@ export default {
   },
   mounted() {
     const route = useRoute()
-    fetch(`http://localhost:3000/api/motorcycles?filters[url_slug][$eq]=${route.params.slug}&populate=*`)
+    fetch(`http://localhost:2345/api/motorcycles?filters[url_slug][$eq]=${route.params.slug}&populate=*`)
       .then((res) => res.json())
       .then((data) => (this.motorcycle = data['data'][0]))
       .then((data) => (this.$route.meta.title = data.attributes.name))

@@ -4,13 +4,13 @@
 
       <div class="md:w-4/5 mx-auto">
         <div class="mb-6">
-        <NuxtLink v-for="tag in post.attributes.tags.data" :key="tag" :to="'/blog/tags/' + tag.attributes.url_slug"
-          class="px-3 py-1 text-xs font-bold text-gray-100 transition-colors duration-300 transform bg-primary-hover rounded-full cursor-pointer hover:bg-primary mr-2 font-mono">
+          <NuxtLink v-for="tag in post.attributes.tags.data" :key="tag" :to="'/blog/tags/' + tag.attributes.url_slug"
+            class="px-3 py-1 text-xs font-bold text-gray-100 transition-colors duration-300 transform bg-primary-hover rounded-full cursor-pointer hover:bg-primary mr-2 font-mono">
 
-          {{tag.attributes.name}}
+            {{tag.attributes.name}}
 
-        </NuxtLink>
-      </div>
+          </NuxtLink>
+        </div>
       <h1>{{ post.attributes.title }}</h1>
 
       <Head>
@@ -22,7 +22,7 @@
       </p>
       </div>
       <img v-if="post.attributes.thumbnail.data" class="object-cover w-full rounded-lg h-96 mb-6"
-        :src="'http://localhost:3000' + post.attributes.thumbnail.data.attributes.formats.large.url"
+        :src="'http://localhost:2345' + post.attributes.thumbnail.data.attributes.formats.large.url"
         :alt="post.attributes.thumbnail.data.attributes.alternativeText">
       <div v-html="post.attributes.content" class="md:w-4/5 mx-auto"></div>
 
@@ -44,10 +44,11 @@ export default {
   },
   mounted() {
     const route = useRoute()
-    fetch(`http://localhost:3000/api/posts?filters[url_slug][$eq]=${route.params.slug}&populate=*`)
+    fetch(`http://localhost:2345/api/posts?filters[url_slug][$eq]=${route.params.slug}&populate=*`)
       .then((res) => res.json())
       .then((data) => (this.post = data['data'][0]))
       .then((data) => (this.$route.meta.title = data.attributes.title))
+      .then((data) => (this.$route.meta.description = data.attributes.teaser))
       .catch((error) => console.log(error.message));
   },
   methods: {

@@ -34,7 +34,14 @@ export default {
 
                         crumb.active = true
                     } else {
-                        crumb.path = `/` + item
+                        if (crumbs){
+                            var beforepath = ''
+                            for (let u = 0; u < crumbs.length; u++) {
+                                beforepath += crumbs[u].path;
+                            }
+
+                        }
+                        crumb.path = beforepath + `/` + item
                         crumb.name = item.charAt(0).toUpperCase() + item.slice(1)
                     }
                     if (!crumbs.includes(crumb)) {

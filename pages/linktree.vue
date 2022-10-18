@@ -34,7 +34,7 @@ export default {
     };
   },
   mounted() {
-    fetch(`http://localhost:3000/api/linktree?populate=*`)
+    fetch(`http://localhost:2345/api/linktree?populate=*`)
       .then((res) => res.json())
       .then((data) => (this.links = data['data']))
       .then((data) => (this.$route.meta.title = data.attributes.name))

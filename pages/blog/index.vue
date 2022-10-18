@@ -9,11 +9,11 @@
       </div>
 
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        <NuxtLink :to="'/blog/' + post.attributes.url_slug" v-for="post in posts" :key="post + 'featured'" class="group">
+        <NuxtLink :to="'/blog/' + post.attributes.url_slug" v-for="post in posts" :key="post" class="group">
 
           <div class="overflow-hidden bg-gray-200 rounded-lg dark:bg-gray-800 h-full lg:hover:-translate-y-4 transition duration-300 relative flex flex-col flex-auto">
             <img v-if="post.attributes.thumbnail.data" class="object-cover w-full h-48"
-              :src="'http://localhost:3000' + post.attributes.thumbnail.data.attributes.formats.medium.url"
+              :src="'http://localhost:2345' + post.attributes.thumbnail.data.attributes.formats.medium.url"
               :alt="post.attributes.thumbnail.data.attributes.alternativeText">
 
             <div class="p-6 h-full flex flex-col flex-auto">
@@ -68,7 +68,7 @@ export default {
   },
   mounted() {
     const route = useRoute()
-    fetch(`http://localhost:3000/api/posts?populate=*`)
+    fetch(`http://localhost:2345/api/posts?populate=*`)
       .then((res) => res.json())
       .then((data) => (this.posts = data['data']))
       .catch((error) => console.log(error.message));

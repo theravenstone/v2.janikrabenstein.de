@@ -21,7 +21,7 @@ export default {
     },
     mounted() {
         const route = useRoute()
-        fetch(`http://localhost:3000/api/tags?populate=*`)
+        fetch(`http://localhost:2345/api/tags?populate=*`)
             .then((res) => res.json())
             .then((data) => (this.tags = data['data']))
             .catch((error) => console.log(error.message));
