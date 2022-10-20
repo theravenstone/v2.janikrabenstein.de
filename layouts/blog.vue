@@ -13,7 +13,6 @@
                 </div>
                 <p v-if="$route.meta.description" class="text-gray-500 dark:text-gray-300">{{ $route.meta.description }}
                 </p>
-                <Tags/>
             </div>
         </div>
         <Breadcrumb />

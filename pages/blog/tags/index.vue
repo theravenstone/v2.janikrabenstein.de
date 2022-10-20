@@ -1,6 +1,6 @@
 <template>
     <section class="container mx-auto p-6 mb-6">
-      <div v-if="tags[0]">        
+      <div v-if="tags">        
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           <NuxtLink :to="'/blog/tags/' + tag.attributes.url_slug" v-for="tag in tags" :key="tag" class="group border-2 border-primary bg-primary/10 hover:bg-primary/20 p-6 rounded-lg">
             <h2>#{{ tag.attributes.name }}</h2>

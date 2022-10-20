@@ -15,6 +15,10 @@
           class="mr-5 hover:text-gray-900 dark:hover:text-white text-gray-600 dark:text-gray-400">
           Blog
         </NuxtLink>
+        <NuxtLink to="/blog/tags"
+          class="mr-5 hover:text-gray-900 dark:hover:text-white text-gray-600 dark:text-gray-400">
+          Tags
+        </NuxtLink>
         <NuxtLink to="/motorrad"
           class="mr-5 hover:text-gray-900 dark:hover:text-white text-gray-600 dark:text-gray-400">
           Motorrad
