@@ -56,6 +56,10 @@
           <i class="fa-solid fa-books mr-2"></i>
           <span>Blog</span>
         </NuxtLink>
+        <NuxtLink to="/blog/tags" @click="isOpen = false" class="flex items-center p-4 hover:bg-primary hover:text-white">
+          <i class="fa-solid fa-hashtag mr-2"></i>
+          <span>Tags</span>
+        </NuxtLink>
         <NuxtLink to="/motorrad" @click="isOpen = false" class="flex items-center p-4 hover:bg-primary hover:text-white">
           <i class="fa-solid fa-motorcycle mr-2"></i>
           <span>Motorrad</span>

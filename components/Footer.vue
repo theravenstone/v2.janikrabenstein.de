@@ -10,16 +10,12 @@
                     <p class="text-center md:max-w-sm md:text-left font-mono">Entwickler aus dem Landkreis Bayreuth
                         <span class="animate-wiggle inline-block"><i class="fa-solid fa-code text-primary"></i></span></p>
                 </div>
-                <div class="flex flex-wrap justify-center lg:space-x-8">
-                    <div class="p-6 md:py-0">
+                <div class="grid grid-cols-1 sm:grid-cols-3 gap-6 text-center sm:text-left">
+                    <div class="px-6 md:py-0">
                         <p class="text-lg font-medium font-nexabold">Quick links</p>
                         <ul class="space-y-1">
                             <li>
                                 <NuxtLink to="/" class="hover:text-primary transition duration-300">Startseite
-                                </NuxtLink>
-                            </li>
-                            <li>
-                                <NuxtLink to="/blog" class="hover:text-primary transition duration-300">Blog
                                 </NuxtLink>
                             </li>
                             <li>
@@ -32,7 +28,20 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="p-6 md:py-0 md:pr-0">
+                    <div class="px-6 md:py-0">
+                        <p class="text-lg font-medium font-nexabold">Blog</p>
+                        <ul class="space-y-1">
+                            <li>
+                                <NuxtLink to="/blog" class="hover:text-primary transition duration-300">Beiträge
+                                </NuxtLink>
+                            </li>
+                            <li>
+                                <NuxtLink to="/blog/tags" class="hover:text-primary transition duration-300">Tags
+                                </NuxtLink>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="px-6 md:py-0 md:pr-0">
                         <p class="text-lg font-medium font-nexabold">Rechtliches</p>
                         <ul class="space-y-1">
                             <li>
