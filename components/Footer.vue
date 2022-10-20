@@ -1,5 +1,5 @@
 <template>
-    <footer class="border-t-2 border-gray-300 dark:border-gray-800 transition duration-300">
+    <footer class="border-t-4 border-primary transition duration-300">
         <div class="container mx-auto p-6 space-y-6">
             <div class="my-12 space-y-8 md:flex md:justify-between md:space-y-0">
                 <div class="flex flex-col my-6 space-y-6 md:m-0">

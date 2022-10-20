@@ -3,6 +3,8 @@
     <Hero/>
     <AboutMe/>
     <IconSlider/>
+    <MotorcycleCallToAction/>
+    <LatestPosts/>
   </div>
 </template>
 

@@ -5,7 +5,7 @@
       <div class="md:w-4/5 mx-auto">
         <div class="mb-6">
           <NuxtLink v-for="tag in post.attributes.tags.data" :key="tag" :to="'/blog/tags/' + tag.attributes.url_slug"
-            class="px-3 py-1 text-xs font-bold text-gray-100 transition-colors duration-300 transform bg-primary-hover rounded-full cursor-pointer hover:bg-primary mr-2 font-mono">
+            class="px-3 py-1 text-xs font-bold text-gray-100 transition-colors duration-300 transform border-2 border-primary bg-primary/10 rounded-full cursor-pointer hover:bg-primary mr-2 font-mono">
 
             {{tag.attributes.name}}
 

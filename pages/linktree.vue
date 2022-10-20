@@ -11,7 +11,7 @@
               <h1>Linktree</h1>
 
               <a v-for="link in links.attributes.linktree" :key="link" :href="link.url" target="_blank"
-                rel="noopener noreferrer" class="group bg-slate-300 dark:bg-slate-700 hover:bg-primary dark:hover:bg-primary w-full block p-4 rounded-lg mb-3 text-lg font-medium">
+                rel="noopener noreferrer" class="group bg-gray-300 dark:bg-gray-700 hover:bg-primary dark:hover:bg-primary w-full block p-4 rounded-lg mb-3 text-lg font-medium">
                 <i class="w-6 mr-4 text-primary group-hover:text-white" :class="link.fontawesome"></i><span>{{link.name}}</span>
               </a>
             </div>

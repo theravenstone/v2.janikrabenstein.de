@@ -1,6 +1,7 @@
 <template>
-  <section class="container mx-auto p-6 mb-6">
+  <section class="container mx-auto p-6 mb-12">
     <div v-if="posts">
+      <span class="preheader">Blog</span>
       <h2>Letzte Beiträge</h2>
       <div class="mb-6">
         <span class="inline-block w-40 h-1 mx-1 bg-primary rounded-full"></span>
@@ -8,7 +9,7 @@
         <span class="inline-block w-1 h-1 mx-1 bg-primary rounded-full"></span>
       </div>
 
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
         <NuxtLink :to="'/blog/' + post.attributes.url_slug" v-for="post in posts" :key="post" class="group">
 
           <div class="overflow-hidden bg-gray-200 rounded-lg dark:bg-gray-800 h-full lg:hover:-translate-y-4 transition duration-300 relative flex flex-col flex-auto">
@@ -68,7 +69,7 @@ export default {
   },
   mounted() {
     const route = useRoute()
-    fetch(`http://localhost:2345/api/posts?populate=*&sort[0]=publishedAt%3Adesc`)
+    fetch(`http://localhost:2345/api/posts?populate=*&pagination[limit]=3&sort[0]=publishedAt%3Adesc`)
       .then((res) => res.json())
       .then((data) => (this.posts = data['data']))
       .catch((error) => console.log(error.message));
