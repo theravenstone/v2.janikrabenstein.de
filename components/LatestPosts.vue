@@ -1,6 +1,5 @@
 <template>
-  <section v-if="posts" class="container mx-auto p-6 mb-12">
-
+  <XContainer v-if="posts">
     <span class="preheader">Blog</span>
     <h2>Letzte Beiträge</h2>
     <div class="mb-6">
@@ -49,7 +48,7 @@
         </div>
       </NuxtLink>
     </div>
-  </section>
+  </XContainer>
 </template>
 
 <script>

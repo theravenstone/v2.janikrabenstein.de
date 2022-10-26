@@ -1,5 +1,5 @@
 <template>
-    <section class="container mx-auto p-6 mb-12">
+    <XContainer>
         <span class="preheader">Richtig gutes zeug</span>
         <h2>Damit arbeite ich täglich<span class="text-primary">.</span></h2>
         <div class="mb-6">
@@ -110,7 +110,7 @@
                 </ul>
             </div>
         </div>
-    </section>
+    </XContainer>
 </template>
 
 <script>

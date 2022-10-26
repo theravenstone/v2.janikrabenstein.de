@@ -1,5 +1,5 @@
 <template>
-    <section class="container mx-auto p-6 mb-12">
+    <XContainer>
         <span class="preheader">Coding</span>
         <h2>Meine Skills<span class="text-primary">.</span></h2>
         <div class="mb-6">
@@ -180,8 +180,7 @@
                 </nav>
             </div>
         </div>
-
-    </section>
+    </XContainer>
 </template>
 <script>
 export default {
