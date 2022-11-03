@@ -1,10 +1,12 @@
 <template>
-    <hr class="container mx-auto border-2 border-primary rounded-full" />
-    <section class="container mx-auto p-6">
+    <div class="container mx-auto">
+        <div class="mx-6 md:mx-24 border-2 border-primary sm:rounded-full"></div>
+    </div>
+    <section class="container mx-auto p-6 md:px-24">
         <div class="my-12 md:flex md:justify-between">
-            <div class="">
+            <div class="mb-12 md:mb-0">
                 <NuxtLink to="/" class="flex justify-center md:justify-start mb-6">
-                    <img src="@/assets/logo.png" alt="Janik Rabenstein Logo" width="50" height="50" class="mr-3">
+                    <img src="@/assets/logo.png" alt="Janik Rabenstein Logo" width="50" height="50" class="mr-3 object-contain">
                     <span class="self-center text-2xl font-bold font-nexabold">Janik Rabenstein</span>
                 </NuxtLink>
                 <p class="text-center md:max-w-sm md:text-left font-mono">Entwickler aus dem Landkreis Bayreuth

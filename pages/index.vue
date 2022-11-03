@@ -5,6 +5,7 @@
     <IconSlider/>
     <MotorcycleCallToAction/>
     <LatestPosts/>
+    <Contact/>
   </div>
 </template>
 

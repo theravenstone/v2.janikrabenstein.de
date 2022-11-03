@@ -1,14 +1,14 @@
 <template>
   <XContainer v-if="posts">
     <span class="preheader">Blog</span>
-    <h2>Letzte Beiträge</h2>
+    <h2>Letzte Beiträge<span class="text-primary">.</span></h2>
     <div class="mb-6">
       <span class="inline-block w-40 h-1 mx-1 bg-primary rounded-full"></span>
       <span class="inline-block w-5 h-1 mx-1 bg-primary rounded-full"></span>
       <span class="inline-block w-1 h-1 mx-1 bg-primary rounded-full"></span>
     </div>
 
-    <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+    <div class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6">
       <NuxtLink :to="'/blog/' + post.attributes.url_slug" v-for="post in posts" :key="post" class="group">
 
         <div
@@ -40,9 +40,9 @@
                   class="fa-solid fa-chevron-right my-auto ml-2 text-primary group-hover:text-primary-hover transition duration-300 lg:group-hover:translate-x-2"></i>
               </NuxtLink>
 
-              <div class="sm:flex items-center hidden">
-                <span class="text-gray-700 cursor-pointer dark:text-gray-200">Janik Rabenstein</span>
-              </div>
+              <!-- <div class="sm:flex items-center hidden"> -->
+                <!-- <span class="text-gray-700 cursor-pointer dark:text-gray-200">Janik Rabenstein</span> -->
+              <!-- </div> -->
             </div>
           </div>
         </div>

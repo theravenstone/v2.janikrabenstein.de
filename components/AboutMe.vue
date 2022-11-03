@@ -34,23 +34,23 @@
     <!-- beiden Frameworks habe ich in diesem Projekt das erste Mal verwendet.</p> -->
     <!-- </div> -->
     <!-- </div> -->
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
       <div class="flex items-center">
         <div>
           <span class="preheader">Über mich</span>
-          <h2>Das ist meine Geschichte</h2>
+          <h2>Das ist meine Geschichte<span class="text-primary">.</span></h2>
           <div class="mb-6">
             <span class="inline-block w-40 h-1 mx-1 bg-primary rounded-full"></span>
             <span class="inline-block w-5 h-1 mx-1 bg-primary rounded-full"></span>
             <span class="inline-block w-1 h-1 mx-1 bg-primary rounded-full"></span>
           </div>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis, officiis sequi autem consectetur
-            sapiente, veniam accusamus cum reiciendis nam fuga recusandae fugit libero ad, totam error inventore
-            expedita quae facilis?</p>
+          <p>Alles begann als ich 14 war. Ein guter Freund von mir hatte aus Spaß mit dem programmieren von Discord Bots angefangen. Schnell habe ich mich auch dafür begeistern können.</p>
+          <p>Es hat nicht lange gedauert bis ich meine ersten Schritte in der Python Entwicklung gemacht habe und dies zu meinem Hobby wurde. Zwei Jahre später habe ich meine Schule abgeschlossen und eine Ausbildung im Bereich Web-Entwicklung angefangen.</p>
+          <p>Mittlerweile arbeite ich seit über 3 Jahren als Vollzeit Web-Entwickler und habe viel Erfahrung sammeln können.</p>
         </div>
       </div>
       <div class="flex items-center">
-        sd
+        <img src="https://dummyimage.com/600x500/000/fff" alt="">
       </div>
     </div>
   </XContainer75>
