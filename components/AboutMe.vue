@@ -44,9 +44,9 @@
             <span class="inline-block w-5 h-1 mx-1 bg-primary rounded-full"></span>
             <span class="inline-block w-1 h-1 mx-1 bg-primary rounded-full"></span>
           </div>
-          <p>Alles begann als ich 14 war. Ein guter Freund von mir hatte aus Spaß mit dem programmieren von Discord Bots angefangen. Schnell habe ich mich auch dafür begeistern können.</p>
+          <p>Alles begann als ich 14 war. Ein guter Freund von mir hatte aus Spaß mit dem Programmieren von Discord Bots angefangen. Schnell habe ich mich auch dafür begeistern können.</p>
           <p>Es hat nicht lange gedauert bis ich meine ersten Schritte in der Python Entwicklung gemacht habe und dies zu meinem Hobby wurde. Zwei Jahre später habe ich meine Schule abgeschlossen und eine Ausbildung im Bereich Web-Entwicklung angefangen.</p>
-          <p>Mittlerweile arbeite ich seit über 3 Jahren als Vollzeit Web-Entwickler und habe viel Erfahrung gesammelt.</p>
+          <p>Mittlerweile arbeite ich seit über 3 Jahren als Vollzeit Web-Entwickler und habe viele Erfahrungen gesammelt.</p>
         </div>
       </div>
       <div class="flex items-center">
