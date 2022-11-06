@@ -107,6 +107,12 @@
                             <span class="block text-primary text-center">Chrome</span>
                         </div>
                     </li>
+                    <li class="splide__slide flex place-content-center items-center">
+                        <div>
+                            <i class="fa-brands fa-cloudflare h-24 w-24"></i>
+                            <span class="block text-primary text-center">Cloudflare</span>
+                        </div>
+                    </li>
                 </ul>
             </div>
         </div>

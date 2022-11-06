@@ -9,7 +9,8 @@
                 <i class="fa-solid fa-angle-right mx-5"></i>
 
                 <span v-if="item.active">{{ item.name }}</span>
-                <NuxtLink v-else :to="item.path" class="text-primary hover:text-primary-hover">{{ item.name }}</NuxtLink>
+                <NuxtLink v-else :to="item.path" class="text-primary hover:text-primary-hover">{{ item.name }}
+                </NuxtLink>
             </span>
         </div>
     </div>
@@ -23,8 +24,6 @@ export default {
             const crumbs = []
             const routeItems = this.$route.matched[0].path.split('/')
             routeItems.forEach((item, i, { length }) => {
-
-
                 if (i !== 0) {
                     const crumb = {}
                     // is last item?
@@ -34,7 +33,7 @@ export default {
 
                         crumb.active = true
                     } else {
-                        if (crumbs){
+                        if (crumbs) {
                             var beforepath = ''
                             for (let u = 0; u < crumbs.length; u++) {
                                 beforepath += crumbs[u].path;
@@ -48,10 +47,7 @@ export default {
                         crumbs.push(crumb)
                     }
                 }
-
             })
-
-
             return crumbs
         }
     }
@@ -59,4 +55,5 @@ export default {
 </script>
 
 <style>
+
 </style>
