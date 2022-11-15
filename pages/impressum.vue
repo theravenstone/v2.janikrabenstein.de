@@ -1,37 +1,32 @@
 <template>
     <XContainer>
-        <h1>
-            Impressum<span class="text-primary">.</span>
-        </h1>
-        <div class="mb-6">
-          <span class="inline-block w-40 h-1 mx-1 bg-primary rounded-full"></span>
-          <span class="inline-block w-5 h-1 mx-1 bg-primary rounded-full"></span>
-          <span class="inline-block w-1 h-1 mx-1 bg-primary rounded-full"></span>
-        </div>
-        <p>
-            Angaben gemäß § 5 TMG
-        </p>
-        <p>
-            Janik Rabenstein <br />
-            Boxsteig 49<br />
-            95485 Warmensteinach
-        </p>
-        <p>
-            <strong>Vertreten durch: </strong><br />
-            Janik Rabenstein<br />
-        </p>
-        <p class="mb-12">
-            <strong>Kontakt:</strong><br />
-            Telefon: +49 1522 8627482<br />
-            E-Mail:
-            <a class="text-primary hover:text-primary-hover"
-                href="mailto:janik.rabenstein@gmail.com">janik.rabenstein@gmail.com</a><br />
-        </p>
 
-        <h2>Haftungsausschluss: </h2>
-        <h3>Haftung für Inhalte</h3>
-        <p>
-            Die Inhalte unserer Seiten wurden mit größter Sorgfalt erstellt. Für die
+        <h1>Impressum<span class="text-primary">.</span></h1>
+        <div class="mb-6">
+            <span class="inline-block w-40 h-1 mx-1 bg-primary rounded-full"></span>
+            <span class="inline-block w-5 h-1 mx-1 bg-primary rounded-full"></span>
+            <span class="inline-block w-1 h-1 mx-1 bg-primary rounded-full"></span>
+        </div>
+        <p>Angaben gemäß Informationspflicht laut § 5 Telemediengesetz (TMG).</p>
+        <p>Janik Rabenstein</p>
+        <p>Boxsteig 49, <br>95485 Warmensteinach, <br>Deutschland</p>
+        <p><strong>Tel.:</strong> +49 1522 8627482<br><strong>E-Mail:</strong> <a class="text-primary"
+                href="mailto:janik.rabenstein@gmail.com">janik.rabenstein@gmail.com</a></p>
+        <p><strong>Berufsbezeichnung:</strong> Web Developer</p>
+        <h2 id="eu-streitschlichtung">EU-Streitschlichtung</h2>
+        <p>Gemäß Verordnung über Online-Streitbeilegung in Verbraucherangelegenheiten (ODR-Verordnung) möchten wir
+            Sie über die Online-Streitbeilegungsplattform (OS-Plattform) informieren.<br>
+            Verbraucher haben die Möglichkeit, Beschwerden an die Online Streitbeilegungsplattform der Europäischen
+            Kommission unter <a class="text-primary"
+                href="https://ec.europa.eu/consumers/odr/main/index.cfm?event=main.home2.show&amp;lng=DE"
+                target="_blank"
+                rel="noopener noreferrer">https://ec.europa.eu/consumers/odr/main/index.cfm?event=main.home2.show&amp;lng=DE</a>
+            zu richten. Die dafür notwendigen Kontaktdaten finden Sie oberhalb in unserem Impressum.</p>
+        <p>Wir möchten Sie jedoch darauf hinweisen, dass wir nicht bereit oder verpflichtet sind, an
+            Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.</p>
+        <h2 id="haftung-fuer-inhalte-dieser-webseite">Haftung für Inhalte dieser Website
+        </h2>
+        <p>Die Inhalte unserer Seiten wurden mit größter Sorgfalt erstellt. Für die
             Richtigkeit, Vollständigkeit und Aktualität der Inhalte können wir
             jedoch keine Gewähr übernehmen. Als Diensteanbieter sind wir gemäß § 7
             Abs. 1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen
@@ -44,12 +39,9 @@
             Eine diesbezügliche Haftung ist jedoch erst ab dem Zeitpunkt der
             Kenntnis einer konkreten Rechtsverletzung möglich. Bei Bekanntwerden von
             entsprechenden Rechtsverletzungen werden wir diese Inhalte umgehend
-            entfernen.<br /><br />
-        </p>
-
-        <h3>Haftung für Links</h3>
-        <p>
-            Unser Angebot enthält Links zu externen Webseiten Dritter, auf deren
+            entfernen.</p>
+        <h2 id="haftung-links-webseite">Haftung für Links auf dieser Website</h2>
+        <p>Unser Angebot enthält Links zu externen Webseiten Dritter, auf deren
             Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden
             Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten
             Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten
@@ -58,52 +50,18 @@
             waren zum Zeitpunkt der Verlinkung nicht erkennbar. Eine permanente
             inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konkrete
             Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei Bekanntwerden
-            von Rechtsverletzungen werden wir derartige Links umgehend entfernen.<br /><br />
-        </p>
+            von Rechtsverletzungen werden wir derartige Links umgehend entfernen.</p>
+        <h2 id="urheberrechtshinweis">Urheberrechtshinweis</h2>
+        <p>Alle Inhalte dieser Webseite (Bilder, Fotos, Texte, Videos) unterliegen dem Urheberrecht. Bitte fragen
+            Sie uns bevor Sie die Inhalte dieser Website verbreiten, vervielfältigen oder verwerten wie zum Beispiel
+            auf anderen Websites erneut veröffentlichen. Falls notwendig, werden wir die unerlaubte Nutzung von
+            Teilen der Inhalte unserer Seite rechtlich verfolgen.</p>
+        <p>Sollten Sie auf dieser Webseite Inhalte finden, die das Urheberrecht verletzen, bitten wir Sie uns zu
+            kontaktieren.</p>
+        <p>Alle Texte sind urheberrechtlich geschützt.</p>
+        <p>Quelle: Erstellt mit dem <a class="text-primary" rel="noopener noreferrer" target="_blank" href="https://www.adsimple.de/impressum-generator/"
+                title="Impressum Generator von AdSimple für Deutschland">Impressum Generator</a> von AdSimple</p>
 
-        <h3>Urheberrecht</h3>
-        <p>
-            Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen
-            Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung,
-            Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der
-            Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des
-            jeweiligen Autors bzw. Erstellers. Downloads und Kopien dieser Seite
-            sind nur für den privaten, nicht kommerziellen Gebrauch gestattet.
-            Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden,
-            werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte
-            Dritter als solche gekennzeichnet. Sollten Sie trotzdem auf eine
-            Urheberrechtsverletzung aufmerksam werden, bitten wir um einen
-            entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden
-            wir derartige Inhalte umgehend entfernen.<br /><br />
-        </p>
-
-        <h3>Datenschutz</h3>
-        <p>
-            Die Nutzung unserer Webseite ist in der Regel ohne Angabe
-            personenbezogener Daten möglich. Soweit auf unseren Seiten
-            personenbezogene Daten (beispielsweise Name, Anschrift oder
-            eMail-Adressen) erhoben werden, erfolgt dies, soweit möglich, stets auf
-            freiwilliger Basis. Diese Daten werden ohne Ihre ausdrückliche
-            Zustimmung nicht an Dritte weitergegeben. <br />
-            Wir weisen darauf hin, dass die Datenübertragung im Internet (z.B. bei
-            der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann. Ein
-            lückenloser Schutz der Daten vor dem Zugriff durch Dritte ist nicht
-            möglich. <br />
-            Der Nutzung von im Rahmen der Impressumspflicht veröffentlichten
-            Kontaktdaten durch Dritte zur Übersendung von nicht ausdrücklich
-            angeforderter Werbung und Informationsmaterialien wird hiermit
-            ausdrücklich widersprochen. Die Betreiber der Seiten behalten sich
-            ausdrücklich rechtliche Schritte im Falle der unverlangten Zusendung von
-            Werbeinformationen, etwa durch Spam-Mails, vor.
-        </p>
-        <p>
-            Impressum vom
-            <a rel="noopener" target="_blank" class="text-primary hover:text-primary-hover"
-                href="https://www.impressum-generator.de">Impressum Generator</a> der
-            <a rel="noopener" target="_blank" class="text-primary hover:text-primary-hover"
-                href="https://www.kanzlei-hasselbach.de/">Kanzlei Hasselbach, Rechtsanwälte für Arbeitsrecht und
-                Familienrecht</a>
-        </p>
     </XContainer>
 </template>
 
@@ -112,11 +70,12 @@ useHead({
     title: `Impressum · Janik Rabenstein`,
 })
 definePageMeta({
-  title: 'Impressum',
-  description: 'Angaben gemäß § 5 TMG.',
+    title: 'Impressum',
+    description: 'Angaben gemäß § 5 TMG.',
 })
 
 </script>
 
 <style>
+
 </style>
