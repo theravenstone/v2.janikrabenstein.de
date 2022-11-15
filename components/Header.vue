@@ -79,6 +79,10 @@
           <i class="fa-solid fa-scale-balanced mr-2"></i>
           <span>Impressum</span>
         </NuxtLink>
+        <NuxtLink to="/datenschutz" @click="isOpen = false" class="flex items-center p-4 hover:bg-primary hover:text-white">
+          <i class="fa-solid fa-shield-halved mr-2"></i>
+          <span>Datenschutz</span>
+        </NuxtLink>
 
 
         <div class="fixed bottom-0 w-full flex justify-around p-4 text-xl">
