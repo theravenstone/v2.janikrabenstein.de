@@ -1,5 +1,5 @@
 <template>
-    <div class="container mx-auto p-6 mb-6">
+    <XContainer>
         <h1>
             Impressum<span class="text-primary">.</span>
         </h1>
@@ -104,13 +104,13 @@
                 href="https://www.kanzlei-hasselbach.de/">Kanzlei Hasselbach, Rechtsanwälte für Arbeitsrecht und
                 Familienrecht</a>
         </p>
-    </div>
+    </XContainer>
 </template>
 
-<script>
-export default{
-
-}
+<script setup>
+useHead({
+    title: `Impressum · Janik Rabenstein`,
+})
 definePageMeta({
   title: 'Impressum',
   description: 'Angaben gemäß § 5 TMG.',

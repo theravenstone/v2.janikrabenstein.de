@@ -42,7 +42,9 @@ export default {
   },
 
 }
-
+useHead({
+    title: `Linktree · Janik Rabenstein`,
+})
 definePageMeta({
   layout: "linktree",
   title: 'Linktree',

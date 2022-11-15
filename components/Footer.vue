@@ -51,6 +51,10 @@
                             <NuxtLink to="/impressum" class="hover:text-primary transition duration-300">
                                 Impressum</NuxtLink>
                         </li>
+                        <li>
+                            <NuxtLink to="/datenschutz" class="hover:text-primary transition duration-300">
+                                Datenschutzerklärung</NuxtLink>
+                        </li>
                     </ul>
                 </div>
             </div>
