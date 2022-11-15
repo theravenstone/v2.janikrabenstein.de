@@ -481,8 +481,8 @@
             <li>Browser und Browserversion (z. B. Chrome 87)</li>
             <li>das verwendete Betriebssystem (z. B. Windows 10)</li>
             <li>die Adresse (URL) der zuvor besuchten Seite (Referrer URL) (z. B. <a class="text-primary" ref="noopener noreferrer"
-                    href="https://www.beispielquellsite.de/vondabinichgekommen/"
-                    target="_blank">https://www.beispielquellsite.de/vondabinichgekommen/</a>)
+                    href="https://www.beispiel.de/vondabinichgekommen/"
+                    target="_blank">https://www.beispiel.de/&shy;vondabinichgekommen/</a>)
             </li>
             <li>den Hostnamen und die IP-Adresse des Geräts von welchem aus zugegriffen wird
                 (z. B. COMPUTERNAME und 194.23.43.121)</li>

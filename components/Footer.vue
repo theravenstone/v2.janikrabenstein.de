@@ -53,7 +53,7 @@
                         </li>
                         <li>
                             <NuxtLink to="/datenschutz" class="hover:text-primary transition duration-300">
-                                Datenschutzerklärung</NuxtLink>
+                                Datenschutz</NuxtLink>
                         </li>
                     </ul>
                 </div>
