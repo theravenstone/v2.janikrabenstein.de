@@ -29,7 +29,7 @@
         </div>
         <div class="flex justify-center">
           <NuxtLink to="/impressum" class="hover:text-primary mx-3">Impressum</NuxtLink>
-          <NuxtLink to="/datenschutz" class="hover:text-primary mx-3">Datenschutzerklärung</NuxtLink>
+          <NuxtLink to="/datenschutz" class="hover:text-primary mx-3">Datenschutz</NuxtLink>
         </div>
       </div>
     </div>

@@ -1,6 +1,6 @@
 <template>
     <XContainer>
-        <h1>Datenschutzerklärung<span class="text-primary">.</span></h1>
+        <h1>Datenschutz<span class="text-primary">.</span></h1>
         <div class="mb-6">
           <span class="inline-block w-40 h-1 mx-1 bg-primary rounded-full"></span>
           <span class="inline-block w-5 h-1 mx-1 bg-primary rounded-full"></span>
