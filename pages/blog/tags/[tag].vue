@@ -5,7 +5,7 @@
             <p>{{ tag.description }}</p>
             <hr />
             <div v-if="articles" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                <NuxtLink :to="'/blog/' + article._path.replace('/articles/', '/')" v-for="article in articles"
+                <NuxtLink :to="'/blog' + article._path.replace('/articles/', '/')" v-for="article in articles"
                     :key="article._path" class="group">
                     <div
                         class="overflow-hidden bg-gray-200 rounded-lg dark:bg-gray-800 h-full lg:hover:-translate-y-4 transition duration-300 relative flex flex-col flex-auto">

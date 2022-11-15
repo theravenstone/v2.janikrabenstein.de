@@ -1,4 +1,4 @@
 ---
 name: Web Development
-description: Building, designing, maintaining websites and web services.
+description: Alles rund um's Thema Web-Entwicklung.
 ---

@@ -54,7 +54,7 @@ hr {
   @apply my-6;
 }
 .markdown a {
-  @apply text-primary underline
+  @apply underline hover:text-primary;
 }
 .markdown h1,
 .markdown h2,
