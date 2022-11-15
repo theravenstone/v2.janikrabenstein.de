@@ -2,5 +2,6 @@
 export default({
     modules: [
         '@nuxtjs/tailwindcss',
+        '@nuxt/content',
     ],
 })
