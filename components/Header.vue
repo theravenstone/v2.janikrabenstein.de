@@ -37,7 +37,7 @@
       </transition>
 
       <aside
-        class="transform top-0 right-0 w-80 max-w-full bg-white dark:bg-gray-900 fixed h-full overflow-auto ease-in-out transition-all duration-300 z-30"
+        class="transform top-0 right-0 w-80 max-w-full bg-white dark:bg-gray-900 fixed h-full overflow-auto ease-in-out transition-transform duration-300 z-30"
         :class="isOpen ? 'translate-x-0' : 'translate-x-full'">
         <span @click="isOpen = false" class="flex w-full items-center p-6">
           <NuxtLink to="/" class="flex title-font font-medium items-center">
