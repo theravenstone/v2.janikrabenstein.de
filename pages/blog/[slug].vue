@@ -34,12 +34,12 @@ const route = useRoute()
 const article = await queryContent('articles').where({ _path: '/articles/' + route.params.slug }).findOne()
 
 useHead({
-  title: `Blog Beitrag · Janik Rabenstein`,
+  title: `Beitrag · Janik Rabenstein`,
 })
 
 definePageMeta({
   layout: "blogpost",
-  title: 'Blog Beitrag',
+  title: 'Beitrag',
   description: 'Hier findest du alle interessanten Beiträge zu mir und dem was ich so mache. Viel Spaß beim lesen!',
 });
 </script>
