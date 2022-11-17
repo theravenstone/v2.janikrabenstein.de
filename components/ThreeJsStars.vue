@@ -1,5 +1,5 @@
 <template>
-    <canvas class="fixed top-0 left-1/2 -translate-x-1/2" style="z-index:-1;" id="stars"></canvas>
+    <canvas class="hidden dark:block fixed top-0 left-1/2 -translate-x-1/2" style="z-index:-1;" id="stars"></canvas>
 </template>
 
 <script setup>

@@ -27,18 +27,31 @@ onMounted(() => {
     new THREE.SphereGeometry(17, 32, 32),
     new THREE.MeshStandardMaterial({
       map: moonTexture,
-      //normalMap: normalTexture
+      // normalMap: normalTexture
     })
   )
   scene.add(moon)
 
-  const ambientLight = new THREE.AmbientLight(0xffffff);
+  //const ambientLight = new THREE.AmbientLight(0xffffff);
   const pointLight = new THREE.PointLight(0x0ea5e9)
   pointLight.position.set(50, 50, 50)
   scene.add(pointLight);
+
   const pointLight2 = new THREE.PointLight(0xffa5e9)
   pointLight2.position.set(-50, -50, -50)
   scene.add(pointLight2);
+  
+  const pointLight3 = new THREE.PointLight(0xffa5e9)
+  pointLight3.position.set(50, -50, 50)
+  scene.add(pointLight3);
+
+  const pointLight4 = new THREE.PointLight(0x0ea5e9)
+  pointLight4.position.set(-50, 50, 50)
+  scene.add(pointLight4);
+
+  const pointLight5 = new THREE.PointLight(0xffa5e9)
+  pointLight5.position.set(50, 50, -50)
+  scene.add(pointLight5);
 
   const controls = new OrbitControls(camera, document.getElementById("globe"));
   controls.autoRotate = true;
