@@ -18,6 +18,7 @@ useHead({
   title: `Startseite · Janik Rabenstein`,
 })
 definePageMeta({
+  layout: "home",
   title: 'Startseite',
   description: 'Dein Webentwickler aus dem Landkreis Bayreuth. Lass uns gemeinsam das nächste Projekt starten!',
 })
