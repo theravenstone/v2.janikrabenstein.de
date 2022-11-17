@@ -21,8 +21,8 @@ onMounted(() => {
   renderer.setSize(300, 300);
   camera.position.setZ(30);
 
-  const moonTexture = new THREE.TextureLoader().load('/_nuxt/assets/img/moon.jpg');
-  const normalTexture = new THREE.TextureLoader().load('/_nuxt/assets/img/normal.jpg');
+  const moonTexture = new THREE.TextureLoader().load('/img/moon.jpg');
+  const normalTexture = new THREE.TextureLoader().load('/img/normal.jpg');
   const moon = new THREE.Mesh(
     new THREE.SphereGeometry(17, 32, 32),
     new THREE.MeshStandardMaterial({
