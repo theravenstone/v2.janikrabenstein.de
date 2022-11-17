@@ -1,6 +1,10 @@
 <template>
     <XContainer>
         <div v-if="tag">
+            <Head>
+                <Title>{{ tag.name }} · Janik Rabenstein</Title>
+                <Meta name="description" :content="tag.description" />
+            </Head>
             <h1><span class="text-primary">#</span>{{ tag.name }}</h1>
             <p>{{ tag.description }}</p>
             <hr />
@@ -33,8 +37,8 @@
                                 </span>
 
                                 <!-- <div class="sm:flex items-center hidden"> -->
-                                    <!-- <span class="text-gray-700 cursor-pointer dark:text-gray-200">Janik -->
-                                        <!-- Rabenstein</span> -->
+                                <!-- <span class="text-gray-700 cursor-pointer dark:text-gray-200">Janik -->
+                                <!-- Rabenstein</span> -->
                                 <!-- </div> -->
                             </div>
                         </div>
@@ -48,9 +52,11 @@
 <script setup>
 const route = useRoute()
 const tag = await queryContent('tags').where({ _path: '/tags/' + route.params.tag }).findOne()
-
 const articles = await queryContent('articles').where({ tags: { $in: [route.params.tag] } }).sort({ date: -1 }).find()
 
+useHead({
+    title: `Tag · Janik Rabenstein`,
+})
 definePageMeta({
     layout: "tag-detail",
     title: 'Tag',

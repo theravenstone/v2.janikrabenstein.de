@@ -40,6 +40,9 @@
 <script setup>
 const articles = await queryContent('articles').sort({ date: -1 }).find()
 
+useHead({
+  title: `Blog · Janik Rabenstein`,
+})
 definePageMeta({
   layout: "blog",
   title: 'Blog',

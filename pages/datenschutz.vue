@@ -1,5 +1,8 @@
 <template>
     <XContainer>
+        <Head>
+            <Title>Datenschutzerklärung · Janik Rabenstein</Title>
+        </Head>
         <h1>Datenschutz<span class="text-primary">.</span></h1>
         <div class="mb-6">
           <span class="inline-block w-40 h-1 mx-1 bg-primary rounded-full"></span>

@@ -74,34 +74,6 @@
                         <!-- Chevron -->
                         <i class="fa-solid fa-chevron-right my-auto pr-2 text-gray-600 dark:text-gray-400 group-hover:text-gray-500 transition duration-300 md:group-hover:translate-x-2 ml-3 hidden md:block"></i>
                     </NuxtLink>
-
-                    <!-- Nav Item #3 -->
-                    <NuxtLink to="/motorrad" class="flex flex-row group px-4 py-8
-                    border-t-2 border-gray-300 dark:border-gray-800 hover:cursor-pointer
-                    transition duration-300">
-
-                        <!-- Nav Icon -->
-                        <div class="flex items-center mr-6">
-                            <i class="fa-solid fa-motorcycle mx-auto 
-                            text-primary text-2xl md:text-3xl"></i>
-                        </div>
-
-                        <!-- Text -->
-                        <div class="grow flex flex-col">
-                            <h3 class="font-bold text-sm md:text-lg lg:text-xl group-hover:underline mb-0">
-                                Motorrad
-                            </h3>
-
-                            <div class="font-semibold text-sm md:text-md lg:text-lg
-                            text-gray-600 dark:text-gray-400 group-hover:text-gray-500
-                            transition duration-300">
-                                Meine Motorräder mit allen wichtigen Informationen hier an einem Ort!
-                            </div>
-                        </div>
-
-                        <!-- Chevron -->
-                        <i class="fa-solid fa-chevron-right my-auto pr-2 text-gray-600 dark:text-gray-400 group-hover:text-gray-500 transition duration-300 md:group-hover:translate-x-2 ml-3 hidden md:block"></i>
-                    </NuxtLink>
                 </div>
             </div>
         </section>
@@ -112,6 +84,7 @@
 export default{
 
 }
+
 definePageMeta({
   title: '404 Seite nicht gefunden',
   description: 'Oh nein, hier geht es nicht weiter. Seite nicht gefunden.',

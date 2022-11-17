@@ -19,10 +19,6 @@
           class="mr-5 hover:text-gray-900 dark:hover:text-white text-gray-600 dark:text-gray-400">
           Tags
         </NuxtLink>
-        <NuxtLink to="/motorrad"
-          class="mr-5 hover:text-gray-900 dark:hover:text-white text-gray-600 dark:text-gray-400">
-          Motorrad
-        </NuxtLink>
       </nav>
 
       <button aria-label="Menü öffnen" @click="drawer" class="ml-auto">
@@ -60,12 +56,6 @@
           <i class="fa-solid fa-hashtag mr-2"></i>
           <span>Tags</span>
         </NuxtLink>
-        <NuxtLink to="/motorrad" @click="isOpen = false" class="flex items-center p-4 hover:bg-primary hover:text-white">
-          <i class="fa-solid fa-motorcycle mr-2"></i>
-          <span>Motorrad</span>
-        </NuxtLink>
-        
-
         <span
           class="flex w-full items-center px-4 border-b-2 border-gray-300 dark:border-gray-800 mt-6 preheader">Theme</span>
         <DarkModeSwitch />

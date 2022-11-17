@@ -9,6 +9,11 @@
 
         </NuxtLink>
       </div>
+
+      <Head>
+        <Title>{{ article.title }} · Janik Rabenstein</Title>
+        <Meta name="description" :content="article.teaser" />
+      </Head>
       <h1>{{ article.title }}</h1>
 
       <Head>
@@ -28,10 +33,14 @@
 const route = useRoute()
 const article = await queryContent('articles').where({ _path: '/articles/' + route.params.slug }).findOne()
 
+useHead({
+  title: `Blog Beitrag · Janik Rabenstein`,
+})
+
 definePageMeta({
   layout: "blogpost",
-  title: 'Article',
-  description: 'Hier findest du alle interessanten Artikel zu mir und dem was ich so mache. Viel Spaß beim lesen!',
+  title: 'Blog Beitrag',
+  description: 'Hier findest du alle interessanten Beiträge zu mir und dem was ich so mache. Viel Spaß beim lesen!',
 });
 </script>
 

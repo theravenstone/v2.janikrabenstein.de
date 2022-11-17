@@ -12,6 +12,9 @@
   
 <script setup>
 const tags = await queryContent('tags').find()
+useHead({
+  title: `Tags · Janik Rabenstein`,
+})
 definePageMeta({
   layout: "tag",
   title: 'Tags',

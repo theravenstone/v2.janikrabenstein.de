@@ -22,10 +22,6 @@
                             </NuxtLink>
                         </li>
                         <li>
-                            <NuxtLink to="/motorrad" class="hover:text-primary transition duration-300">Motorrad
-                            </NuxtLink>
-                        </li>
-                        <li>
                             <NuxtLink to="/404" class="hover:text-primary transition duration-300">404 Seite
                             </NuxtLink>
                         </li>

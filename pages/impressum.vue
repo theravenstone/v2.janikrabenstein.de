@@ -1,6 +1,10 @@
 <template>
     <XContainer>
-
+        <Head>
+            <Title>Impressum · Janik Rabenstein</Title>
+            <Meta name="description"
+                content="Angaben gemäß Informationspflicht laut § 5 Telemediengesetz (TMG)." />
+        </Head>
         <h1>Impressum<span class="text-primary">.</span></h1>
         <div class="mb-6">
             <span class="inline-block w-40 h-1 mx-1 bg-primary rounded-full"></span>
@@ -59,7 +63,8 @@
         <p>Sollten Sie auf dieser Webseite Inhalte finden, die das Urheberrecht verletzen, bitten wir Sie uns zu
             kontaktieren.</p>
         <p>Alle Texte sind urheberrechtlich geschützt.</p>
-        <p>Quelle: Erstellt mit dem <a class="text-primary" rel="noopener noreferrer" target="_blank" href="https://www.adsimple.de/impressum-generator/"
+        <p>Quelle: Erstellt mit dem <a class="text-primary" rel="noopener noreferrer" target="_blank"
+                href="https://www.adsimple.de/impressum-generator/"
                 title="Impressum Generator von AdSimple für Deutschland">Impressum Generator</a> von AdSimple</p>
 
     </XContainer>
