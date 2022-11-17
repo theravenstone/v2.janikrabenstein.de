@@ -1,13 +1,19 @@
 <template>
-  <section class="p-6 lg:min-h-screen lg:h-96 flex lg:-mt-24">
-    <div class="text-center m-auto">
-      <h1 class="font-bold text-5xl lg:text-8xl md:text-7xl">Servus, ich bin<br />
-        <span class="text-primary">Janik Rabenstein</span>.
-      </h1>
+  <section class="p-6 lg:min-h-screen lg:h-96 flex lg:-mt-24 relative">
+    <ThreeJsStars />
+    <div class="m-auto">
+      <div class="xl:flex justify-between items-center">
+        <div class="text-center xl:text-left">
+          <h1 class="font-bold text-5xl 2xl:text-8xl lg:text-7xl md:text-6xl">Servus, ich bin<br />
+            <span class="text-primary">Janik Rabenstein</span>.
+          </h1>
 
-      <p class="font-mono text-xl">Entwickler aus dem Landkreis Bayreuth <span
-          class="animate-wiggle inline-block"><i class="fa-solid fa-code text-primary"></i></span></p>
-
+          <p class="font-mono text-xl">Entwickler aus dem Landkreis Bayreuth <span
+              class="animate-wiggle inline-block"><i class="fa-solid fa-code text-primary"></i></span></p>
+        </div>
+        <ThreeJsGlobe />
+      </div>
+      
     </div>
     <div class="hidden lg:block">
       <i id="triangle" class="fa-brands fa-js-square text-primary absolute w-24 h-24"></i>
@@ -28,7 +34,7 @@
 </template>
 <script>
 export default {
-  
+
 }
 </script>
 
@@ -67,7 +73,7 @@ export default {
 
 #github {
   animation: github-anim 15s cubic-bezier(0.4, 0, 0.2, 1) infinite;
-  left: 10%;
+  left: 7%;
 }
 
 @keyframes vuejs-anim {
@@ -90,5 +96,6 @@ export default {
 
 #discord {
   animation: discord-anim 7s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+  top: 17%;
 }
 </style>

@@ -16,6 +16,8 @@ import '~/assets/js/splide-extension-auto-scroll.js';
 import '~/assets/css/splide.css';
 
 
+
+
 console.log('')
 console.log('  888888                   d8b 888           8888888b.           888                                 888            d8b          ')
 console.log('    "88b                   Y8P 888           888   Y88b          888                                 888            Y8P          ')

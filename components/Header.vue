@@ -1,5 +1,5 @@
 <template>
-  <header class="w-full p-6 top-0 bg-white dark:bg-gray-900 transition duration-300 z-40">
+  <header class="sticky w-full p-6 top-0 bg-white dark:bg-gray-900 transition duration-300 z-40">
     <div class="flex flex-wrap flex-row items-center">
       <NuxtLink to="/" class="flex title-font font-medium items-center md:mb-0">
         <img src="@/assets/logo.png" alt="Janik Rabenstein Logo" class="inline-block mr-3 w-12 h-12">
