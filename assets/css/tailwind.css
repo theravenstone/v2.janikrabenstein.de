@@ -22,7 +22,7 @@
 }
 
 body {
-  @apply overflow-x-hidden;
+  @apply overflow-x-hidden bg-white text-gray-900 dark:bg-gray-900 dark:text-white;
 }
 @layer base {
   h1,

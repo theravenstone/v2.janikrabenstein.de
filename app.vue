@@ -32,5 +32,23 @@ console.log('')
 </script>
 
 <style>
+.page-enter-active,
+.layout-enter-active,
+.page-leave-active,
+.layout-leave-active {
+  transition: all 0.2s;
+}
 
+.page-enter-from,
+.layout-enter-from {
+  opacity: 0;
+  filter: blur(0.2rem);
+  transform: translate(50px, 0);
+}
+.page-leave-to,
+.layout-leave-to {
+  opacity: 0;
+  filter: blur(0.2rem);
+  transform: translate(-50px, 0);
+}
 </style>

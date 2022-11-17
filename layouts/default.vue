@@ -1,9 +1,9 @@
 <template>
-  <div class="bg-white text-gray-900 dark:bg-gray-900 dark:text-white">
+  <div>
     <PageLoader/>
     <FixedSocials/>
     <Header />
-    <div class="mt-24">
+    <div>
      <slot />
     </div>
     <Footer />

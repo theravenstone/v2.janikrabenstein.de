@@ -1,5 +1,5 @@
 <template>
-  <section class="p-6 lg:h-screen flex lg:mt-0">
+  <section class="p-6 lg:min-h-screen lg:h-96 flex lg:-mt-24">
     <div class="text-center m-auto">
       <h1 class="font-bold text-5xl lg:text-8xl md:text-7xl">Servus, ich bin<br />
         <span class="text-primary">Janik Rabenstein</span>.

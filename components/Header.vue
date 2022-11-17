@@ -1,5 +1,5 @@
 <template>
-  <header class="w-full p-6 fixed top-0 bg-white dark:bg-gray-900 transition duration-300 z-40">
+  <header class="w-full p-6 top-0 bg-white dark:bg-gray-900 transition duration-300 z-40">
     <div class="flex flex-wrap flex-row items-center">
       <NuxtLink to="/" class="flex title-font font-medium items-center md:mb-0">
         <img src="@/assets/logo.png" alt="Janik Rabenstein Logo" class="inline-block mr-3 w-12 h-12">
@@ -37,8 +37,8 @@
       </transition>
 
       <aside
-        class="transform top-0 left-0 w-80 max-w-full bg-white dark:bg-gray-900 fixed h-full overflow-auto ease-in-out transition-all duration-300 z-30"
-        :class="isOpen ? 'translate-x-0' : '-translate-x-full'">
+        class="transform top-0 right-0 w-80 max-w-full bg-white dark:bg-gray-900 fixed h-full overflow-auto ease-in-out transition-all duration-300 z-30"
+        :class="isOpen ? 'translate-x-0' : 'translate-x-full'">
         <span @click="isOpen = false" class="flex w-full items-center p-6">
           <NuxtLink to="/" class="flex title-font font-medium items-center">
             <img src="@/assets/logo.png" alt="Janik Rabenstein Logo" width="50" height="50" class="inline-block mr-3">

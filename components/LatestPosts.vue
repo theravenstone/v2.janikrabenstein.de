@@ -54,11 +54,6 @@
 <script setup>
 
 const articles = await queryContent('articles').sort({ date: -1 }).limit(3).find()
-definePageMeta({
-  layout: "blog",
-  title: 'Blog',
-  description: 'Hier findest du alle interessanten Artikel zu mir und dem was ich so mache. Viel Spaß beim lesen!',
-})
 
 </script>
 
