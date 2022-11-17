@@ -34,7 +34,7 @@
     <!-- beiden Frameworks habe ich in diesem Projekt das erste Mal verwendet.</p> -->
     <!-- </div> -->
     <!-- </div> -->
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
       <div class="flex items-center">
         <div>
           <span class="preheader">Über mich</span>

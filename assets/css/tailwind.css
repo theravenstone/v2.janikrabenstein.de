@@ -70,5 +70,5 @@ hr {
     display: block;
     margin: 0px auto;
     max-height: 50vh!important;
-    @apply bg-primary w-1 h-40 rounded-full -mb-3;
+    @apply bg-primary w-1 h-24 lg:h-40 rounded-full -mb-3;
 }

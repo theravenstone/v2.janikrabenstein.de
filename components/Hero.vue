@@ -1,5 +1,5 @@
 <template>
-  <section class="p-6 lg:min-h-screen lg:h-96 flex lg:-mt-24 relative">
+  <section class="p-6 xl:min-h-screen xl:h-96 flex xl:-mt-24 relative">
     <ThreeJsStars />
     <div class="m-auto">
       <div class="xl:flex justify-between items-center">
@@ -15,7 +15,7 @@
       </div>
       
     </div>
-    <div class="hidden lg:block">
+    <div class="hidden xl:block">
       <i id="triangle" class="fa-brands fa-js-square text-primary absolute w-24 h-24"></i>
       <i id="square" class="fa-brands fa-python text-primary absolute animate-rotate360 -right-24 w-64 h-64"></i>
       <i id="circle"

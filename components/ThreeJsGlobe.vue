@@ -1,6 +1,6 @@
 <template>
   <div class="flex items-center justify-center">
-    <canvas id="globe"></canvas>
+    <canvas id="globe" class="max-w-full max-h-full"></canvas>
   </div>
 </template>
 

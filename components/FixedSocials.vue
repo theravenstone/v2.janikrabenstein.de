@@ -1,5 +1,5 @@
 <template>
-  <div class="hidden md:block fixed bottom-0 left-0 w-24">
+  <div class="hidden md:block fixed bottom-0 left-0 w-24 z-10">
     <ul id="side-socials" class="flex flex-col items-center text-2xl text-gray-900 dark:text-white">
         <li class="mb-3 hover:text-primary lg:hover:-translate-y-1 transition duration-300">
           <a target="_blank" rel="noopener noreferrer" href="https://github.com/theravenstone" title="GitHub">

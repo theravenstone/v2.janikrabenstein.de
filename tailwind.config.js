@@ -32,7 +32,7 @@ module.exports = {
                 movecircle: 'movecircle 10s cubic-bezier(0.4, 0, 0.2, 1) infinite;'
             },
             fontFamily: {
-                'nexabold': ['NexaBold'],
+                'nexabold': ['NexaBold', 'Arial'],
             },
         },
     },
