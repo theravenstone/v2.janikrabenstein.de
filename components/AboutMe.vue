@@ -50,7 +50,7 @@
         </div>
       </div>
       <div class="flex items-center">
-        <img src="@/assets/img/me.jpg" alt="" class="rounded-lg w-full h-full">
+        <img src="@/assets/img/me.jpg" alt="" class="rounded-lg w-full h-full object-cover">
       </div>
     </div>
   </XContainer75>
