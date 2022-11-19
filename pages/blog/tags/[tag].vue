@@ -30,7 +30,7 @@
                                     </NuxtLink>
                                 </div>
 
-                                <h3>{{ article.title }}</h3>
+                                <h2 class="h3">{{ article.title }}</h2>
                                 <p class="text-gray-600 dark:text-gray-400">{{ article.teaser }}</p>
                             </div>
 
