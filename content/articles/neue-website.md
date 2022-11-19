@@ -3,7 +3,7 @@ title: Neue Website!
 teaser: Hier erfährst du alles, was du zu meiner neuen Website wissen musst!
 date: 15.11.2022
 img: /img/blog/neue-website-janik-rabenstein.jpg
-alt: my first blog post
+alt: Bild mit Titel "Neue Website"
 tags: 
   - web-development
 ---
