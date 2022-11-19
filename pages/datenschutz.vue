@@ -256,9 +256,7 @@
                 href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32016R0679&amp;from=DE&amp;tid=312328504">Artikel 25 Absatz 1 DSGVO</a>). Durch den Einsatz von TLS (Transport
             Layer Security), einem Verschlüsselungsprotokoll zur sicheren Datenübertragung im Internet, können wir den
             Schutz vertraulicher Daten sicherstellen.<br />
-            Sie erkennen die Benutzung dieser Absicherung der Datenübertragung am kleinen Schlosssymbol <img role="img"
-                src="https://www.adsimple.at/wp-content/uploads/2018/03/schlosssymbol-https.svg" width="17"
-                height="18" /> links oben im Browser, links von der Internetadresse (z. B. beispielseite.de) und der
+            Sie erkennen die Benutzung dieser Absicherung der Datenübertragung am kleinen Schlosssymbol <i class="fa-solid fa-lock"></i> links oben im Browser, links von der Internetadresse (z. B. beispielseite.de) und der
             Verwendung des Schemas https (anstatt http) als Teil unserer Internetadresse.<br />
             Wenn Sie mehr zum Thema Verschlüsselung wissen möchten, empfehlen wir die Google Suche nach &#8220;Hypertext
             Transfer Protocol Secure wiki&#8221; um gute Links zu weiterführenden Informationen zu erhalten.</p>
@@ -304,7 +302,7 @@
             Webserver. Dabei fordert der Webbrowser eine Website an und erhält vom Server ein Cookie zurück, welches der
             Browser erneut verwendet, sobald eine andere Seite angefordert wird.</p>
         <p>
-            <img role="img" src="https://www.adsimple.at/wp-content/uploads/2018/03/http-cookie-interaction.svg"
+            <img class="bg-white" role="img" src="https://www.adsimple.at/wp-content/uploads/2018/03/http-cookie-interaction.svg"
                 alt="HTTP Cookie Interaktion zwischen Browser und Webserver" width="100%" />
         </p>
         <p>Es gibt sowohl Erstanbieter Cookies als auch Drittanbieter-Cookies. Erstanbieter-Cookies werden direkt von
@@ -465,7 +463,7 @@
         <p>Ein Bild sagt mehr als tausend Worte, daher zeigt folgende Grafik zur Veranschaulichung das Zusammenspiel
             zwischen Browser, dem Internet und dem Hosting-Provider.</p>
         <p>
-            <img role="img" src="https://www.adsimple.at/wp-content/uploads/2018/03/browser-und-webserver.svg"
+            <img class="bg-white" role="img" src="https://www.adsimple.at/wp-content/uploads/2018/03/browser-und-webserver.svg"
                 alt="Browser und Webserver" width="100%" />
         </p>
         <h3>Warum verarbeiten wir personenbezogene Daten?</h3>
