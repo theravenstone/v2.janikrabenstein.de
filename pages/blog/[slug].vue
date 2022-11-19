@@ -23,8 +23,6 @@
 
             </NuxtLink>
           </div>
-
-          <ContentRenderer class="markdown" :value="article" />
         </div>
       </div>
       <div v-else class="bg-gradient-to-tl from-primary-hover/50 to-primary/50 rounded-lg p-12 mb-12">
