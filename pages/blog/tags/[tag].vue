@@ -7,7 +7,11 @@
             </Head>
             <h1><span class="text-primary">#</span>{{ tag.name }}</h1>
             <p>{{ tag.description }}</p>
-            <hr />
+            <div class="mb-6">
+                <span class="inline-block w-40 h-1 mx-1 bg-primary rounded-full"></span>
+                <span class="inline-block w-5 h-1 mx-1 bg-primary rounded-full"></span>
+                <span class="inline-block w-1 h-1 mx-1 bg-primary rounded-full"></span>
+            </div>
             <div v-if="articles" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 <NuxtLink :to="'/blog' + article._path.replace('/articles/', '/')" v-for="article in articles"
                     :key="article._path" class="group">
@@ -60,7 +64,7 @@ useHead({
 definePageMeta({
     layout: "tag-detail",
     title: 'Tag',
-    description: 'Alle Tags an einem Ort, damit du genau den Blog Beitrag findest, der dich interessiert!',
+    description: 'Alle Tags an einem Ort, damit du genau den Beitrag findest, der dich interessiert!',
 })
 
 </script>

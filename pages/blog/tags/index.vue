@@ -18,7 +18,7 @@ useHead({
 definePageMeta({
   layout: "tag",
   title: 'Tags',
-  description: 'Alle Tags an einem Ort, damit du genau den Blog Beitrag findest, der dich interessiert!',
+  description: 'Alle Tags an einem Ort, damit du genau den Beitrag findest, der dich interessiert!',
 })
 
 </script>

@@ -40,7 +40,7 @@ useHead({
 definePageMeta({
   layout: "blogpost",
   title: 'Beitrag',
-  description: 'Hier findest du alle interessanten Beiträge zu mir und dem was ich so mache. Viel Spaß beim lesen!',
+  description: 'Hier findest du alle interessanten Artikel zu mir und dem, was ich so mache. Viel Spaß beim Lesen!',
 });
 </script>
 

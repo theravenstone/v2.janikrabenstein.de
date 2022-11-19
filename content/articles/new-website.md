@@ -1,6 +1,6 @@
 ---
 title: Neue Website!
-teaser: Hier erfährst du alles was du zu meiner neuen Website wissen musst!
+teaser: Hier erfährst du alles, was du zu meiner neuen Website wissen musst!
 date: 15.11.2022
 img: 
 alt: my first blog post
@@ -10,15 +10,18 @@ tags:
 
 
 ## Neue Website &mdash; aber warum?
-Meine [alte Version](https://old.janikrabenstein.de) dieser Website hatte ein paar Macken.
-Google hat die Seite zwar in der Suche angezeigt allerdings haben die Crawler nur eine Weiße Seite mit einem Fehler bekommen in dem darauf hingewiesen wurde dass die Seite nur mit Javascript funktioniert.
+Die neue Website ist mit [Nuxt](https://nuxt.com) aufgebaut. Nuxt unterstützt SSR (Server Side Rendering), dadurch werden auch beim ersten Seitenaufruf Inhalte mitgeliefert und nicht erst nachträglich geladen.  
+Zudem bringt Nuxt viele hilfreiche Module mit sich.
 
-Die neue Website ist mit Nuxt.js aufgebaut. Nuxt unterstützt SSR (Server Side Rendering), was dabei hilft auch für Google eine Seite mit Inhalt anzuzeigen.
-
-## Optische Änderungen
-Das offensichtlichste ist die Primärfarbe, diese ist nun Blau und nicht mehr Grün.
+## Optik &mdash; Blau ist das neue Grün
+Das Offensichtlichste ist die Primärfarbe, diese ist nun Blau und nicht mehr Grün.
+Eine neue Schriftart für alle Überschriften runden das ganze Design ab.
 
 Die Elemente haben sich alle etwas geändert, einige wurden ersetzt, andere wurden verbessert.
 
 ## Old but Gold
-Ich verwende immernoch Tailwindcss &mdash; für mich das beste Framework wenn es darum geht eine Seite schnell aufzubauen.
+Ich verwende immer noch Tailwindcss &mdash; für mich das beste Framework, wenn es darum geht, eine Website schnell und effizient aufzubauen.
+
+## Blog System
+[Nuxt Content](https://nuxt.com/modules/content) habe ich dafür verwendet, ein dateibasiertes CMS (Content Management System) aufzusetzen.  
+Somit wird keine Datenbank oder externes System benötigt.

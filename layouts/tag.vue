@@ -3,7 +3,7 @@
     <div class="bg-white text-gray-900 dark:bg-gray-900 dark:text-white">
         <PageLoader/>
         <Header />
-        <div class="container mx-auto mt-24 text-center">
+        <div class="container mx-auto text-center">
             <div class="max-w-lg mx-auto p-6">
                 <h1 v-if="$route.meta.title">{{ $route.meta.title }}<span class="text-primary">.</span></h1>
                 <div class="mb-6">
