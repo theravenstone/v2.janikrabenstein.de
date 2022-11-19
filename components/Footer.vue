@@ -22,7 +22,7 @@
                             </NuxtLink>
                         </li>
                         <li>
-                            <NuxtLink to="/404" class="hover:text-primary transition duration-300">404 Seite
+                            <NuxtLink to="/linktree" class="hover:text-primary transition duration-300">Linktree
                             </NuxtLink>
                         </li>
                     </ul>
