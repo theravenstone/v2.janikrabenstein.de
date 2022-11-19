@@ -33,7 +33,7 @@ onMounted(() => {
       Array(500).fill().forEach(addStar)
     } else if (window.innerWidth >= 1024) {
       Array(200).fill().forEach(addStar)
-    } else if (window.innerWidth >= 768) {
+    } else {
       Array(100).fill().forEach(addStar)
     }
 
