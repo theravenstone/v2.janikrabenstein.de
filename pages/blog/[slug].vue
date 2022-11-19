@@ -7,7 +7,7 @@
         <Meta name="description" :content="article.teaser" />
       </Head>
       <div v-if="article.img">
-        <img v-if="article.img" class="object-cover w-full rounded-lg h-96 mb-12" :src="article.img"
+        <img v-if="article.img" class="object-cover w-full rounded-lg lg:h-96 mb-12" :src="article.img"
           :alt="article.alt" />
         <div class="xl:w-2/3 mx-auto">
           <h1>{{ article.title }}</h1>
