@@ -28,7 +28,15 @@ onMounted(() => {
     star.position.set(x,y,z)
     scene.add(star)
   }
-  Array(500).fill().forEach(addStar)
+
+  if(window.innerWidth >= 1280){
+    Array(500).fill().forEach(addStar)
+  }else if(window.innerWidth >= 1024){
+    Array(200).fill().forEach(addStar)
+  }else if(window.innerWidth >= 768){
+    Array(100).fill().forEach(addStar)
+  }
+  
 
   function moveCamera(){
     const t = document.body.getBoundingClientRect().top;
