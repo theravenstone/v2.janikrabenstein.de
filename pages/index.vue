@@ -5,11 +5,11 @@
       <Meta name="description"
         content="Dein Webentwickler aus dem Landkreis Bayreuth. Lass uns gemeinsam das nächste Projekt starten!" />
     </Head>
-    <Hero />
-    <AboutMe />
-    <IconSlider />
-    <LatestPosts />
-    <Contact />
+    <HomeHero />
+    <HomeAboutMe />
+    <HomeIconSlider />
+    <HomeLatestPosts />
+    <HomeContact />
   </div>
 </template>
 
