@@ -56,7 +56,7 @@
 <script setup>
 const route = useRoute()
 const tag = await queryContent('tags').where({ _path: '/tags/' + route.params.tag }).findOne()
-const articles = await queryContent('articles').where({ tags: { $in: [route.params.tag] } }).sort({ date: -1 }).find()
+const articles = await queryContent('articles').where({ tags: { $in: [route.params.tag] } }).sort({ datex: -1 }).find()
 
 useHead({
     title: `Tag · Janik Rabenstein`,

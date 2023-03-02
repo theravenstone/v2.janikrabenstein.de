@@ -53,7 +53,7 @@
 
 <script setup>
 
-const articles = await queryContent('articles').sort({ date: -1 }).limit(3).find()
+const articles = await queryContent('articles').sort({ datex: -1 }).limit(3).find()
 
 </script>
 
