@@ -8,6 +8,7 @@
     <HomeHero />
     <HomeAboutMe />
     <HomeIconSlider />
+    <HomeRepositories />
     <HomeLatestPosts />
     <HomeContact />
   </div>
