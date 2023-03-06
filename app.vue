@@ -7,15 +7,7 @@
 
 <script>
 export default {
-  head() {
-    return {
-      script: [
-        {
-          src: "https://cdn-cookieyes.com/client_data/f44c6a0e3ac747dae338aff5/script.js"
-        }
-      ],
-    }
-  }
+
 }
 
 import '~/assets/js/fontawesome.js';
