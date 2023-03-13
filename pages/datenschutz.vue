@@ -1,13 +1,14 @@
 <template>
     <XContainer>
+
         <Head>
             <Title>Datenschutzerklärung · Janik Rabenstein</Title>
         </Head>
         <h1>Datenschutz<span class="text-primary">.</span></h1>
         <div class="mb-6">
-          <span class="inline-block w-40 h-1 mx-1 bg-primary rounded-full"></span>
-          <span class="inline-block w-5 h-1 mx-1 bg-primary rounded-full"></span>
-          <span class="inline-block w-1 h-1 mx-1 bg-primary rounded-full"></span>
+            <span class="inline-block w-40 h-1 mx-1 rounded-full bg-primary"></span>
+            <span class="inline-block w-5 h-1 mx-1 rounded-full bg-primary"></span>
+            <span class="inline-block w-1 h-1 mx-1 rounded-full bg-primary"></span>
         </div>
         <h2>Inhaltsverzeichnis</h2>
         <ul class="mb-3">
@@ -36,10 +37,14 @@
                 <a class="text-primary" href="#cookies">Cookies</a>
             </li>
             <li>
+                <a class="text-primary" href="#cookie-policy">Cookie Policy</a>
+            </li>
+            <li>
                 <a class="text-primary" href="#webhosting-einleitung">Webhosting Einleitung</a>
             </li>
             <li>
-                <a class="text-primary" href="#content-delivery-networks-einleitung">Content Delivery Networks Einleitung</a>
+                <a class="text-primary" href="#content-delivery-networks-einleitung">Content Delivery Networks
+                    Einleitung</a>
             </li>
             <li>
                 <a class="text-primary" href="#schlusswort">Schlusswort</a>
@@ -48,7 +53,8 @@
         <h2 id="einleitung-ueberblick">Einleitung und Überblick</h2>
         <p>Wir haben diese Datenschutzerklärung (Fassung 15.11.2022-312328504) verfasst, um Ihnen gemäß der Vorgaben der
             <a class="text-primary" ref="noopener noreferrer" target="_blank"
-                href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32016R0679&amp;from=DE&amp;tid=312328504#d1e2269-1-1">Datenschutz-Grundverordnung (EU) 2016/679</a> und anwendbaren nationalen
+                href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32016R0679&amp;from=DE&amp;tid=312328504#d1e2269-1-1">Datenschutz-Grundverordnung
+                (EU) 2016/679</a> und anwendbaren nationalen
             Gesetzen zu erklären, welche personenbezogenen Daten (kurz Daten) wir als Verantwortliche &#8211; und die
             von uns beauftragten Auftragsverarbeiter (z. B. Provider) &#8211; verarbeiten, zukünftig verarbeiten werden
             und welche rechtmäßigen Möglichkeiten Sie haben. Die verwendeten Begriffe sind geschlechtsneutral zu
@@ -58,8 +64,8 @@
         </p>
         <p>Datenschutzerklärungen klingen für gewöhnlich sehr technisch und verwenden juristische Fachbegriffe. Diese
             Datenschutzerklärung soll Ihnen hingegen die wichtigsten Dinge so einfach und transparent wie möglich
-            beschreiben. Soweit es der Transparenz förderlich ist, werden technische <strong
-               >Begriffe leserfreundlich erklärt</strong>, Links zu weiterführenden
+            beschreiben. Soweit es der Transparenz förderlich ist, werden technische <strong>Begriffe leserfreundlich
+                erklärt</strong>, Links zu weiterführenden
             Informationen geboten und <strong>Grafiken</strong> zum Einsatz gebracht. Wir
             informieren damit in klarer und einfacher Sprache, dass wir im Rahmen unserer Geschäftstätigkeiten nur dann
             personenbezogene Daten verarbeiten, wenn eine entsprechende gesetzliche Grundlage gegeben ist. Das ist
@@ -129,11 +135,9 @@
         <p>Zusätzlich zu der EU-Verordnung gelten auch noch nationale Gesetze:</p>
         <ul>
             <li>In <strong>Österreich</strong> ist dies das
-                Bundesgesetz zum Schutz natürlicher Personen bei der Verarbeitung personenbezogener Daten (<strong
-                   >Datenschutzgesetz</strong>), kurz <strong
-                   >DSG</strong>.</li>
-            <li>In <strong>Deutschland</strong> gilt das <strong
-                   >Bundesdatenschutzgesetz</strong>, kurz<strong>
+                Bundesgesetz zum Schutz natürlicher Personen bei der Verarbeitung personenbezogener Daten
+                (<strong>Datenschutzgesetz</strong>), kurz <strong>DSG</strong>.</li>
+            <li>In <strong>Deutschland</strong> gilt das <strong>Bundesdatenschutzgesetz</strong>, kurz<strong>
                     BDSG</strong>.</li>
         </ul>
         <p>Sofern weitere regionale oder nationale Gesetze zur Anwendung kommen, informieren wir Sie in den folgenden
@@ -142,13 +146,16 @@
         <p>Sollten Sie Fragen zum Datenschutz oder zur Verarbeitung personenbezogener Daten haben, finden Sie
             nachfolgend die Kontaktdaten der verantwortlichen Person bzw. Stelle:<br />
             <span style="font-weight: 400">Janik Rabenstein<br />
-                Boxsteig 49,<br/>95485 Warmensteinach,<br/>Deutschland</span>
+                Boxsteig 49,<br />95485 Warmensteinach,<br />Deutschland</span>
         </p>
-        <p>E-Mail: <a class="text-primary" ref="noopener noreferrer" target="_blank" href="mailto:janik.rabenstein@gmail.com">janik.rabenstein@gmail.com</a>
+        <p>E-Mail: <a class="text-primary" ref="noopener noreferrer" target="_blank"
+                href="mailto:janik.rabenstein@gmail.com">janik.rabenstein@gmail.com</a>
             <br />
-            Telefon: <a class="text-primary" ref="noopener noreferrer" target="_blank" href="tel:+4915228627482">+49 1522 8627482</a>
+            Telefon: <a class="text-primary" ref="noopener noreferrer" target="_blank" href="tel:+4915228627482">+49 1522
+                8627482</a>
             <br />
-            Impressum: <a class="text-primary" ref="noopener noreferrer" target="_blank" href="https://janikrabenstein.de/impressum">https://janikrabenstein.de/impressum</a>
+            Impressum: <a class="text-primary" ref="noopener noreferrer" target="_blank"
+                href="https://janikrabenstein.de/impressum">https://janikrabenstein.de/impressum</a>
         </p>
         <h2 id="speicherdauer">Speicherdauer</h2>
         <p>Dass wir personenbezogene Daten nur so lange speichern, wie es für die Bereitstellung unserer
@@ -221,9 +228,11 @@
         <p>Wenn Sie glauben, dass die Verarbeitung Ihrer Daten gegen das Datenschutzrecht verstößt oder Ihre
             datenschutzrechtlichen Ansprüche in sonst einer Weise verletzt worden sind, können Sie sich bei der
             Aufsichtsbehörde beschweren. Diese ist für Österreich die Datenschutzbehörde, deren Website Sie unter <a
-            class="text-primary" ref="noopener noreferrer" target="_blank"
-                href="https://www.dsb.gv.at/?tid=312328504">https://www.dsb.gv.at/</a> finden. In Deutschland gibt es für jedes Bundesland einen
-            Datenschutzbeauftragten. Für nähere Informationen können Sie sich an die <a class="text-primary" ref="noopener noreferrer" target="_blank"
+                class="text-primary" ref="noopener noreferrer" target="_blank"
+                href="https://www.dsb.gv.at/?tid=312328504">https://www.dsb.gv.at/</a> finden. In Deutschland gibt es für
+            jedes Bundesland einen
+            Datenschutzbeauftragten. Für nähere Informationen können Sie sich an die <a class="text-primary"
+                ref="noopener noreferrer" target="_blank"
                 href="https://www.bfdi.bund.de/DE/Home/home_node.html">Bundesbeauftragte
                 für den Datenschutz und die Informationsfreiheit (BfDI)</a> wenden. Für unser Unternehmen ist die
             folgende lokale Datenschutzbehörde zuständig:</p>
@@ -234,7 +243,8 @@
             <strong>Telefonnr.:</strong> 089/21 26 72-0<br />
             <strong>E-Mail-Adresse:</strong> poststelle@datenschutz-bayern.de<br />
             <strong>Website: </strong>
-            <a class="text-primary" ref="noopener noreferrer" target="_blank" href="https://www.datenschutz-bayern.de/?tid=312328504">https://www.datenschutz-bayern.de/</a>
+            <a class="text-primary" ref="noopener noreferrer" target="_blank"
+                href="https://www.datenschutz-bayern.de/?tid=312328504">https://www.datenschutz-bayern.de/</a>
         </p>
         <h2 id="sicherheit-datenverarbeitung">Sicherheit der Datenverarbeitung</h2>
         <p>Um personenbezogene Daten zu schützen, haben wir sowohl technische als auch organisatorische Maßnahmen
@@ -253,10 +263,13 @@
             ist &#8211; niemand kann &#8220;mithören&#8221;.</p>
         <p>Damit haben wir eine zusätzliche Sicherheitsschicht eingeführt und erfüllen den Datenschutz durch
             Technikgestaltung (<a class="text-primary" ref="noopener noreferrer" target="_blank"
-                href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32016R0679&amp;from=DE&amp;tid=312328504">Artikel 25 Absatz 1 DSGVO</a>). Durch den Einsatz von TLS (Transport
+                href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32016R0679&amp;from=DE&amp;tid=312328504">Artikel
+                25 Absatz 1 DSGVO</a>). Durch den Einsatz von TLS (Transport
             Layer Security), einem Verschlüsselungsprotokoll zur sicheren Datenübertragung im Internet, können wir den
             Schutz vertraulicher Daten sicherstellen.<br />
-            Sie erkennen die Benutzung dieser Absicherung der Datenübertragung am kleinen Schlosssymbol <i class="fa-solid fa-lock"></i> links oben im Browser, links von der Internetadresse (z. B. beispielseite.de) und der
+            Sie erkennen die Benutzung dieser Absicherung der Datenübertragung am kleinen Schlosssymbol <i
+                class="fa-solid fa-lock"></i> links oben im Browser, links von der Internetadresse (z. B. beispielseite.de)
+            und der
             Verwendung des Schemas https (anstatt http) als Teil unserer Internetadresse.<br />
             Wenn Sie mehr zum Thema Verschlüsselung wissen möchten, empfehlen wir die Google Suche nach &#8220;Hypertext
             Transfer Protocol Secure wiki&#8221; um gute Links zu weiterführenden Informationen zu erhalten.</p>
@@ -302,7 +315,8 @@
             Webserver. Dabei fordert der Webbrowser eine Website an und erhält vom Server ein Cookie zurück, welches der
             Browser erneut verwendet, sobald eine andere Seite angefordert wird.</p>
         <p>
-            <img class="bg-white" role="img" src="https://www.adsimple.at/wp-content/uploads/2018/03/http-cookie-interaction.svg"
+            <img class="bg-white" role="img"
+                src="https://www.adsimple.at/wp-content/uploads/2018/03/http-cookie-interaction.svg"
                 alt="HTTP Cookie Interaktion zwischen Browser und Webserver" width="100%" />
         </p>
         <p>Es gibt sowohl Erstanbieter Cookies als auch Drittanbieter-Cookies. Erstanbieter-Cookies werden direkt von
@@ -355,7 +369,7 @@
         <p>Üblicherweise werden Sie beim erstmaligen Besuch einer Website gefragt, welche dieser Cookiearten Sie
             zulassen möchten. Und natürlich wird diese Entscheidung auch in einem Cookie gespeichert.</p>
         <p>Wenn Sie mehr über Cookies wissen möchten und technische Dokumentationen nicht scheuen, empfehlen wir <a
-            class="text-primary" ref="noopener noreferrer" target="_blank"
+                class="text-primary" ref="noopener noreferrer" target="_blank"
                 href="https://datatracker.ietf.org/doc/html/rfc6265">https://datatracker.ietf.org/doc/html/rfc6265</a>, dem
             Request for Comments der Internet Engineering Task Force (IETF) namens &#8220;HTTP State Management
             Mechanism&#8221;.</p>
@@ -381,16 +395,20 @@
         <p>Wenn Sie feststellen möchten, welche Cookies in Ihrem Browser gespeichert wurden, wenn Sie
             Cookie-Einstellungen ändern oder löschen wollen, können Sie dies in Ihren Browser-Einstellungen finden:</p>
         <p>
-            <a class="text-primary" ref="noopener noreferrer" target="_blank" href="https://support.google.com/chrome/answer/95647?tid=312328504">Chrome: Cookies in Chrome löschen, aktivieren und
+            <a class="text-primary" ref="noopener noreferrer" target="_blank"
+                href="https://support.google.com/chrome/answer/95647?tid=312328504">Chrome: Cookies in Chrome löschen,
+                aktivieren und
                 verwalten</a>
         </p>
         <p>
             <a class="text-primary" ref="noopener noreferrer" target="_blank"
-                href="https://support.apple.com/de-at/guide/safari/sfri11471/mac?tid=312328504">Safari: Verwalten von Cookies und Websitedaten mit Safari</a>
+                href="https://support.apple.com/de-at/guide/safari/sfri11471/mac?tid=312328504">Safari: Verwalten von
+                Cookies und Websitedaten mit Safari</a>
         </p>
         <p>
             <a class="text-primary" ref="noopener noreferrer" target="_blank"
-                href="https://support.mozilla.org/de/kb/cookies-und-website-daten-in-firefox-loschen?tid=312328504">Firefox: Cookies löschen, um Daten zu entfernen, die Websites
+                href="https://support.mozilla.org/de/kb/cookies-und-website-daten-in-firefox-loschen?tid=312328504">Firefox:
+                Cookies löschen, um Daten zu entfernen, die Websites
                 auf Ihrem Computer abgelegt haben</a>
         </p>
         <p>
@@ -416,14 +434,76 @@
             Telekommunikationsgesetzes (TKG). In Deutschland wurden die Cookie-Richtlinien nicht als nationales Recht
             umgesetzt. Stattdessen erfolgte die Umsetzung dieser Richtlinie weitgehend in § 15 Abs.3 des
             Telemediengesetzes (TMG).</p>
-        <p>Für unbedingt notwendige Cookies, auch soweit keine Einwilligung vorliegt, bestehen <strong
-               >berechtigte Interessen</strong> (Artikel 6 Abs. 1 lit. f DSGVO), die in den
+        <p>Für unbedingt notwendige Cookies, auch soweit keine Einwilligung vorliegt, bestehen <strong>berechtigte
+                Interessen</strong> (Artikel 6 Abs. 1 lit. f DSGVO), die in den
             meisten Fällen wirtschaftlicher Natur sind. Wir möchten den Besuchern der Website eine angenehme
             Benutzererfahrung bescheren und dafür sind bestimmte Cookies oft unbedingt notwendig.</p>
         <p>Soweit nicht unbedingt erforderliche Cookies zum Einsatz kommen, geschieht dies nur im Falle Ihrer
             Einwilligung. Rechtsgrundlage ist insoweit Art. 6 Abs. 1 lit. a DSGVO.</p>
         <p>In den folgenden Abschnitten werden Sie genauer über den Einsatz von Cookies informiert, sofern eingesetzte
             Software Cookies verwendet.</p>
+
+        <h2 class="cookie-policy">Cookie Policy</h2>
+
+        <h3>What are cookies?</h3>
+        <div>
+            <p>This Cookie Policy explains what cookies are and how we use them, the types of cookies we use i.e, the
+                information we collect using cookies and how that information is used, and how to manage the cookie
+                settings.</p>
+            <p>Cookies are small text files that are used to store small pieces of information. They are stored on your
+                device when the website is loaded on your browser. These cookies help us make the website function properly,
+                make it more secure, provide better user experience, and understand how the website performs and to analyze
+                what works and where it needs improvement.</p>
+        </div>
+
+        <h3>How do we use cookies?</h3>
+        <div>
+            <p>As most of the online services, our website uses first-party and third-party cookies for several purposes.
+                First-party cookies are mostly necessary for the website to function the right way, and they do not collect
+                any of your personally identifiable data.</p>
+            <p>The third-party cookies used on our website are mainly for understanding how the website performs, how you
+                interact with our website, keeping our services secure, providing advertisements that are relevant to you,
+                and all in all providing you with a better and improved user experience and help speed up your future
+                interactions with our website.</p>
+        </div>
+
+        <h3>Types of Cookies we use</h3>
+
+        <div class="cky-audit-table-element"></div>
+
+        <h3>Manage cookie preferences</h3>
+
+        <a class="text-primary cky-banner-element">Cookie Settings</a> <br />
+
+        <div>
+            <p>You can change your cookie preferences any time by clicking the above button. This will let you revisit the
+                cookie consent banner and change your preferences or withdraw your consent right away. </p>
+            <p>In addition to this, different browsers provide different methods to block and delete cookies used by
+                websites. You can change the settings of your browser to block/delete the cookies. Listed below are the
+                links to the support documents on how to manage and delete cookies from the major web browsers.</p>
+            <p>Chrome: <a class="text-primary" ref="noopener noreferrer" href="https://support.google.com/accounts/answer/32050"
+                    target="_blank">https://support.google.com/accounts/answer/32050</a></p>
+            <p>Safari: <a class="text-primary" ref="noopener noreferrer" href="https://support.apple.com/en-in/guide/safari/sfri11471/mac"
+                    target="_blank">https://support.apple.com/en-in/guide/safari/sfri11471/mac</a></p>
+            <p>Firefox: <a class="text-primary" ref="noopener noreferrer"
+                    href="https://support.mozilla.org/en-US/kb/clear-cookies-and-site-data-firefox?redirectslug=delete-cookies-remove-info-websites-stored&redirectlocale=en-US"
+                    target="_blank">https://support.mozilla.org/en-US/kb/clear-cookies-and-site-data-firefox?redirectslug=delete-cookies-remove-info-websites-stored&redirectlocale=en-US</a>
+            </p>
+            <p>Internet Explorer: <a class="text-primary" ref="noopener noreferrer"
+                    href="https://support.microsoft.com/en-us/topic/how-to-delete-cookie-files-in-internet-explorer-bca9446f-d873-78de-77ba-d42645fa52fc"
+                    target="_blank">https://support.microsoft.com/en-us/topic/how-to-delete-cookie-files-in-internet-explorer-bca9446f-d873-78de-77ba-d42645fa52fc</a>
+            </p>
+            <p>If you are using any other web browser, please visit your browser’s official support documents.</p>
+        </div>
+
+
+        <p>
+            Cookie Policy Generated By <a class="text-primary" target="_blank" ref="noopener noreferrer"
+                href="https://www.cookieyes.com/?utm_source=CP&utm_medium=footer&utm_campaign=UW">CookieYes - Cookie Policy
+                Generator</a>.
+        </p>
+
+
         <h2 id="webhosting-einleitung">Webhosting Einleitung</h2>
         <table border="1" cellpadding="15">
             <tbody>
@@ -463,7 +543,8 @@
         <p>Ein Bild sagt mehr als tausend Worte, daher zeigt folgende Grafik zur Veranschaulichung das Zusammenspiel
             zwischen Browser, dem Internet und dem Hosting-Provider.</p>
         <p>
-            <img class="bg-white" role="img" src="https://www.adsimple.at/wp-content/uploads/2018/03/browser-und-webserver.svg"
+            <img class="bg-white" role="img"
+                src="https://www.adsimple.at/wp-content/uploads/2018/03/browser-und-webserver.svg"
                 alt="Browser und Webserver" width="100%" />
         </p>
         <h3>Warum verarbeiten wir personenbezogene Daten?</h3>
@@ -481,8 +562,8 @@
             <li>die komplette Internetadresse (URL) der aufgerufenen Webseite</li>
             <li>Browser und Browserversion (z. B. Chrome 87)</li>
             <li>das verwendete Betriebssystem (z. B. Windows 10)</li>
-            <li>die Adresse (URL) der zuvor besuchten Seite (Referrer URL) (z. B. <a class="text-primary" ref="noopener noreferrer"
-                    href="https://www.beispiel.de/vondabinichgekommen/"
+            <li>die Adresse (URL) der zuvor besuchten Seite (Referrer URL) (z. B. <a class="text-primary"
+                    ref="noopener noreferrer" href="https://www.beispiel.de/vondabinichgekommen/"
                     target="_blank">https://www.beispiel.de/&shy;vondabinichgekommen/</a>)
             </li>
             <li>den Hostnamen und die IP-Adresse des Geräts von welchem aus zugegriffen wird
@@ -522,13 +603,15 @@
             werden. Durch diese Klauseln verpflichtet sich Netlify, bei der Verarbeitung Ihrer relevanten Daten, das
             europäische Datenschutzniveau einzuhalten, selbst wenn die Daten in den USA gespeichert, verarbeitet und
             verwaltet werden. Diese Klauseln basieren auf einem Durchführungsbeschluss der EU-Kommission. Sie finden den
-            Beschluss und die entsprechenden Standardvertragsklauseln u.a. hier: <a class="text-primary" ref="noopener noreferrer" target="_blank"
+            Beschluss und die entsprechenden Standardvertragsklauseln u.a. hier: <a class="text-primary"
+                ref="noopener noreferrer" target="_blank"
                 href="https://eur-lex.europa.eu/eli/dec_impl/2021/914/oj?locale=de">https://eur-lex.europa.eu/eli/dec_impl/2021/914/oj?locale=de</a>
         </p>
         <p>Netlify hält einen Vertrag über die Auftragsverarbeitung gemäß Art. 28 DSGVO bereit, der als
             datenschutzrechtliche Grundlage für unsere Kundenbeziehung zu Netlify fungiert. Dieser verweist inhaltlich
             auf die EU-Standardvertragsklauseln. Sie finden ihn hier: <a class="text-primary" ref="noopener noreferrer"
-                href="https://www.netlify.com/pdf/netlify-dpa.pdf" target="_blank">https://www.netlify.com/pdf/netlify-dpa.pdf</a>
+                href="https://www.netlify.com/pdf/netlify-dpa.pdf"
+                target="_blank">https://www.netlify.com/pdf/netlify-dpa.pdf</a>
         </p>
         <p>Mehr über die Daten, die durch die Verwendung von Netlify verarbeitet werden, erfahren Sie in der Privacy
             Policy auf <a class="text-primary" ref="noopener noreferrer"
@@ -581,61 +664,63 @@
             Inhalte aus. Content Delivery Networks sind so aufgebaut, dass JavaScript-Bibliotheken heruntergeladen
             werden können und auf npm- und Github-Servern gehostet werden. Alternativ können bei den meisten CDNs auch
             WordPress-Plugins geladen werden, wenn diese auf <a class="text-primary" href="https://wordpress.org/"
-                target="_blank" rel="noopener noreferrer">WordPress.org</a> gehostet werden. Ihr Browser kann personenbezogene
+                target="_blank" rel="noopener noreferrer">WordPress.org</a> gehostet werden. Ihr Browser kann
+            personenbezogene
             Daten an das von uns eingesetzte Content Delivery Network senden. Dabei handelt es sich etwa um Daten wie
             IP-Adresse, Browsertyp, Browserversion, welche Webseite geladen wird oder Uhrzeit und Datum des
-            Seitenbesuchs. Diese Daten werden vom CDN gesammelt und auch gespeichert. Ob zur Datenspeicherung Cookies
-            verwendet werden, hängt von dem eingesetzten Network ab. Bitte lesen Sie sich dafür die Datenschutztexte des
-            jeweiligen Dienstes durch.</p>
-        <h3>Widerspruchsrecht</h3>
-        <p>Falls Sie diese Datenübertragung vollkommen unterbinden wollen, können Sie einen JavaScript-Blocker (siehe
-            beispielsweise <a class="text-primary" href="https://noscript.net/" target="_blank"
-                rel="noopener noreferrer">https://noscript.net/</a>) auf Ihrem PC installieren. Natürlich kann dann unsere Website
-            nicht mehr das gewohnte Service (wie beispielsweise eine schnelle Ladegeschwindigkeit) bieten.</p>
-        <h3>Rechtsgrundlage</h3>
-        <p>Wenn Sie eingewilligt haben, dass ein Content Delivery Network eingesetzt werden darf, ist die
-            Rechtsgrundlage der entsprechenden Datenverarbeitung diese Einwilligung. Diese Einwilligung stellt laut
-            <strong>Art. 6 Abs. 1 lit. a DSGVO (Einwilligung)</strong> die Rechtsgrundlage
-            für die Verarbeitung personenbezogener Daten, wie sie bei der Erfassung durch ein Content Delivery Network
-            vorkommen kann, dar.</p>
-        <p>Von unserer Seite besteht zudem ein berechtigtes Interesse, ein Content Delivery Network zu verwenden, um
-            unser Online-Service zu optimieren und sicherer zu machen. Die dafür entsprechende Rechtsgrundlage ist
-            <strong>Art. 6 Abs. 1 lit. f DSGVO (Berechtigte Interessen)</strong>. Wir setzen
-            das Tool gleichwohl nur ein, soweit Sie eine Einwilligung erteilt haben.</p>
-        <p>Informationen zu speziellen Content Delivery Network erhalten Sie &#8211; sofern vorhanden &#8211; in den
-            folgenden Abschnitten.</p>
-        <h2 id="schlusswort">Schlusswort</h2>
-        <p>Herzlichen Glückwunsch! Wenn Sie diese Zeilen lesen, haben Sie sich wirklich durch unsere gesamte
-            Datenschutzerklärung „gekämpft“ oder zumindest bis hier hin gescrollt. Wie Sie am Umfang unserer
-            Datenschutzerklärung sehen, nehmen wir den Schutz Ihrer persönlichen Daten, alles andere als auf die leichte
-            Schulter.<br />
-            Uns ist es wichtig, Sie nach bestem Wissen und Gewissen über die Verarbeitung personenbezogener Daten zu
-            informieren. Dabei wollen wir Ihnen aber nicht nur mitteilen, welche Daten verarbeitet werden, sondern auch
-            die Beweggründe für die Verwendung diverser Softwareprogramme näherbringen. In der Regel klingen
-            Datenschutzerklärung sehr technisch und juristisch. Da die meisten von Ihnen aber keine Webentwickler oder
-            Juristen sind, wollten wir auch sprachlich einen anderen Weg gehen und den Sachverhalt in einfacher und
-            klarer Sprache erklären. Immer ist dies natürlich aufgrund der Thematik nicht möglich. Daher werden die
-            wichtigsten Begriffe am Ende der Datenschutzerklärung näher erläutert.<br />
-            Bei Fragen zum Thema Datenschutz auf unserer Website zögern Sie bitte nicht, uns oder die verantwortliche
-            Stelle zu kontaktieren. Wir wünschen Ihnen noch eine schöne Zeit und hoffen, Sie auf unserer Website bald
-            wieder begrüßen zu dürfen.</p>
-        <p>Alle Texte sind urheberrechtlich geschützt.</p>
-        <p>Quelle: Erstellt mit dem <a class="text-primary" rel="noopener noreferrer" target="_blank" href="https://www.adsimple.de/datenschutz-generator/"
-                title="Datenschutz Generator von AdSimple für Deutschland">Datenschutz Generator</a> von AdSimple</p>
+        Seitenbesuchs. Diese Daten werden vom CDN gesammelt und auch gespeichert. Ob zur Datenspeicherung Cookies
+        verwendet werden, hängt von dem eingesetzten Network ab. Bitte lesen Sie sich dafür die Datenschutztexte des
+        jeweiligen Dienstes durch.</p>
+    <h3>Widerspruchsrecht</h3>
+    <p>Falls Sie diese Datenübertragung vollkommen unterbinden wollen, können Sie einen JavaScript-Blocker (siehe
+        beispielsweise <a class="text-primary" href="https://noscript.net/" target="_blank"
+            rel="noopener noreferrer">https://noscript.net/</a>) auf Ihrem PC installieren. Natürlich kann dann unsere
+        Website
+        nicht mehr das gewohnte Service (wie beispielsweise eine schnelle Ladegeschwindigkeit) bieten.</p>
+    <h3>Rechtsgrundlage</h3>
+    <p>Wenn Sie eingewilligt haben, dass ein Content Delivery Network eingesetzt werden darf, ist die
+        Rechtsgrundlage der entsprechenden Datenverarbeitung diese Einwilligung. Diese Einwilligung stellt laut
+        <strong>Art. 6 Abs. 1 lit. a DSGVO (Einwilligung)</strong> die Rechtsgrundlage
+        für die Verarbeitung personenbezogener Daten, wie sie bei der Erfassung durch ein Content Delivery Network
+        vorkommen kann, dar.
+    </p>
+    <p>Von unserer Seite besteht zudem ein berechtigtes Interesse, ein Content Delivery Network zu verwenden, um
+        unser Online-Service zu optimieren und sicherer zu machen. Die dafür entsprechende Rechtsgrundlage ist
+        <strong>Art. 6 Abs. 1 lit. f DSGVO (Berechtigte Interessen)</strong>. Wir setzen
+        das Tool gleichwohl nur ein, soweit Sie eine Einwilligung erteilt haben.
+    </p>
+    <p>Informationen zu speziellen Content Delivery Network erhalten Sie &#8211; sofern vorhanden &#8211; in den
+        folgenden Abschnitten.</p>
+    <h2 id="schlusswort">Schlusswort</h2>
+    <p>Herzlichen Glückwunsch! Wenn Sie diese Zeilen lesen, haben Sie sich wirklich durch unsere gesamte
+        Datenschutzerklärung „gekämpft“ oder zumindest bis hier hin gescrollt. Wie Sie am Umfang unserer
+        Datenschutzerklärung sehen, nehmen wir den Schutz Ihrer persönlichen Daten, alles andere als auf die leichte
+        Schulter.<br />
+        Uns ist es wichtig, Sie nach bestem Wissen und Gewissen über die Verarbeitung personenbezogener Daten zu
+        informieren. Dabei wollen wir Ihnen aber nicht nur mitteilen, welche Daten verarbeitet werden, sondern auch
+        die Beweggründe für die Verwendung diverser Softwareprogramme näherbringen. In der Regel klingen
+        Datenschutzerklärung sehr technisch und juristisch. Da die meisten von Ihnen aber keine Webentwickler oder
+        Juristen sind, wollten wir auch sprachlich einen anderen Weg gehen und den Sachverhalt in einfacher und
+        klarer Sprache erklären. Immer ist dies natürlich aufgrund der Thematik nicht möglich. Daher werden die
+        wichtigsten Begriffe am Ende der Datenschutzerklärung näher erläutert.<br />
+        Bei Fragen zum Thema Datenschutz auf unserer Website zögern Sie bitte nicht, uns oder die verantwortliche
+        Stelle zu kontaktieren. Wir wünschen Ihnen noch eine schöne Zeit und hoffen, Sie auf unserer Website bald
+        wieder begrüßen zu dürfen.</p>
+    <p>Alle Texte sind urheberrechtlich geschützt.</p>
+    <p>Quelle: Erstellt mit dem <a class="text-primary" rel="noopener noreferrer" target="_blank"
+            href="https://www.adsimple.de/datenschutz-generator/"
+            title="Datenschutz Generator von AdSimple für Deutschland">Datenschutz Generator</a> von AdSimple</p>
 
-    </XContainer>
-</template>
+</XContainer></template>
 
 <script setup>
 useHead({
     title: `Datenschutzerklärung · Janik Rabenstein`,
 })
 definePageMeta({
-  title: 'Datenschutzerklärung',
-  description: 'Datenschutzerklärung',
+    title: 'Datenschutzerklärung',
+    description: 'Datenschutzerklärung',
 })
 </script>
 
-<style>
-
-</style>
+<style></style>
