@@ -12,15 +12,15 @@ import '~/assets/js/splide.js';
 import '~/assets/js/splide-extension-auto-scroll.js';
 import '~/assets/css/splide.css';
 
-onNuxtReady(async ()=>{
+onNuxtReady(async () => {
   window.dataLayer = window.dataLayer || [];
 
-function gtag() {
-  dataLayer.push(arguments);
-}
-gtag('js', new Date());
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag('js', new Date());
 
-gtag('config', 'G-YZC29VW4PH');
+  gtag('config', 'G-YZC29VW4PH');
 
 })
 
@@ -54,6 +54,7 @@ console.log('')
   filter: blur(0.2rem);
   transform: translate(50px, 0);
 }
+
 .page-leave-to,
 .layout-leave-to {
   opacity: 0;
