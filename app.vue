@@ -12,7 +12,7 @@ import '~/assets/js/splide.js';
 import '~/assets/js/splide-extension-auto-scroll.js';
 import '~/assets/css/splide.css';
 
-onNuxtReady(()=>{
+onNuxtReady(async ()=>{
   window.dataLayer = window.dataLayer || [];
 
 function gtag() {
