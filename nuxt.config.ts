@@ -8,6 +8,9 @@ export default {
         {
           src: "https://cdn-cookieyes.com/client_data/f44c6a0e3ac747dae338aff5/script.js",
         },
+        {
+          src: "https://www.googletagmanager.com/gtag/js?id=G-YZC29VW4PH"
+        }
       ],
       charset: "utf-8",
       viewport: "width=device-width, initial-scale=1, maximum-scale=1",

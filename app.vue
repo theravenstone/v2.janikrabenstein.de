@@ -5,17 +5,24 @@
 </template>
 
 
-<script>
-export default {
-
-}
+<script setup>
 
 import '~/assets/js/fontawesome.js';
 import '~/assets/js/splide.js';
 import '~/assets/js/splide-extension-auto-scroll.js';
 import '~/assets/css/splide.css';
 
+onNuxtReady(()=>{
+  window.dataLayer = window.dataLayer || [];
 
+function gtag() {
+  dataLayer.push(arguments);
+}
+gtag('js', new Date());
+
+gtag('config', 'G-YZC29VW4PH');
+
+})
 
 
 console.log('')
