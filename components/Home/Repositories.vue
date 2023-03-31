@@ -1,5 +1,5 @@
 <template>
-    <XContainer>
+    <XContainer v-if="projects">
         <span class="preheader">GitHub Repositories</span>
         <h2>Open Source Projekte<span class="text-primary">.</span></h2>
         <div class="mb-6">
