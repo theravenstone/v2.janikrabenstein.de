@@ -397,8 +397,7 @@
             Website die Cookies stammen, haben Sie immer die Möglichkeit Cookies zu löschen, zu deaktivieren oder nur
             teilweise zuzulassen. Zum Beispiel können Sie Cookies von Drittanbietern blockieren, aber alle anderen
             Cookies zulassen.</p>
-        <p> <a class="cursor-pointer text-primary" data-change-button>Cookie Einstellungen</a>
-        </p>
+        
         <p>Wenn Sie feststellen möchten, welche Cookies in Ihrem Browser gespeichert wurden, wenn Sie
             Cookie-Einstellungen ändern oder löschen wollen, können Sie dies in Ihren Browser-Einstellungen finden:</p>
         <p>
