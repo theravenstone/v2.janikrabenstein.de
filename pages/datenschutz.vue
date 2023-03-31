@@ -392,15 +392,12 @@
             einer Einwilligung beruhen, spätestens nach Widerruf Ihrer Einwilligung gelöscht, wobei die Rechtmäßigkeit
             der Speicherung bis dahin unberührt bleibt.</p>
 
-        <h3>Arten der von uns verwendeten Cookies</h3>
-        <div class="cky-audit-table-element"></div>
-
         <h3>Widerspruchsrecht &#8211; wie kann ich Cookies löschen?</h3>
         <p>Wie und ob Sie Cookies verwenden wollen, entscheiden Sie selbst. Unabhängig von welchem Service oder welcher
             Website die Cookies stammen, haben Sie immer die Möglichkeit Cookies zu löschen, zu deaktivieren oder nur
             teilweise zuzulassen. Zum Beispiel können Sie Cookies von Drittanbietern blockieren, aber alle anderen
             Cookies zulassen.</p>
-        <p> <a class="cursor-pointer text-primary cky-banner-element">Cookie Einstellungen</a>
+        <p> <a class="cursor-pointer text-primary" data-change-button>Cookie Einstellungen</a>
         </p>
         <p>Wenn Sie feststellen möchten, welche Cookies in Ihrem Browser gespeichert wurden, wenn Sie
             Cookie-Einstellungen ändern oder löschen wollen, können Sie dies in Ihren Browser-Einstellungen finden:</p>
