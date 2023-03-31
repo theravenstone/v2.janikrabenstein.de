@@ -9,7 +9,7 @@
     </div>
 
     <div class="grid grid-cols-1 gap-6 lg:grid-cols-2 xl:grid-cols-3">
-      <NuxtLink :to="'/blog' + article._path.replace('/articles/', '/')" v-for="article in articles" :key="article._path" class="group" aria-label="{{ article.title }}">
+      <NuxtLink :to="'/blog' + article._path.replace('/articles/', '/')" v-for="article in articles" :key="article" class="group" aria-label="{{ article.title }}">
 
         <div
           class="relative flex flex-col flex-auto h-full overflow-hidden transition duration-300 bg-gray-200 rounded-lg dark:bg-gray-800 lg:hover:-translate-y-4">
