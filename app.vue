@@ -20,7 +20,7 @@ onNuxtReady(async () => {
   }
   gtag('js', new Date());
 
-  gtag('config', 'G-YZC29VW4PH');
+  gtag('config', 'G-YZC29VW4PH', { 'anonymize_ip': true });
 
 })
 

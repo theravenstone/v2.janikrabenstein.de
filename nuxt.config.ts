@@ -9,6 +9,7 @@ export default {
           src: "https://cdn-cookieyes.com/client_data/f44c6a0e3ac747dae338aff5/script.js",
         },
         {
+          type:'text/plain',
           src: "https://www.googletagmanager.com/gtag/js?id=G-YZC29VW4PH"
         }
       ],
