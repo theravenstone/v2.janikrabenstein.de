@@ -6,12 +6,16 @@ export default {
     head: {
       script: [
         {
-          src: "https://cdn-cookieyes.com/client_data/f44c6a0e3ac747dae338aff5/script.js",
+          id: "Cookiebot",
+          "data-cbid": "199102d1-f2ea-44ed-99ec-5d189f4c3caa",
+          src: "https://consent.cookiebot.com/uc.js",
+          async: true,
         },
         {
-          type:'text/plain',
-          src: "https://www.googletagmanager.com/gtag/js?id=G-YZC29VW4PH"
-        }
+          type: "text/plain",
+          "data-cookieconsent": "statistics",
+          src: "https://www.googletagmanager.com/gtag/js?id=G-YZC29VW4PH",
+        },
       ],
       charset: "utf-8",
       viewport: "width=device-width, initial-scale=1, maximum-scale=1",
