@@ -157,7 +157,7 @@
                 8627482</a>
             <br />
             Impressum: <a class="text-primary" ref="noopener noreferrer" target="_blank"
-                href="https://janikrabenstein.de/impressum">https://janikrabenstein.de/impressum</a>
+                href="https://www.janikrabenstein.de/impressum">https://www.janikrabenstein.de/impressum</a>
         </p>
         <h2 id="speicherdauer">Speicherdauer</h2>
         <p>Dass wir personenbezogene Daten nur so lange speichern, wie es für die Bereitstellung unserer
