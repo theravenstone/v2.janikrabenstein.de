@@ -684,11 +684,16 @@
 
 <script setup>
 useHead({
-    title: `Datenschutzerklärung · Janik Rabenstein`,
-})
-definePageMeta({
-    title: 'Datenschutzerklärung',
-    description: 'Datenschutzerklärung',
+    title: "Datenschutzerklärung · Janik Rabenstein",
+    meta: [
+        { hid: 'description', name: "description", content: "Erfahren Sie mehr über unsere Datenschutzrichtlinien. Wir schützen Ihre Privatsphäre und behandeln Ihre Daten vertraulich. Informieren Sie sich hier." },
+        // Twitter stuff
+        { hid: 'twitter:title', name: "twitter:title", content: "Datenschutzerklärung · Janik Rabenstein" },
+        { hid: 'twitter:description', name: "twitter:description", content: "Erfahren Sie mehr über unsere Datenschutzrichtlinien. Wir schützen Ihre Privatsphäre und behandeln Ihre Daten vertraulich. Informieren Sie sich hier." },
+        // OG stuff
+        { hid: 'og:title', name: "og:title", content: "Datenschutzerklärung · Janik Rabenstein" },
+        { hid: 'og:description', name: "og:description", content: "Erfahren Sie mehr über unsere Datenschutzrichtlinien. Wir schützen Ihre Privatsphäre und behandeln Ihre Daten vertraulich. Informieren Sie sich hier." },
+    ],
 })
 </script>
 

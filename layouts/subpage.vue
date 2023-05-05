@@ -2,18 +2,14 @@
     <div class="text-gray-900 bg-white dark:bg-gray-900 dark:text-white">
         <PageLoader />
         <Header />
-        <Breadcrumb class="mt-0" />
-        <div class="container mx-auto">
-            <slot />
-        </div>
+        <slot />
         <Footer />
+
     </div>
 </template>
   
 <script setup>
-
+const route = useRoute()
 </script>
   
-<style>
-
-</style>
+<style></style>

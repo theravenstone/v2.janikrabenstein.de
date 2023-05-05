@@ -29,24 +29,24 @@ export default {
         {
           name: "description",
           content:
-            "Dein Webentwickler aus dem Landkreis Bayreuth. Lass uns gemeinsam das nächste Projekt starten!",
+            "Janik Rabenstein - Ihr erfahrener Webentwickler in Bayreuth. Professionelle Websites und individuelle Lösungen für Ihren Online-Auftritt",
         },
         {
           name: "og:description",
           content:
-            "Dein Webentwickler aus dem Landkreis Bayreuth. Lass uns gemeinsam das nächste Projekt starten!",
+            "Janik Rabenstein - Ihr erfahrener Webentwickler in Bayreuth. Professionelle Websites und individuelle Lösungen für Ihren Online-Auftritt",
         },
         {
           name: "twitter:description",
           content:
-            "Dein Webentwickler aus dem Landkreis Bayreuth. Lass uns gemeinsam das nächste Projekt starten!",
+            "Janik Rabenstein - Ihr erfahrener Webentwickler in Bayreuth. Professionelle Websites und individuelle Lösungen für Ihren Online-Auftritt",
         },
         { name: "author", content: "Janik Rabenstein" },
         { name: "publisher", content: "Janik Rabenstein" },
         {
           name: "keywords",
           content:
-            "Janik Rabenstein, Webentwickler, Webdeveloper, Entwickler, Bayreuth, Bindlach, Fichtelgebirge, Vue.js, Nuxt.js, Python, PHP",
+            "Janik Rabenstein, Webentwickler, Webdeveloper, Entwickler, Bayreuth, Bindlach, Fichtelgebirge, Vue.js, Nuxt.js, Python, PHP, Wordpress, Pimcore",
         },
         { name: "twitter:card", content: "summary" },
         { name: "og:type", content: "website" },

@@ -44,17 +44,21 @@
 
 <script setup>
 
-
 useHead({
-    title: `Linktree · Janik Rabenstein`,
+    title: "Linktree · Janik Rabenstein",
+    meta: [
+        { hid: 'description', name: "description", content: "Verbinden Sie sich mit mir auf Social Media und erhalten Sie alle Kontaktinformationen an einem Ort" },
+        // Twitter stuff
+        { hid: 'twitter:title', name: "twitter:title", content: "Linktree · Janik Rabenstein" },
+        { hid: 'twitter:description', name: "twitter:description", content: "Verbinden Sie sich mit mir auf Social Media und erhalten Sie alle Kontaktinformationen an einem Ort" },
+        // OG stuff
+        { hid: 'og:title', name: "og:title", content: "Linktree · Janik Rabenstein" },
+        { hid: 'og:description', name: "og:description", content: "Verbinden Sie sich mit mir auf Social Media und erhalten Sie alle Kontaktinformationen an einem Ort" },
+    ],
 })
 definePageMeta({
   layout: "linktree",
-  title: 'Linktree',
-  description: 'Meine Social-Media Accounts und weitere wichtige Links!',
 });
-
-
 </script>
 
 <style>

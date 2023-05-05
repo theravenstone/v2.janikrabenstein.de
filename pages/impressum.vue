@@ -7,9 +7,9 @@
         </Head>
         <h1>Impressum<span class="text-primary">.</span></h1>
         <div class="mb-6">
-            <span class="inline-block w-40 h-1 mx-1 bg-primary rounded-full"></span>
-            <span class="inline-block w-5 h-1 mx-1 bg-primary rounded-full"></span>
-            <span class="inline-block w-1 h-1 mx-1 bg-primary rounded-full"></span>
+            <span class="inline-block w-40 h-1 mx-1 rounded-full bg-primary"></span>
+            <span class="inline-block w-5 h-1 mx-1 rounded-full bg-primary"></span>
+            <span class="inline-block w-1 h-1 mx-1 rounded-full bg-primary"></span>
         </div>
         <p>Angaben gemäß Informationspflicht laut § 5 Telemediengesetz (TMG).</p>
         <p>Janik Rabenstein</p>
@@ -71,14 +71,19 @@
 </template>
 
 <script setup>
-useHead({
-    title: `Impressum · Janik Rabenstein`,
-})
-definePageMeta({
-    title: 'Impressum',
-    description: 'Angaben gemäß § 5 TMG.',
-})
 
+useHead({
+    title: "Impressum · Janik Rabenstein",
+    meta: [
+        { hid: 'description', name: "description", content: "Erfahren Sie mehr über den Entwickler und seine Dienstleistungen. Kontaktieren Sie uns für Ihr Webprojekt" },
+        // Twitter stuff
+        { hid: 'twitter:title', name: "twitter:title", content: "Impressum · Janik Rabenstein" },
+        { hid: 'twitter:description', name: "twitter:description", content: "Erfahren Sie mehr über den Entwickler und seine Dienstleistungen. Kontaktieren Sie uns für Ihr Webprojekt" },
+        // OG stuff
+        { hid: 'og:title', name: "og:title", content: "Impressum · Janik Rabenstein" },
+        { hid: 'og:description', name: "og:description", content: "Erfahren Sie mehr über den Entwickler und seine Dienstleistungen. Kontaktieren Sie uns für Ihr Webprojekt" },
+    ],
+})
 </script>
 
 <style>
