@@ -6,9 +6,8 @@
                     <h1 class="mb-8 font-extrabold text-9xl dark:text-primary">
                         <span class="sr-only">Error</span>404
                     </h1>
-                    <p class="text-2xl font-semibold md:text-3xl">Seite nicht Gefunden</p>
-                    <p class="text-gray-600 dark:text-gray-400">Keine sorge, du kannst auf der Startseite
-                        neu beginnen.</p>
+                    <p class="text-2xl font-semibold md:text-3xl">Seite nicht gefunden</p>
+                    <p class="text-gray-600 dark:text-gray-400">Keine sorge, Sie können auf der Startseite neu beginnen.</p>
                 </div>
             </div>
         </XContainer>
@@ -34,7 +33,7 @@
                             </h3>
 
                             <div class="text-sm font-semibold text-gray-600 transition duration-300 md:text-md lg:text-lg dark:text-gray-400 group-hover:text-gray-500">
-                                Ihr Webentwickler aus dem Landkreis Bayreuth. Lassen Sie uns gemeinsam das nächste Projekt starten!
+                                Ihr erfahrener Webentwickler in Bayreuth. Professionelle Websites und individuelle Lösungen für Ihren Online-Auftritt
                             </div>
                         </div>
 
@@ -57,7 +56,7 @@
                             </h3>
 
                             <div class="text-sm font-semibold text-gray-600 transition duration-300 md:text-md lg:text-lg dark:text-gray-400 group-hover:text-gray-500">
-                            Hier findest du alle interessanten Artikel zu mir und dem, was ich so mache. Viel Spaß beim Lesen!
+                                Erfahren Sie Neues aus der Welt der Webentwicklung. Entdecken Sie hilfreiche Tipps, Tutorials und aktuelle Trends für Entwickler.
                             </div>
                         </div>
 
@@ -80,7 +79,7 @@
                             </h3>
 
                             <div class="text-sm font-semibold text-gray-600 transition duration-300 md:text-md lg:text-lg dark:text-gray-400 group-hover:text-gray-500">
-                            Alle Tags an einem Ort, damit du genau den Beitrag findest, der dich interessiert!
+                                Entdecken Sie unsere vielfältigen Blog-Kategorien und finden Sie gezielt Informationen zu verschiedenen Themen der Webentwicklung.
                             </div>
                         </div>
 
