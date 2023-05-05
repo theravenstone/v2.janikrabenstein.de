@@ -24,36 +24,40 @@ export default {
       },
       title: "Janik Rabenstein",
       meta: [
-        { name: "og:title", content: "Janik Rabenstein" },
-        { name: "twitter:title", content: "Janik Rabenstein" },
+        { hid: "og:title", name: "og:title", content: "Janik Rabenstein" },
+        { hid: "twitter:title", name: "twitter:title", content: "Janik Rabenstein" },
         {
+          hid: "description",
           name: "description",
           content:
             "Janik Rabenstein - Ihr erfahrener Webentwickler in Bayreuth. Professionelle Websites und individuelle Lösungen für Ihren Online-Auftritt",
         },
         {
+          hid: "og:description",
           name: "og:description",
           content:
             "Janik Rabenstein - Ihr erfahrener Webentwickler in Bayreuth. Professionelle Websites und individuelle Lösungen für Ihren Online-Auftritt",
         },
         {
+          hid: "twitter:description",
           name: "twitter:description",
           content:
             "Janik Rabenstein - Ihr erfahrener Webentwickler in Bayreuth. Professionelle Websites und individuelle Lösungen für Ihren Online-Auftritt",
         },
-        { name: "author", content: "Janik Rabenstein" },
-        { name: "publisher", content: "Janik Rabenstein" },
+        { hid:"author", name: "author", content: "Janik Rabenstein" },
+        { hid:"publisher", name: "publisher", content: "Janik Rabenstein" },
         {
+          hid: "keywords",
           name: "keywords",
           content:
             "Janik Rabenstein, Webentwickler, Webdeveloper, Entwickler, Bayreuth, Bindlach, Fichtelgebirge, Vue.js, Nuxt.js, Python, PHP, Wordpress, Pimcore",
         },
-        { name: "twitter:card", content: "summary" },
-        { name: "og:type", content: "website" },
-        { name: "og:site_name", content: "Janik Rabenstein" },
-        { name: "og:image", content: "/logo.png" },
-        { name: "theme-color", content: "#0ea5e9" },
-        { name: "viewport", content: "width=device-width, initial-scale=1.0" },
+        { hid: "twitter:card", name: "twitter:card", content: "summary" },
+        { hid: "og:type", name: "og:type", content: "website" },
+        { hid: "og:site_name", name: "og:site_name", content: "Janik Rabenstein" },
+        { hid: "og:image", name: "og:image", content: "/logo.png" },
+        { hid: "theme-color", name: "theme-color", content: "#0ea5e9" },
+        { hid: "viewport", name: "viewport", content: "width=device-width, initial-scale=1.0" },
       ],
       link: [{ rel: "icon", href: "/favicon.ico" }],
     },
