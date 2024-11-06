@@ -1,6 +1,18 @@
 # v2.janikrabenstein.de
 
+My personal website version 2
 Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
+
+## More versions
+
+### v3.janikrabenstein.de
+- Not open source yet
+- [Website](https://v3.janikrabenstein.de)
+
+### v1.janikrabenstein.de
+- [Github Repository](https://github.com/theravenstone/v1.janikrabenstein.de)
+- [Website](https://v1.janikrabenstein.de)
+
 
 ## Upgrade Nuxt
 ```bash
